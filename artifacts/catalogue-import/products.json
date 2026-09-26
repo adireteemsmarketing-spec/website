@@ -1,0 +1,4524 @@
+[
+  {
+    "index": 1,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-blue",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-blue.png"
+    ],
+    "hashes": [
+      "96282d7f117eb374b0217798ebbddfb06e2fe24fcfa774ffb0532f38afb7f3ec"
+    ],
+    "prepared": [
+      "001-1.webp"
+    ],
+    "id": "0f2618e7-c256-4733-ae88-4b66503303fc",
+    "legacy_id": "kaldoni:Aso oke tshirt/adire-teems-tshirt-blue",
+    "sku": "AT-KAL-C98C488183",
+    "name": "Blue Aso Oke Detail T-Shirt",
+    "slug": "blue-aso-oke-detail-t-shirt",
+    "description": "A sky-blue short-sleeve tee with a bold chest graphic and striped Aso Oke detailing at the hem. Pair it with dark shorts or relaxed trousers for an easy statement look.",
+    "fabric": "Aso Oke",
+    "department": "men",
+    "category": "men-t-shirts",
+    "price": 25000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Shirts",
+    "style": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "001-1.webp",
+        "storage": "kaldoni/c98c488183/96282d7f117eb374.webp",
+        "id": "0532afe4-6246-4a51-a13b-1b9e57d3fd38",
+        "alt": "Blue Aso Oke Detail T-Shirt — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-cream-patch",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-cream-patch.png"
+    ],
+    "hashes": [
+      "973a86fbfea4d307e6ba45d290cf80b1945d46ffa4db63efa0d3d2c42076f2ee"
+    ],
+    "prepared": [
+      "002-1.webp"
+    ],
+    "id": "111079de-6a29-4565-acd1-8e3670372026",
+    "legacy_id": "kaldoni:Aso oke tshirt/adire-teems-tshirt-cream-patch",
+    "sku": "AT-KAL-D086ED76CE",
+    "name": "Cream Aso Oke Patch T-Shirt",
+    "slug": "cream-aso-oke-patch-t-shirt",
+    "description": "A cream crew-neck tee brought to life by a diagonal panel of colourful woven stripes. The relaxed shape pairs naturally with denim or wide-leg trousers.",
+    "fabric": "Aso Oke",
+    "department": "women",
+    "category": "women-tops",
+    "price": 25000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Shirts",
+    "style": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "002-1.webp",
+        "storage": "kaldoni/d086ed76ce/973a86fbfea4d307.webp",
+        "id": "aa6566bc-4a26-4b0d-aba7-d0ce69bc39a0",
+        "alt": "Cream Aso Oke Patch T-Shirt — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-green",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-green.png"
+    ],
+    "hashes": [
+      "582b16aa6444227446fda81fa1bbff670c3be44a38d8947ef77b6652a63f654d"
+    ],
+    "prepared": [
+      "003-1.webp"
+    ],
+    "id": "daf2aed4-ba5d-4b9b-acd1-46da3e2c822b",
+    "legacy_id": "kaldoni:Aso oke tshirt/adire-teems-tshirt-green",
+    "sku": "AT-KAL-27D40A27F8",
+    "name": "Green Aso Oke Detail T-Shirt",
+    "slug": "green-aso-oke-detail-t-shirt",
+    "description": "A bright green tee with an I Love Lagos graphic and contrasting striped patch details. Wear it with simple dark bottoms to let the colour and playful accents stand out.",
+    "fabric": "Aso Oke",
+    "department": "women",
+    "category": "women-tops",
+    "price": 25000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Shirts",
+    "style": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "003-1.webp",
+        "storage": "kaldoni/27d40a27f8/582b16aa64442274.webp",
+        "id": "b7a435e6-df51-4023-a534-e1eb06f0c678",
+        "alt": "Green Aso Oke Detail T-Shirt — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-orange-patch",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-orange-patch.png"
+    ],
+    "hashes": [
+      "494eb9762fc44b3ec20ac635cf418552e18a2e309c7a9184fd371376542977bb"
+    ],
+    "prepared": [
+      "004-1.webp"
+    ],
+    "id": "8efa89b9-854c-4dd0-a08d-59caefb58466",
+    "legacy_id": "kaldoni:Aso oke tshirt/adire-teems-tshirt-orange-patch",
+    "sku": "AT-KAL-6DDA1227D2",
+    "name": "Orange Aso Oke Patch T-Shirt",
+    "slug": "orange-aso-oke-patch-t-shirt",
+    "description": "An orange short-sleeve tee finished with a striped chest patch in contrasting tones. A lively everyday piece to style with shorts, jeans or relaxed trousers.",
+    "fabric": "Aso Oke",
+    "department": "men",
+    "category": "men-t-shirts",
+    "price": 25000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Shirts",
+    "style": "T-shirts",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "004-1.webp",
+        "storage": "kaldoni/6dda1227d2/494eb9762fc44b3e.webp",
+        "id": "f8166087-d972-4419-a715-ab64233a3fcf",
+        "alt": "Orange Aso Oke Patch T-Shirt — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "sourceKey": "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue",
+    "folder": "Bubu gown/Adire bubu",
+    "files": [
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue-front.png",
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue-side.png"
+    ],
+    "hashes": [
+      "2fb41b96d025ebd02601915c60b7a4a246df1a553ee6664f76b65c666078b4b3",
+      "58c1f7d8a7cd22a8511257055517ba1f6af4c54d15cbe55cadb0b196bb7ff4e9"
+    ],
+    "prepared": [
+      "005-1.webp",
+      "005-2.webp"
+    ],
+    "id": "f4ea48d2-cf68-47ed-ad18-213e6521985e",
+    "legacy_id": "kaldoni:Bubu gown/Adire bubu/adire-teems-adire-bubu-blue",
+    "sku": "AT-KAL-7A1DBFF13F",
+    "name": "Blue Adire Bubu",
+    "slug": "blue-adire-bubu",
+    "description": "Blue-and-white Adire stripes frame a bold blue front panel on this relaxed bubu. Its loose silhouette and short sleeves make it an expressive choice for effortless dressing.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "005-1.webp",
+        "storage": "kaldoni/7a1dbff13f/2fb41b96d025ebd0.webp",
+        "id": "bb986034-cac4-40a3-a671-bc2e6b2ea3fb",
+        "alt": "Blue Adire Bubu — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "005-2.webp",
+        "storage": "kaldoni/7a1dbff13f/58c1f7d8a7cd22a8.webp",
+        "id": "e6bab8e1-8b98-4da7-acde-8fb2e2bc57e8",
+        "alt": "Blue Adire Bubu — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "sourceKey": "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple",
+    "folder": "Bubu gown/Adire bubu",
+    "files": [
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple.front.png",
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple-side.png"
+    ],
+    "hashes": [
+      "31044e021e6dfcb5748e022519976d68b198fa28af041510cba6cd6ec60950eb",
+      "37d469c48821529d2448b232edf300f9bb81816cdd2016229eabb5a54c445255"
+    ],
+    "prepared": [
+      "006-1.webp",
+      "006-2.webp"
+    ],
+    "id": "061b5589-d8c7-437f-a996-fb6c59ef7111",
+    "legacy_id": "kaldoni:Bubu gown/Adire bubu/adire-teems-adire-bubu-purple",
+    "sku": "AT-KAL-AE73DA946C",
+    "name": "Purple Adire Bubu",
+    "slug": "purple-adire-bubu",
+    "description": "A purple bubu with colourful motifs and contrasting patterned sleeves. The open, relaxed silhouette brings a cheerful mix of colour and print to your wardrobe.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "006-1.webp",
+        "storage": "kaldoni/ae73da946c/31044e021e6dfcb5.webp",
+        "id": "d5124b1c-514d-4dd5-ada1-401371815678",
+        "alt": "Purple Adire Bubu — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "006-2.webp",
+        "storage": "kaldoni/ae73da946c/37d469c48821529d.webp",
+        "id": "b4c402dd-d7d1-4de0-ad1c-b13966cf2f9c",
+        "alt": "Purple Adire Bubu — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-bubu-orange-zip",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-bubu-orange-zip.png"
+    ],
+    "hashes": [
+      "37862892a0480839fa352bf20725ac197274cf7da17034dec9abddd2fceaa325"
+    ],
+    "prepared": [
+      "007-1.webp"
+    ],
+    "id": "8b87876b-6bb1-4648-adb5-d0b52690100f",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-bubu-orange-zip",
+    "sku": "AT-KAL-29F6B59B1E",
+    "name": "Orange Zip-Front Bubu",
+    "slug": "orange-zip-front-bubu",
+    "description": "A full-length orange bubu with dark graphic motifs and a visible front zip detail. The long line and contrasting print make this a striking one-piece look.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "007-1.webp",
+        "storage": "kaldoni/29f6b59b1e/37862892a0480839.webp",
+        "id": "f71c0834-30e5-4670-a9c7-9c41fc2014de",
+        "alt": "Orange Zip-Front Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue-abstract",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue-abstract.png"
+    ],
+    "hashes": [
+      "eab8e777839c647fdba997b251d31e9213ae1365580c1089cbf7144a1f3913d6"
+    ],
+    "prepared": [
+      "008-1.webp"
+    ],
+    "id": "5334a489-a769-4357-a649-125727fb2d8f",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue-abstract",
+    "sku": "AT-KAL-53741F40CF",
+    "name": "Blue Abstract Chiffon Bubu",
+    "slug": "blue-abstract-chiffon-bubu",
+    "description": "A blue chiffon bubu patterned with flowing abstract marks. Draped fabric and a gathered front create a fluid silhouette with plenty of visual texture.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "008-1.webp",
+        "storage": "kaldoni/53741f40cf/eab8e777839c647f.webp",
+        "id": "4923f3c2-8b35-4e92-a971-fa836357ec32",
+        "alt": "Blue Abstract Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue.png"
+    ],
+    "hashes": [
+      "4ece202b0ddf96733ecdcd4b510fd3105ad078664840a3a7c0ed9508a547f12a"
+    ],
+    "prepared": [
+      "009-1.webp"
+    ],
+    "id": "71673606-dbdf-47ee-a767-fc85d5bd4604",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue",
+    "sku": "AT-KAL-1C338BD3D1",
+    "name": "Blue Motif Chiffon Bubu",
+    "slug": "blue-motif-chiffon-bubu",
+    "description": "Deep blue chiffon is scattered with pale circular motifs on this full-length bubu. The loose sleeves and softly gathered waist create an elegant, easy-going outline.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "009-1.webp",
+        "storage": "kaldoni/1c338bd3d1/4ece202b0ddf9673.webp",
+        "id": "da070dcd-2341-4bf9-a44c-c9a1d6ce2758",
+        "alt": "Blue Motif Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-burgundy",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-burgundy.png"
+    ],
+    "hashes": [
+      "d5e08c61a67061ce2ec8906e9e51fb5673daf1ef5a45663d3e052cbceda2539c"
+    ],
+    "prepared": [
+      "010-1.webp"
+    ],
+    "id": "fec4b2f5-6807-4191-a721-2c87ab25aa2e",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-burgundy",
+    "sku": "AT-KAL-F40D3E4F25",
+    "name": "Burgundy Chiffon Bubu",
+    "slug": "burgundy-chiffon-bubu",
+    "description": "A burgundy chiffon bubu with repeating pale medallion motifs. Its flowing length and roomy sleeves make the print the centrepiece of the outfit.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "010-1.webp",
+        "storage": "kaldoni/f40d3e4f25/d5e08c61a67061ce.webp",
+        "id": "108bb206-3750-4fb1-af84-10eed5ccd8c2",
+        "alt": "Burgundy Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-grey",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-grey.png"
+    ],
+    "hashes": [
+      "7d8036897121075a2db734f522c32b217dd6ce8951bb5e5e06913851131002e6"
+    ],
+    "prepared": [
+      "011-1.webp"
+    ],
+    "id": "f555afdd-7aa4-4d1c-ab2e-8d8a44240bea",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-grey",
+    "sku": "AT-KAL-D0D25D5153",
+    "name": "Grey Chiffon Bubu",
+    "slug": "grey-chiffon-bubu",
+    "description": "Muted grey and warm neutral motifs bring a subtle richness to this chiffon bubu. A gathered front gives shape to the loose, flowing silhouette.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "011-1.webp",
+        "storage": "kaldoni/d0d25d5153/7d8036897121075a.webp",
+        "id": "c44bafad-83cb-4df3-ae21-55db9a5cdbaf",
+        "alt": "Grey Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour-pink",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour-pink.png"
+    ],
+    "hashes": [
+      "8e881c2148cf349c6c7d3f91a869dbef8fdf312a24a919e75ef8df2ecb2f733d"
+    ],
+    "prepared": [
+      "012-1.webp"
+    ],
+    "id": "b1c22f78-a3e2-4a22-a179-b0e2b4057f89",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour-pink",
+    "sku": "AT-KAL-5011594C99",
+    "name": "Pink Multicolour Chiffon Bubu",
+    "slug": "pink-multicolour-chiffon-bubu",
+    "description": "A vivid pink neckline panel meets an expressive multicolour print on this long chiffon bubu. Wear with understated accessories to keep the bold colour combination in focus.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "012-1.webp",
+        "storage": "kaldoni/5011594c99/8e881c2148cf349c.webp",
+        "id": "f35a77af-c77e-4137-ab7c-de46c0821858",
+        "alt": "Pink Multicolour Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour.png"
+    ],
+    "hashes": [
+      "f75abb187867f8417cd1daf4c753e95c74b4327e09427de8fcf47156b075b5ec"
+    ],
+    "prepared": [
+      "013-1.webp"
+    ],
+    "id": "f0aa1cfe-710e-463c-aa4c-06b854748945",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour",
+    "sku": "AT-KAL-A3EB61FA51",
+    "name": "Multicolour Chiffon Bubu",
+    "slug": "multicolour-chiffon-bubu",
+    "description": "Warm gold, rust and dark patterned sections flow across this full-length chiffon bubu. Generous sleeves and a relaxed cut create a strong, fluid silhouette.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "013-1.webp",
+        "storage": "kaldoni/a3eb61fa51/f75abb187867f841.webp",
+        "id": "897efc2a-636c-4778-a6fa-f4d17ef87a28",
+        "alt": "Multicolour Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-mustard",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-mustard.png"
+    ],
+    "hashes": [
+      "8096d1e45666011fc028f285e7b54b844d4a6407d287f27570e96e0f19fdc7be"
+    ],
+    "prepared": [
+      "014-1.webp"
+    ],
+    "id": "07910491-6f48-4ef0-a7a9-3aa58fbd83d8",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-mustard",
+    "sku": "AT-KAL-C11B28FF4C",
+    "name": "Mustard Chiffon Bubu",
+    "slug": "mustard-chiffon-bubu",
+    "description": "Mustard and burgundy colour blocks are softened by large pale floral motifs. This long chiffon bubu combines a flowing shape with an eye-catching contrast of colour.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "014-1.webp",
+        "storage": "kaldoni/c11b28ff4c/8096d1e45666011f.webp",
+        "id": "0502c2d1-61b9-4e3d-ad92-c16fbe5264af",
+        "alt": "Mustard Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange-leaf",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange-leaf.png"
+    ],
+    "hashes": [
+      "a92e73d6171753c328772a148f2676eef538fa83b2ca5f7dc040e87a1f48b342"
+    ],
+    "prepared": [
+      "015-1.webp"
+    ],
+    "id": "d10db4cd-e383-4e9b-a726-bcdda2a18be2",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange-leaf",
+    "sku": "AT-KAL-3DCB8444FB",
+    "name": "Orange Leaf Chiffon Bubu",
+    "slug": "orange-leaf-chiffon-bubu",
+    "description": "An orange chiffon bubu with dark leaf-like motifs and a long, flowing outline. The expressive print gives this easy one-piece style a confident finish.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "015-1.webp",
+        "storage": "kaldoni/3dcb8444fb/a92e73d6171753c3.webp",
+        "id": "0f69230c-3620-4ce7-a48d-f42ffa7484a5",
+        "alt": "Orange Leaf Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange.png"
+    ],
+    "hashes": [
+      "66a4b0e813d1eeb40f0fc39f48e0d7194bb7da85597258d7df8b7c0541056292"
+    ],
+    "prepared": [
+      "016-1.webp"
+    ],
+    "id": "2e4ea2fb-997f-4f2a-a49b-4baba008eb4d",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange",
+    "sku": "AT-KAL-469ABFE623",
+    "name": "Orange Patterned Chiffon Bubu",
+    "slug": "orange-patterned-chiffon-bubu",
+    "description": "Orange and dark abstract patterns cover this draped chiffon bubu. Gathered fabric at the front creates movement and shape without losing the relaxed silhouette.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "016-1.webp",
+        "storage": "kaldoni/469abfe623/66a4b0e813d1eeb4.webp",
+        "id": "5633ed5b-d036-448b-a047-69ba24096609",
+        "alt": "Orange Patterned Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-floral",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-floral.png"
+    ],
+    "hashes": [
+      "9ecb65046566c4b2d0880292b438045198d904ec3485f93fe3cd8b0af87b7276"
+    ],
+    "prepared": [
+      "017-1.webp"
+    ],
+    "id": "3b26bcd7-fcb2-43a0-a854-1c04463068b1",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-floral",
+    "sku": "AT-KAL-4D01CB9928",
+    "name": "Purple Floral Chiffon Bubu",
+    "slug": "purple-floral-chiffon-bubu",
+    "description": "Purple tonal panels and floral motifs give this chiffon bubu a layered, expressive look. The flowing full-length silhouette works beautifully with simple accessories.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "017-1.webp",
+        "storage": "kaldoni/4d01cb9928/9ecb65046566c4b2.webp",
+        "id": "b744195c-632a-41e7-a6c7-8c2f3e1606ea",
+        "alt": "Purple Floral Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-gold",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-gold.png"
+    ],
+    "hashes": [
+      "e13abae619ec8a310b8537e938563547cf0aabb9b9a17b36457118b5b1337e8a"
+    ],
+    "prepared": [
+      "018-1.webp"
+    ],
+    "id": "69842673-0612-4c0b-afef-f2b479b7cad7",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-gold",
+    "sku": "AT-KAL-5E5DC2D85D",
+    "name": "Purple and Gold Chiffon Bubu",
+    "slug": "purple-and-gold-chiffon-bubu",
+    "description": "Gold spiral and star-like motifs stand out against a deep purple background. This full-length chiffon bubu makes a colourful statement with a loose, flowing shape.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "018-1.webp",
+        "storage": "kaldoni/5e5dc2d85d/e13abae619ec8a31.webp",
+        "id": "2e4e87d0-bcd6-4d73-a090-f1011fffd4a9",
+        "alt": "Purple and Gold Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red-yellow",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red-yellow.png"
+    ],
+    "hashes": [
+      "d665532b521a23228d97b5d4037d22e2687cf32322ca8a71630cbdeb5f2b2027"
+    ],
+    "prepared": [
+      "019-1.webp"
+    ],
+    "id": "6a68503c-e009-4578-aa3c-102a55f258a4",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red-yellow",
+    "sku": "AT-KAL-FCE6D30766",
+    "name": "Red and Yellow Chiffon Bubu",
+    "slug": "red-and-yellow-chiffon-bubu",
+    "description": "A red chiffon bubu with bold yellow-and-white geometric accents. Its gathered front and broad sleeves create a striking, fluid shape.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "019-1.webp",
+        "storage": "kaldoni/fce6d30766/d665532b521a2322.webp",
+        "id": "ed2e3e97-e96a-4a4e-a409-dd056e7f157c",
+        "alt": "Red and Yellow Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red.png"
+    ],
+    "hashes": [
+      "be5943f34cd68497e3fefd95bff2d55c22ced34fc4c201e1a460af789aa74a9e"
+    ],
+    "prepared": [
+      "020-1.webp"
+    ],
+    "id": "6df4461d-f53b-4064-ac5d-86463fc153ae",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red",
+    "sku": "AT-KAL-1E6FEF403A",
+    "name": "Red Chiffon Bubu",
+    "slug": "red-chiffon-bubu",
+    "description": "A red-and-dark patterned chiffon bubu with a shorter draped silhouette and gathered detail. Style with simple heels or sandals for a polished look.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "020-1.webp",
+        "storage": "kaldoni/1e6fef403a/be5943f34cd68497.webp",
+        "id": "e166e35b-2e41-4247-ab23-7874e19d21e8",
+        "alt": "Red Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-yellow",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-yellow.png"
+    ],
+    "hashes": [
+      "02a40c067c77bc9afc50a4fb0d9371fb9b92829b2ee46545be7088000240f9e8"
+    ],
+    "prepared": [
+      "021-1.webp"
+    ],
+    "id": "8cbe5503-34c6-4715-a001-43e8d0bd32e5",
+    "legacy_id": "kaldoni:Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-yellow",
+    "sku": "AT-KAL-532BEB27C2",
+    "name": "Yellow Chiffon Bubu",
+    "slug": "yellow-chiffon-bubu",
+    "description": "Bright yellow chiffon is covered with pale spiral motifs in this long bubu. The wide sleeves and flowing shape keep the overall look relaxed and expressive.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-bubu",
+    "price": 45000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Bubu",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "021-1.webp",
+        "storage": "kaldoni/532beb27c2/02a40c067c77bc9a.webp",
+        "id": "89ac6f8a-620f-48d3-ab40-d5c2680cebde",
+        "alt": "Yellow Chiffon Bubu — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-green",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-green.png"
+    ],
+    "hashes": [
+      "1dd6c49d202e6d58494a7c390766fc8ece1d8c05651a63cbf9126b55dbcfabba"
+    ],
+    "prepared": [
+      "022-1.webp"
+    ],
+    "id": "1b039fc7-1653-43ad-a14b-22906ad25df2",
+    "legacy_id": "kaldoni:Childrens wear/adire-teems-kids-adire-dress-green",
+    "sku": "AT-KAL-E1FCB55752",
+    "name": "Kids' Green Adire Dress",
+    "slug": "kids-green-adire-dress",
+    "description": "A green sleeveless dress with playful white motifs and a softly gathered shape. An expressive children’s style that pairs easily with sandals.",
+    "fabric": "Adire",
+    "department": "kids",
+    "category": "kids",
+    "price": 20000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Dress",
+    "style": "",
+    "sizes": [
+      "2–3 years",
+      "4–5 years",
+      "6–7 years",
+      "8–9 years"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "022-1.webp",
+        "storage": "kaldoni/e1fcb55752/1dd6c49d202e6d58.webp",
+        "id": "b7b8e569-b9d8-49ee-a106-a3ca8ef580b8",
+        "alt": "Kids' Green Adire Dress — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-multicolour",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-multicolour.png"
+    ],
+    "hashes": [
+      "82ee1b3cd8eea0829d4a4011c7a76688c31a51026d9b6b489555ebce2360c02c"
+    ],
+    "prepared": [
+      "023-1.webp"
+    ],
+    "id": "deb8b003-4a98-4844-a9d3-485edbe6453c",
+    "legacy_id": "kaldoni:Childrens wear/adire-teems-kids-adire-dress-multicolour",
+    "sku": "AT-KAL-04D22AF450",
+    "name": "Kids' Multicolour Adire Dress",
+    "slug": "kids-multicolour-adire-dress",
+    "description": "A colourful sleeveless dress with pink, yellow and blue patterning and a gently gathered neckline. Its lively print brings a joyful finish to a simple silhouette.",
+    "fabric": "Adire",
+    "department": "kids",
+    "category": "kids",
+    "price": 20000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Dress",
+    "style": "",
+    "sizes": [
+      "2–3 years",
+      "4–5 years",
+      "6–7 years",
+      "8–9 years"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "023-1.webp",
+        "storage": "kaldoni/04d22af450/82ee1b3cd8eea082.webp",
+        "id": "7e684271-9a7b-44cd-a373-2df82119c22c",
+        "alt": "Kids' Multicolour Adire Dress — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-navy-pink",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-navy-pink.jpg.png"
+    ],
+    "hashes": [
+      "a88e16268e8d91767b8eb02cc169a20ca735d63ca557a4e741bff4a4730200b4"
+    ],
+    "prepared": [
+      "024-1.webp"
+    ],
+    "id": "ecd2e2e3-1ac5-4ca9-af3e-3dfb5019838b",
+    "legacy_id": "kaldoni:Childrens wear/adire-teems-kids-adire-dress-navy-pink",
+    "sku": "AT-KAL-61F5C6A6A7",
+    "name": "Kids' Navy and Pink Adire Dress",
+    "slug": "kids-navy-and-pink-adire-dress",
+    "description": "A navy patterned dress brightened by a bold pink bow at the waist. The sleeveless, straight shape gives the contrasting colour detail room to shine.",
+    "fabric": "Adire",
+    "department": "kids",
+    "category": "kids",
+    "price": 20000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Dress",
+    "style": "",
+    "sizes": [
+      "2–3 years",
+      "4–5 years",
+      "6–7 years",
+      "8–9 years"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "024-1.webp",
+        "storage": "kaldoni/61f5c6a6a7/a88e16268e8d9176.webp",
+        "id": "e2f5894d-2c15-4695-aba2-53aec1fa54c9",
+        "alt": "Kids' Navy and Pink Adire Dress — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "sourceKey": "Childrens wear/adire-teems-kids-dress-blue-bow",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-dress-blue-bow.png"
+    ],
+    "hashes": [
+      "a2b77d783e2e5d4d9263f8da7b119eb8184c6493736d2f32a2abe73def807af0"
+    ],
+    "prepared": [
+      "025-1.webp"
+    ],
+    "id": "289f6453-000f-4fa9-ae90-4b13bfd86858",
+    "legacy_id": "kaldoni:Childrens wear/adire-teems-kids-dress-blue-bow",
+    "sku": "AT-KAL-E92E3E583B",
+    "name": "Kids' Blue Bow Dress",
+    "slug": "kids-blue-bow-dress",
+    "description": "A blue patterned sleeveless dress with a statement waist bow and a gathered skirt. A playful shape for celebrations and colourful everyday outfits.",
+    "fabric": "Adire",
+    "department": "kids",
+    "category": "kids",
+    "price": 20000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Dress",
+    "style": "",
+    "sizes": [
+      "2–3 years",
+      "4–5 years",
+      "6–7 years",
+      "8–9 years"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "025-1.webp",
+        "storage": "kaldoni/e92e3e583b/a2b77d783e2e5d4d.webp",
+        "id": "33f42a7b-eb79-480c-adce-16f6a6a4aeb2",
+        "alt": "Kids' Blue Bow Dress — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "sourceKey": "Childrens wear/kids-adire-dress-blue-stripe",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/kids-adire-dress-blue-stripe.png"
+    ],
+    "hashes": [
+      "f0d9287813c63f6e3eea2756d5cd9cf0d3018c8ce7e8b88739109c7f29e34c23"
+    ],
+    "prepared": [
+      "026-1.webp"
+    ],
+    "id": "b8eda34a-daed-47eb-a9de-b55eecf59097",
+    "legacy_id": "kaldoni:Childrens wear/kids-adire-dress-blue-stripe",
+    "sku": "AT-KAL-B094B5B731",
+    "name": "Kids' Blue Stripe Adire Dress",
+    "slug": "kids-blue-stripe-adire-dress",
+    "description": "Blue-and-white stripes combine with yellow and green accents on this short dress. A contrasting patterned front band adds a distinctive finishing touch.",
+    "fabric": "Adire",
+    "department": "kids",
+    "category": "kids",
+    "price": 20000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Dress",
+    "style": "",
+    "sizes": [
+      "2–3 years",
+      "4–5 years",
+      "6–7 years",
+      "8–9 years"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "026-1.webp",
+        "storage": "kaldoni/b094b5b731/f0d9287813c63f6e.webp",
+        "id": "b6762d42-bd15-4f38-abdd-511f1e7ea7d6",
+        "alt": "Kids' Blue Stripe Adire Dress — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "sourceKey": "Fabrics/adire fabrics/1",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/1.png"
+    ],
+    "hashes": [
+      "fd225b5fc41a0d6e232ff45a57102c066a3cecde975a450be71e640a84e47861"
+    ],
+    "prepared": [
+      "027-1.webp"
+    ],
+    "id": "139b51fb-0faf-4352-a019-c085a3cd12f7",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/1",
+    "sku": "AT-KAL-C7E082DF78",
+    "name": "Adire Fabric 01 - Indigo Diagonal",
+    "slug": "adire-fabric-01-indigo-diagonal",
+    "description": "An indigo base with pale diagonal bands and a softly mottled tie-dye pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "027-1.webp",
+        "storage": "kaldoni/c7e082df78/fd225b5fc41a0d6e.webp",
+        "id": "0241cc29-e224-421e-a3e6-2651fc3a4eeb",
+        "alt": "Adire Fabric 01 - Indigo Diagonal — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "sourceKey": "Fabrics/adire fabrics/10",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/10.png"
+    ],
+    "hashes": [
+      "3b516e0320681884f7200c270cc82c4127e42b610d04306c5b46fe7054d4ccd4"
+    ],
+    "prepared": [
+      "028-1.webp"
+    ],
+    "id": "5303ae34-c711-41da-ac7f-0afba6a82005",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/10",
+    "sku": "AT-KAL-6FD2624E11",
+    "name": "Adire Fabric 10 - Blue and Orange Abstract",
+    "slug": "adire-fabric-10-blue-and-orange-abstract",
+    "description": "Vivid blue and orange areas are layered with darker abstract marks. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "028-1.webp",
+        "storage": "kaldoni/6fd2624e11/3b516e0320681884.webp",
+        "id": "14c6a857-42e1-4d2d-a155-17fcca657e02",
+        "alt": "Adire Fabric 10 - Blue and Orange Abstract — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "sourceKey": "Fabrics/adire fabrics/11",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/11.png"
+    ],
+    "hashes": [
+      "1022a11fa631dd8b68a4093681f0f5a6d43e6275d2fc944e693fc2bc22f4cfd7"
+    ],
+    "prepared": [
+      "029-1.webp"
+    ],
+    "id": "fe371f21-9ab2-4f99-a7ed-fb1565e8eba6",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/11",
+    "sku": "AT-KAL-CA2A4051CB",
+    "name": "Adire Fabric 11 - Blue Narrow Stripe",
+    "slug": "adire-fabric-11-blue-narrow-stripe",
+    "description": "Alternating deep and pale blue bands form a textured stripe pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "029-1.webp",
+        "storage": "kaldoni/ca2a4051cb/1022a11fa631dd8b.webp",
+        "id": "0b77b7a3-9669-40b0-aa70-e23181aa008d",
+        "alt": "Adire Fabric 11 - Blue Narrow Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "sourceKey": "Fabrics/adire fabrics/12",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/12.png"
+    ],
+    "hashes": [
+      "1778adf2fb7d5f30355a232df3638b072e2b6faaf92fc8ef22b966b337ab8b42"
+    ],
+    "prepared": [
+      "030-1.webp"
+    ],
+    "id": "5222eec1-fff4-4402-af27-31a68747ca4d",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/12",
+    "sku": "AT-KAL-B8B742C41F",
+    "name": "Adire Fabric 12 - Purple and Blue Stripe",
+    "slug": "adire-fabric-12-purple-and-blue-stripe",
+    "description": "Broad purple and bright blue stripes create a strong colour-block effect. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "030-1.webp",
+        "storage": "kaldoni/b8b742c41f/1778adf2fb7d5f30.webp",
+        "id": "b1ba757e-bb92-4b84-a07a-d7535b63ba55",
+        "alt": "Adire Fabric 12 - Purple and Blue Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 31,
+    "sourceKey": "Fabrics/adire fabrics/13",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/13.png"
+    ],
+    "hashes": [
+      "272902ed68d8999828b774a7c4d3b36105b7fbbe8aa6ddb3d0b222b78f3db937"
+    ],
+    "prepared": [
+      "031-1.webp"
+    ],
+    "id": "afe805ef-3fe0-4803-adda-4a67cc5c6fed",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/13",
+    "sku": "AT-KAL-0AAB6678E6",
+    "name": "Adire Fabric 13 - Magenta Square",
+    "slug": "adire-fabric-13-magenta-square",
+    "description": "Magenta squares are outlined by a bold pale lattice. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "031-1.webp",
+        "storage": "kaldoni/0aab6678e6/272902ed68d89998.webp",
+        "id": "c5701f8b-e7fa-4bed-a9b2-2d37b881239e",
+        "alt": "Adire Fabric 13 - Magenta Square — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "sourceKey": "Fabrics/adire fabrics/14",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/14.png"
+    ],
+    "hashes": [
+      "efe8fa9461e7b9b800cba9d2575bcce65530a01ffa9431ee6e02b15452df54e2"
+    ],
+    "prepared": [
+      "032-1.webp"
+    ],
+    "id": "70b28019-c0e2-40bb-a583-20cabb2a6609",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/14",
+    "sku": "AT-KAL-3E6ADEEB6C",
+    "name": "Adire Fabric 14 - Blue and Turquoise Block",
+    "slug": "adire-fabric-14-blue-and-turquoise-block",
+    "description": "Turquoise blocks stand out against a bright blue ground. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "032-1.webp",
+        "storage": "kaldoni/3e6adeeb6c/efe8fa9461e7b9b8.webp",
+        "id": "3f41727b-16ff-4e22-ab28-d164e4ee0ccd",
+        "alt": "Adire Fabric 14 - Blue and Turquoise Block — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "sourceKey": "Fabrics/adire fabrics/15",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/15.png"
+    ],
+    "hashes": [
+      "3afe77d1254315a10b34c46c89037023235511982bcf6d449040874c6e2ed8a1"
+    ],
+    "prepared": [
+      "033-1.webp"
+    ],
+    "id": "8ad47bf8-211f-4304-ae63-61184563e717",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/15",
+    "sku": "AT-KAL-AF4E6D930C",
+    "name": "Adire Fabric 15 - Navy and White Block",
+    "slug": "adire-fabric-15-navy-and-white-block",
+    "description": "Large pale blocks contrast with a dark navy background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "033-1.webp",
+        "storage": "kaldoni/af4e6d930c/3afe77d1254315a1.webp",
+        "id": "2b78b760-98cd-4f07-a249-dcc8c0104fe6",
+        "alt": "Adire Fabric 15 - Navy and White Block — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "sourceKey": "Fabrics/adire fabrics/16",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/16.png"
+    ],
+    "hashes": [
+      "b1332e6ff4908251ca537e9c64299156d85d7748a45a530113517895973854ba"
+    ],
+    "prepared": [
+      "034-1.webp"
+    ],
+    "id": "97682104-bfab-48e3-a72a-2f7ee7cbc4bc",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/16",
+    "sku": "AT-KAL-865B6A02CB",
+    "name": "Adire Fabric 16 - Indigo Broad Stripe",
+    "slug": "adire-fabric-16-indigo-broad-stripe",
+    "description": "Bold blue and indigo stripes feature softly irregular edges. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "034-1.webp",
+        "storage": "kaldoni/865b6a02cb/b1332e6ff4908251.webp",
+        "id": "a2046f50-8dcc-49ca-af72-b6f370323893",
+        "alt": "Adire Fabric 16 - Indigo Broad Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "sourceKey": "Fabrics/adire fabrics/17",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/17.png"
+    ],
+    "hashes": [
+      "272a37cb2e6df89901beb0f4b0a95bec4514860121a0b4859a85bc3e467435cf"
+    ],
+    "prepared": [
+      "035-1.webp"
+    ],
+    "id": "ca0b478d-8557-4e66-af58-ea555fde2a47",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/17",
+    "sku": "AT-KAL-D24ACFD4C3",
+    "name": "Adire Fabric 17 - Blue Wave",
+    "slug": "adire-fabric-17-blue-wave",
+    "description": "A bright blue wave-like band flows across a deep indigo base. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "035-1.webp",
+        "storage": "kaldoni/d24acfd4c3/272a37cb2e6df899.webp",
+        "id": "4421f017-e034-4867-a290-6795fc1fd7f0",
+        "alt": "Adire Fabric 17 - Blue Wave — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 36,
+    "sourceKey": "Fabrics/adire fabrics/18",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/18.png"
+    ],
+    "hashes": [
+      "d1feb25429a30558f8df2bfd9d99d420b5721d2238ab1b9ca5a69b96ab79dd93"
+    ],
+    "prepared": [
+      "036-1.webp"
+    ],
+    "id": "5f51f16e-254c-447c-a5d1-3709a584cc1e",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/18",
+    "sku": "AT-KAL-C142EBBA5D",
+    "name": "Adire Fabric 18 - Rust and Gold Block",
+    "slug": "adire-fabric-18-rust-and-gold-block",
+    "description": "Warm gold blocks create a bold repeat on a rust-coloured base. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "036-1.webp",
+        "storage": "kaldoni/c142ebba5d/d1feb25429a30558.webp",
+        "id": "51a7a5a1-f5b7-4900-a92d-f3a50fdc6b04",
+        "alt": "Adire Fabric 18 - Rust and Gold Block — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "sourceKey": "Fabrics/adire fabrics/19",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/19.png"
+    ],
+    "hashes": [
+      "d18609e35691f008152524ea9049e15b50fb42ff7b284f5811a5c534b9272fdf"
+    ],
+    "prepared": [
+      "037-1.webp"
+    ],
+    "id": "c13849e4-f3b9-43c7-a25d-ccdaac162cd5",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/19",
+    "sku": "AT-KAL-8B4FEE9F0A",
+    "name": "Adire Fabric 19 - Indigo Circle",
+    "slug": "adire-fabric-19-indigo-circle",
+    "description": "Textured blue circles repeat against a dark indigo ground. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "037-1.webp",
+        "storage": "kaldoni/8b4fee9f0a/d18609e35691f008.webp",
+        "id": "57a61ab4-bef1-4329-ab60-f79958714fd6",
+        "alt": "Adire Fabric 19 - Indigo Circle — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 38,
+    "sourceKey": "Fabrics/adire fabrics/2",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/2.png"
+    ],
+    "hashes": [
+      "f60d7c22bb68e059dbde40c1fdb2485fa9898b4db71682f579265f693ddf81c7"
+    ],
+    "prepared": [
+      "038-1.webp"
+    ],
+    "id": "5a419e95-958e-4d8a-ad1a-ac19a48d407c",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/2",
+    "sku": "AT-KAL-300DAC02BF",
+    "name": "Adire Fabric 02 - Indigo Fan",
+    "slug": "adire-fabric-02-indigo-fan",
+    "description": "Deep indigo fabric crossed by a broad fan of pale blue-and-white bands. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "038-1.webp",
+        "storage": "kaldoni/300dac02bf/f60d7c22bb68e059.webp",
+        "id": "52771b72-53f2-4290-adc3-0faae773618f",
+        "alt": "Adire Fabric 02 - Indigo Fan — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 39,
+    "sourceKey": "Fabrics/adire fabrics/20",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/20.png"
+    ],
+    "hashes": [
+      "e7ec4506a868c19b49cd63fe4b10dbe684bae6beeb558a5451d011ac38271a60"
+    ],
+    "prepared": [
+      "039-1.webp"
+    ],
+    "id": "ada08dec-4281-406b-acef-762a47a305bd",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/20",
+    "sku": "AT-KAL-73DF1E927F",
+    "name": "Adire Fabric 20 - Black and White Stripe",
+    "slug": "adire-fabric-20-black-and-white-stripe",
+    "description": "Wide black and pale stripes create a crisp, graphic repeat. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "039-1.webp",
+        "storage": "kaldoni/73df1e927f/e7ec4506a868c19b.webp",
+        "id": "c286d437-d95e-48de-a7b5-46d6e82a522e",
+        "alt": "Adire Fabric 20 - Black and White Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 40,
+    "sourceKey": "Fabrics/adire fabrics/3",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/3.png"
+    ],
+    "hashes": [
+      "9c3d718089fa9880f779acc06bbbc65ed1066a8c3d952e4b6f0ed5e32fa0d190"
+    ],
+    "prepared": [
+      "040-1.webp"
+    ],
+    "id": "f64a3a6d-ba02-4f65-a376-0c5408710165",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/3",
+    "sku": "AT-KAL-516659160B",
+    "name": "Adire Fabric 03 - Blue Fan",
+    "slug": "adire-fabric-03-blue-fan",
+    "description": "A deep blue ground with a sweeping pale fan pattern across the folded fabric. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "040-1.webp",
+        "storage": "kaldoni/516659160b/9c3d718089fa9880.webp",
+        "id": "dae290aa-fb03-4bdd-ab6f-939d07418a13",
+        "alt": "Adire Fabric 03 - Blue Fan — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 41,
+    "sourceKey": "Fabrics/adire fabrics/4",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/4.png"
+    ],
+    "hashes": [
+      "da6046e8897322433c83b6c3ae0535e76ee578b90cb39fda01d56a74f3ca46c0"
+    ],
+    "prepared": [
+      "041-1.webp"
+    ],
+    "id": "c0fa68a9-8f8e-4f17-af7d-3f8bfc2c78af",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/4",
+    "sku": "AT-KAL-F37328F5E1",
+    "name": "Adire Fabric 04 - Indigo Ripple",
+    "slug": "adire-fabric-04-indigo-ripple",
+    "description": "Pale rippling bands curve across a deep indigo background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "041-1.webp",
+        "storage": "kaldoni/f37328f5e1/da6046e889732243.webp",
+        "id": "c76ff6ee-dbee-4dc9-a927-e19af665b8af",
+        "alt": "Adire Fabric 04 - Indigo Ripple — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 42,
+    "sourceKey": "Fabrics/adire fabrics/5",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/5.png"
+    ],
+    "hashes": [
+      "4d2518fe38a30ad087220e2b201edc3ff874ba200b6f5a5b7536dec06d723092"
+    ],
+    "prepared": [
+      "042-1.webp"
+    ],
+    "id": "29e1b33d-485b-43e0-a5c3-776b4e867b9a",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/5",
+    "sku": "AT-KAL-EDA34C26DF",
+    "name": "Adire Fabric 05 - Indigo Rings",
+    "slug": "adire-fabric-05-indigo-rings",
+    "description": "Loose pale circular motifs appear across a rich indigo base. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "042-1.webp",
+        "storage": "kaldoni/eda34c26df/4d2518fe38a30ad0.webp",
+        "id": "364c8f0c-4187-470f-a0ac-2e9ced642e90",
+        "alt": "Adire Fabric 05 - Indigo Rings — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 43,
+    "sourceKey": "Fabrics/adire fabrics/6",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/6.png"
+    ],
+    "hashes": [
+      "5b8b04689ab2e401c7faa6858d9a8769236a6adefe4fd7c16e0283e920666fbe"
+    ],
+    "prepared": [
+      "043-1.webp"
+    ],
+    "id": "e70d072a-402d-4b1f-a8e3-0ae236038c0d",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/6",
+    "sku": "AT-KAL-4CC11D34B6",
+    "name": "Adire Fabric 06 - White and Indigo Stripe",
+    "slug": "adire-fabric-06-white-and-indigo-stripe",
+    "description": "Fine indigo bands form a repeated horizontal pattern on a pale background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "043-1.webp",
+        "storage": "kaldoni/4cc11d34b6/5b8b04689ab2e401.webp",
+        "id": "0b3979f0-4a70-41c3-a62f-d14a7897dcb3",
+        "alt": "Adire Fabric 06 - White and Indigo Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "sourceKey": "Fabrics/adire fabrics/7",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/7.png"
+    ],
+    "hashes": [
+      "5dc2b9df321b580a285e0a3a3521c15d900963743613db7119c3bcb4490bbcfc"
+    ],
+    "prepared": [
+      "044-1.webp"
+    ],
+    "id": "57f0e594-6eba-43f2-aa49-b5f5ae5decbc",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/7",
+    "sku": "AT-KAL-8732429A80",
+    "name": "Adire Fabric 07 - Blue Diagonal Bands",
+    "slug": "adire-fabric-07-blue-diagonal-bands",
+    "description": "A blue ground with diagonal pale bands and softly varied dye effects. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "044-1.webp",
+        "storage": "kaldoni/8732429a80/5dc2b9df321b580a.webp",
+        "id": "3181b734-76a2-4d7b-a5f3-cd7fd6a14a40",
+        "alt": "Adire Fabric 07 - Blue Diagonal Bands — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 45,
+    "sourceKey": "Fabrics/adire fabrics/8",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/8.png"
+    ],
+    "hashes": [
+      "007e9015d7fa3899fbc4679de48661e009567f9021e312950cdf78c4e79f6108"
+    ],
+    "prepared": [
+      "045-1.webp"
+    ],
+    "id": "946f3580-6528-4821-a84b-5d7083820811",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/8",
+    "sku": "AT-KAL-ABB169307C",
+    "name": "Adire Fabric 08 - Blue Radiating Bands",
+    "slug": "adire-fabric-08-blue-radiating-bands",
+    "description": "Indigo and pale blue radiating bands create a bold contrasting pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "045-1.webp",
+        "storage": "kaldoni/abb169307c/007e9015d7fa3899.webp",
+        "id": "f41a950a-eb5f-462f-ab1d-7b631933b493",
+        "alt": "Adire Fabric 08 - Blue Radiating Bands — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 46,
+    "sourceKey": "Fabrics/adire fabrics/9",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/9.png"
+    ],
+    "hashes": [
+      "46dc33836d949333d1077ec9cc17547a0be77a3dd35ea8981494cc64e9ed01c0"
+    ],
+    "prepared": [
+      "046-1.webp"
+    ],
+    "id": "7a2398de-6dc3-461e-a3ff-2e1a59066512",
+    "legacy_id": "kaldoni:Fabrics/adire fabrics/9",
+    "sku": "AT-KAL-1338E8C2BD",
+    "name": "Adire Fabric 09 - Multicolour Crackle",
+    "slug": "adire-fabric-09-multicolour-crackle",
+    "description": "Muted blue, green and yellow tones meet a dark crackle-like pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Adire",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 12000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "046-1.webp",
+        "storage": "kaldoni/1338e8c2bd/46dc33836d949333.webp",
+        "id": "0e1579ff-ecd8-4181-a651-22a75cffe6dc",
+        "alt": "Adire Fabric 09 - Multicolour Crackle — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3241",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3241.HEIC"
+    ],
+    "hashes": [
+      "748c7a40d52f9addbd1f8111d0e5a420a8e83ee4664c5a0b9df8da5a08de091e"
+    ],
+    "prepared": [
+      "047-1.webp"
+    ],
+    "id": "c0b1e397-261e-4cd3-abf5-b6ee2f7c40ec",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3241",
+    "sku": "AT-KAL-9E8A0A888D",
+    "name": "Ankara Fabric 3241 - Black and Cream Geometry",
+    "slug": "ankara-fabric-3241-black-and-cream-geometry",
+    "description": "Black geometric panels combine stripes, chevrons and angular motifs on a cream background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "047-1.webp",
+        "storage": "kaldoni/9e8a0a888d/748c7a40d52f9add.webp",
+        "id": "dd896883-9f5d-4070-a667-8fcec84993e7",
+        "alt": "Ankara Fabric 3241 - Black and Cream Geometry — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 48,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3242",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3242.HEIC"
+    ],
+    "hashes": [
+      "d44a5f1cc191181e1f20572d0e0f33bf1b44cc351a450e2f4df198780a494da9"
+    ],
+    "prepared": [
+      "048-1.webp"
+    ],
+    "id": "0dbee96e-1311-4ad1-ae62-f0b059728e7c",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3242",
+    "sku": "AT-KAL-721550116A",
+    "name": "Ankara Fabric 3242 - Blue and Gold Stars",
+    "slug": "ankara-fabric-3242-blue-and-gold-stars",
+    "description": "Gold stars and dark outlined shapes scatter across a vivid blue background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "048-1.webp",
+        "storage": "kaldoni/721550116a/d44a5f1cc191181e.webp",
+        "id": "1aff5982-055b-4ddc-a443-759ba44a86cb",
+        "alt": "Ankara Fabric 3242 - Blue and Gold Stars — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 49,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3243",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3243.HEIC"
+    ],
+    "hashes": [
+      "42690acab452c4e578016fbabe0bac8ebee5d5998ebc6b3ad7cd5881d4581863"
+    ],
+    "prepared": [
+      "049-1.webp"
+    ],
+    "id": "46660043-c760-4053-a1b2-fabbd42f656c",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3243",
+    "sku": "AT-KAL-D16B837636",
+    "name": "Ankara Fabric 3243 - Multicolour Waves",
+    "slug": "ankara-fabric-3243-multicolour-waves",
+    "description": "Rows of red, green and yellow wavy motifs repeat against a dark ground. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "049-1.webp",
+        "storage": "kaldoni/d16b837636/42690acab452c4e5.webp",
+        "id": "41747079-ba51-4644-a7bb-dd1f45344aee",
+        "alt": "Ankara Fabric 3243 - Multicolour Waves — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3244",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3244.HEIC"
+    ],
+    "hashes": [
+      "b691aeb632bf547ade8f29cb49ae02f202265b3e183ded0d37421a42a6a49c5e"
+    ],
+    "prepared": [
+      "050-1.webp"
+    ],
+    "id": "ed94584f-6fe5-4b8b-aaf2-905c6bf3b408",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3244",
+    "sku": "AT-KAL-F2B2AEE4C1",
+    "name": "Ankara Fabric 3244 - Bright Stripe",
+    "slug": "ankara-fabric-3244-bright-stripe",
+    "description": "Bright yellow, blue and pink stripes stand out against a dark base. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "050-1.webp",
+        "storage": "kaldoni/f2b2aee4c1/b691aeb632bf547a.webp",
+        "id": "3714ea3b-1cc7-49a0-aadd-894eb20c396b",
+        "alt": "Ankara Fabric 3244 - Bright Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3246",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3246.HEIC"
+    ],
+    "hashes": [
+      "9ff2133cfcd44344b3a63e6729f9e4865a2ff9bd68550e9047e7d82d76ad2dc2"
+    ],
+    "prepared": [
+      "051-1.webp"
+    ],
+    "id": "5d44811c-33cf-4e0e-a622-f0bd74065dd2",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3246",
+    "sku": "AT-KAL-465C93E346",
+    "name": "Ankara Fabric 3246 - Dark Blue Motif",
+    "slug": "ankara-fabric-3246-dark-blue-motif",
+    "description": "Small pale blue circular and floral-like motifs run in narrow vertical rows. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "051-1.webp",
+        "storage": "kaldoni/465c93e346/9ff2133cfcd44344.webp",
+        "id": "af8edcf2-f946-4c4b-ae62-e94a3563bf62",
+        "alt": "Ankara Fabric 3246 - Dark Blue Motif — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 52,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3247",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3247.HEIC"
+    ],
+    "hashes": [
+      "e9993f248aab21ad436890242832ca4a3d2edaac7b4b33d60bc2e82d8a9f0275"
+    ],
+    "prepared": [
+      "052-1.webp"
+    ],
+    "id": "452379da-8187-4150-ab67-fae649fed720",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3247",
+    "sku": "AT-KAL-10C94CC177",
+    "name": "Ankara Fabric 3247 - Black and White Cross",
+    "slug": "ankara-fabric-3247-black-and-white-cross",
+    "description": "Large pale cross-like motifs create a bold repeat on a black ground. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "052-1.webp",
+        "storage": "kaldoni/10c94cc177/e9993f248aab21ad.webp",
+        "id": "f33cf5b8-3f84-4115-a0d3-9d4927928b84",
+        "alt": "Ankara Fabric 3247 - Black and White Cross — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 53,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3248",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3248.HEIC"
+    ],
+    "hashes": [
+      "29fdba47a19ee238dd4e2df402bade238acd910b56778a73f71bd77581cd9913"
+    ],
+    "prepared": [
+      "053-1.webp"
+    ],
+    "id": "4eb80ee8-871b-4198-a05d-124e9c387b0a",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3248",
+    "sku": "AT-KAL-2FABA19472",
+    "name": "Ankara Fabric 3248 - Yellow and Pink Chevron",
+    "slug": "ankara-fabric-3248-yellow-and-pink-chevron",
+    "description": "Small yellow-and-pink chevron-like marks form a dense repeat over a dark ground. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "053-1.webp",
+        "storage": "kaldoni/2faba19472/29fdba47a19ee238.webp",
+        "id": "2ff4b04b-903f-42da-a0be-9c44d9582349",
+        "alt": "Ankara Fabric 3248 - Yellow and Pink Chevron — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 54,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3249",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3249.HEIC"
+    ],
+    "hashes": [
+      "5d0461cfefa4aeec273c8fcfc8bcc33778040c772ea9ac496a7c3e5c956e513f"
+    ],
+    "prepared": [
+      "054-1.webp"
+    ],
+    "id": "7f2aa3db-e2bd-497f-a66f-2b9ca7d1e11d",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3249",
+    "sku": "AT-KAL-53205C0AB0",
+    "name": "Ankara Fabric 3249 - Blue Geometric",
+    "slug": "ankara-fabric-3249-blue-geometric",
+    "description": "Pale angular motifs run across contrasting dark and bright blue sections. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "054-1.webp",
+        "storage": "kaldoni/53205c0ab0/5d0461cfefa4aeec.webp",
+        "id": "2c46d6bb-58d7-4c9d-aba6-d3660ab4c3c5",
+        "alt": "Ankara Fabric 3249 - Blue Geometric — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 55,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3250",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3250.HEIC"
+    ],
+    "hashes": [
+      "c6016ec025f88ae88c140386c0f25feb509026d715856c05b257c11734376898"
+    ],
+    "prepared": [
+      "055-1.webp"
+    ],
+    "id": "b95e27f0-eddb-4d19-a88d-4cc9285102d6",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3250",
+    "sku": "AT-KAL-584A73032C",
+    "name": "Ankara Fabric 3250 - Gold Geometric Patchwork",
+    "slug": "ankara-fabric-3250-gold-geometric-patchwork",
+    "description": "Gold, orange, cream and dark geometric panels form a lively patchwork-style print. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "055-1.webp",
+        "storage": "kaldoni/584a73032c/c6016ec025f88ae8.webp",
+        "id": "7c32fc8f-3447-42be-a1f8-37a247e39167",
+        "alt": "Ankara Fabric 3250 - Gold Geometric Patchwork — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 56,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3251",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3251.HEIC"
+    ],
+    "hashes": [
+      "ea90751ee31da0ccffe4af17ae0baba7f5cfe47472dd4478fe5b767a9746e90a"
+    ],
+    "prepared": [
+      "056-1.webp"
+    ],
+    "id": "7bef1885-0224-4427-a66c-23ce391a2452",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3251",
+    "sku": "AT-KAL-D722CE4569",
+    "name": "Ankara Fabric 3251 - Pink Geometric Patchwork",
+    "slug": "ankara-fabric-3251-pink-geometric-patchwork",
+    "description": "Pink accents brighten a patchwork-style arrangement of monochrome geometric panels. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "056-1.webp",
+        "storage": "kaldoni/d722ce4569/ea90751ee31da0cc.webp",
+        "id": "0e5e9591-5276-4f79-a5a8-919bb7c26d97",
+        "alt": "Ankara Fabric 3251 - Pink Geometric Patchwork — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 57,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3253",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3253.HEIC"
+    ],
+    "hashes": [
+      "e20100a6930d81ca6b9909f1d7e32060a776bf03ce9ddedaa4c32e875abbd997"
+    ],
+    "prepared": [
+      "057-1.webp"
+    ],
+    "id": "24c560bd-b8c4-47df-a4b5-ab8af14493a7",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3253",
+    "sku": "AT-KAL-DE4AD1D160",
+    "name": "Ankara Fabric 3253 - Mint and Dark Green Geometry",
+    "slug": "ankara-fabric-3253-mint-and-dark-green-geometry",
+    "description": "Mint and dark green interlocking shapes create a bold repeated pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "057-1.webp",
+        "storage": "kaldoni/de4ad1d160/e20100a6930d81ca.webp",
+        "id": "494ee80d-5aaf-4728-a40c-8635fed80a53",
+        "alt": "Ankara Fabric 3253 - Mint and Dark Green Geometry — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 58,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3254",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3254.HEIC"
+    ],
+    "hashes": [
+      "501e208c26b1e023ceda08dfa2c683057f923e07bde13033bf7c12f46c8c644f"
+    ],
+    "prepared": [
+      "058-1.webp"
+    ],
+    "id": "adfe2703-2067-4822-a4ee-f8e13d5b3782",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3254",
+    "sku": "AT-KAL-C08F283C06",
+    "name": "Ankara Fabric 3254 - Blue Linear Motif",
+    "slug": "ankara-fabric-3254-blue-linear-motif",
+    "description": "Fine pale lines, dots and angular motifs are arranged over a deep blue base. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "058-1.webp",
+        "storage": "kaldoni/c08f283c06/501e208c26b1e023.webp",
+        "id": "bf5d4950-d5b9-4592-a3e5-5d3a04ffbb50",
+        "alt": "Ankara Fabric 3254 - Blue Linear Motif — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 59,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3255",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3255.HEIC"
+    ],
+    "hashes": [
+      "c69eff9a1d784243e18040abcf82925f6f990153c822e0767393376d02423cb0"
+    ],
+    "prepared": [
+      "059-1.webp"
+    ],
+    "id": "b6c353d4-9a33-4439-a440-6300361dba42",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3255",
+    "sku": "AT-KAL-083A662B8F",
+    "name": "Ankara Fabric 3255 - Monochrome Cross",
+    "slug": "ankara-fabric-3255-monochrome-cross",
+    "description": "A black-and-pale cross motif repeats across the fabric in a striking graphic arrangement. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "059-1.webp",
+        "storage": "kaldoni/083a662b8f/c69eff9a1d784243.webp",
+        "id": "34e79bab-3b5b-4e6d-a35a-91361f065ccc",
+        "alt": "Ankara Fabric 3255 - Monochrome Cross — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 60,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3256",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3256.HEIC"
+    ],
+    "hashes": [
+      "cd78a1c21a04e4249bb7adb6c1c50a71515cd236817b8acdf46434a2a09a82bf"
+    ],
+    "prepared": [
+      "060-1.webp"
+    ],
+    "id": "0300d078-6ccb-4260-a533-3ec257749d0e",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3256",
+    "sku": "AT-KAL-A7F392D8C7",
+    "name": "Ankara Fabric 3256 - Teal and Magenta Bands",
+    "slug": "ankara-fabric-3256-teal-and-magenta-bands",
+    "description": "Teal, magenta and pale geometric bands form a detailed repeated stripe pattern. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "060-1.webp",
+        "storage": "kaldoni/a7f392d8c7/cd78a1c21a04e424.webp",
+        "id": "857066ec-c2c1-430d-ad83-60b96c426ac2",
+        "alt": "Ankara Fabric 3256 - Teal and Magenta Bands — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 61,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3257",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3257.HEIC"
+    ],
+    "hashes": [
+      "0dcfd1308a0f90ab018f6d81245b98c53462fe1c73df03df2c49a4e1536244c0"
+    ],
+    "prepared": [
+      "061-1.webp"
+    ],
+    "id": "871e4b66-8762-4f25-a383-7b333d089d1d",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3257",
+    "sku": "AT-KAL-EE7508A0F0",
+    "name": "Ankara Fabric 3257 - Royal Blue Geometry",
+    "slug": "ankara-fabric-3257-royal-blue-geometry",
+    "description": "White angular motifs and small dotted shapes create a strong contrast on royal blue. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "061-1.webp",
+        "storage": "kaldoni/ee7508a0f0/0dcfd1308a0f90ab.webp",
+        "id": "6d2de9c2-5fe2-4688-a355-f69e280a33d8",
+        "alt": "Ankara Fabric 3257 - Royal Blue Geometry — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 62,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3258",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3258.HEIC"
+    ],
+    "hashes": [
+      "12bea510004771c08fa52d94bea0988f88ac7536c1944d19707233833dbdb078"
+    ],
+    "prepared": [
+      "062-1.webp"
+    ],
+    "id": "effe64e0-5a95-4108-a3a6-be3e6edd8e1d",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3258",
+    "sku": "AT-KAL-DDA6AEFCD6",
+    "name": "Ankara Fabric 3258 - Multicolour Motif Blocks",
+    "slug": "ankara-fabric-3258-multicolour-motif-blocks",
+    "description": "Blue, red, purple and green blocks are layered with pale graphic motifs. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "062-1.webp",
+        "storage": "kaldoni/dda6aefcd6/12bea510004771c0.webp",
+        "id": "08b47c80-268d-47af-a1ec-fd007d97acaa",
+        "alt": "Ankara Fabric 3258 - Multicolour Motif Blocks — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 63,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3259",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3259.HEIC"
+    ],
+    "hashes": [
+      "0ad0d41b1aadf628b10dbb4ccbcc862d165d9435e5106a5e754fb7bf0d35bd09"
+    ],
+    "prepared": [
+      "063-1.webp"
+    ],
+    "id": "8ed6c919-523b-44e4-a41c-aa4c87dd3f8b",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3259",
+    "sku": "AT-KAL-7FCE6A1EBD",
+    "name": "Ankara Fabric 3259 - Mustard Motif Stripe",
+    "slug": "ankara-fabric-3259-mustard-motif-stripe",
+    "description": "Mustard panels combine small dark motifs with contrasting patterned stripes. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "063-1.webp",
+        "storage": "kaldoni/7fce6a1ebd/0ad0d41b1aadf628.webp",
+        "id": "357c638e-3def-4e29-a219-3e41fcd0946a",
+        "alt": "Ankara Fabric 3259 - Mustard Motif Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 64,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3260",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3260.HEIC"
+    ],
+    "hashes": [
+      "a4052ddf7586f8348af88bb1a92cfcc7e9773b37a0bad17097838567a61e1048"
+    ],
+    "prepared": [
+      "064-1.webp"
+    ],
+    "id": "ea606d84-5e9e-47cd-a047-ce54e8907370",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3260",
+    "sku": "AT-KAL-A5835C3D56",
+    "name": "Ankara Fabric 3260 - Multicolour Geometric Stripe",
+    "slug": "ankara-fabric-3260-multicolour-geometric-stripe",
+    "description": "Teal and magenta geometric bands alternate with finely patterned dark stripes. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "064-1.webp",
+        "storage": "kaldoni/a5835c3d56/a4052ddf7586f834.webp",
+        "id": "1d3e5ef9-e607-4759-a1e1-03be9b348d25",
+        "alt": "Ankara Fabric 3260 - Multicolour Geometric Stripe — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 65,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3261",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3261.HEIC"
+    ],
+    "hashes": [
+      "ec6722aa655077b11f1499350015cb5787b5a01eb7845515e325c5732c0d24c5"
+    ],
+    "prepared": [
+      "065-1.webp"
+    ],
+    "id": "194f771c-6acb-4e41-a737-b0624d8a33a0",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3261",
+    "sku": "AT-KAL-EF73505AEE",
+    "name": "Ankara Fabric 3261 - Green and Mint Repeat",
+    "slug": "ankara-fabric-3261-green-and-mint-repeat",
+    "description": "Dark green and mint angular shapes create an eye-catching interlocking repeat. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "065-1.webp",
+        "storage": "kaldoni/ef73505aee/ec6722aa655077b1.webp",
+        "id": "5ca16d9e-f960-42cc-af7d-39e68430bf73",
+        "alt": "Ankara Fabric 3261 - Green and Mint Repeat — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 66,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3262",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3262.HEIC"
+    ],
+    "hashes": [
+      "d03820d171f9e4343eebb0d00523055f31f11e3899dc67b0237ce56f9ed7bdd5"
+    ],
+    "prepared": [
+      "066-1.webp"
+    ],
+    "id": "698876e9-ae40-4407-a84b-257a7eda7738",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3262",
+    "sku": "AT-KAL-0D60C3B205",
+    "name": "Ankara Fabric 3262 - Yellow and Green Blocks",
+    "slug": "ankara-fabric-3262-yellow-and-green-blocks",
+    "description": "Yellow, green, rust and dark panels are covered with contrasting pale motifs. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "066-1.webp",
+        "storage": "kaldoni/0d60c3b205/d03820d171f9e434.webp",
+        "id": "1f74ef4b-0e1a-49fc-aba5-d170786914e1",
+        "alt": "Ankara Fabric 3262 - Yellow and Green Blocks — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 67,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3263",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3263.HEIC"
+    ],
+    "hashes": [
+      "6a6d420a2624800aa87d359c5b5e85700157ce47e019aec926c7dcd0718da9f6"
+    ],
+    "prepared": [
+      "067-1.webp"
+    ],
+    "id": "c3517714-46af-4c22-a170-a38ce67c0269",
+    "legacy_id": "kaldoni:Fabrics/ankara fabrics/IMG_3263",
+    "sku": "AT-KAL-2EA2EA3B17",
+    "name": "Ankara Fabric 3263 - Pink Circular Motif",
+    "slug": "ankara-fabric-3263-pink-circular-motif",
+    "description": "Large pale circular motifs stand out against a vivid pink background. A patterned fabric option for your next dressmaking or creative sewing project. Confirm your required length before ordering.",
+    "fabric": "Ankara",
+    "department": "fabrics",
+    "category": "fabrics",
+    "price": 10000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "1 yard"
+    ],
+    "unit": "yard",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "067-1.webp",
+        "storage": "kaldoni/2ea2ea3b17/6a6d420a2624800a.webp",
+        "id": "8cfe55cf-670f-432c-a509-80709f75d075",
+        "alt": "Ankara Fabric 3263 - Pink Circular Motif — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 68,
+    "sourceKey": "Jacket/adire-jacket-black-embroidered",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-black-embroidered.jpg.png"
+    ],
+    "hashes": [
+      "a255864ccdf2f6f1e1cb5fc3a877178a45691963a876286802df581b1bb27b45"
+    ],
+    "prepared": [
+      "068-1.webp"
+    ],
+    "id": "679219f3-0ac1-47e0-af4f-422efb24d3ba",
+    "legacy_id": "kaldoni:Jacket/adire-jacket-black-embroidered",
+    "sku": "AT-KAL-07B08A9A64",
+    "name": "Black Embroidered Adire Jacket",
+    "slug": "black-embroidered-adire-jacket",
+    "description": "A black jacket decorated with bold red, green and gold embroidered shapes. Its collarless neckline and front opening let the expressive detailing take centre stage.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-jackets",
+    "price": 65000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Adire jacket",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "068-1.webp",
+        "storage": "kaldoni/07b08a9a64/a255864ccdf2f6f1.webp",
+        "id": "fcf5006e-e34a-4833-af1e-48b06a9a8d75",
+        "alt": "Black Embroidered Adire Jacket — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 69,
+    "sourceKey": "Jacket/adire-jacket-blue-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-blue-beaded-front.jpg.png",
+      "Jacket/adire-jacket-blue-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "6bf5e84877267aea9c8d56536d838de3f472cc330fc212635f18acadfedbd416",
+      "de6d470ad3c4f230d0cb7897f76c1823ecae51ab4db03da5178e0342203acb38"
+    ],
+    "prepared": [
+      "069-1.webp",
+      "069-2.webp"
+    ],
+    "id": "2f2ccab0-a72c-4bb8-a737-b2aaf8a851ba",
+    "legacy_id": "kaldoni:Jacket/adire-jacket-blue-beaded",
+    "sku": "AT-KAL-9708250FCF",
+    "name": "Blue Beaded Adire Jacket",
+    "slug": "blue-beaded-adire-jacket",
+    "description": "A deep blue jacket with colourful beaded motifs, fine lines and a collarless neckline. Wear it over a simple base to highlight the detailed front panels.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-jackets",
+    "price": 65000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Beaded jacket",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "069-1.webp",
+        "storage": "kaldoni/9708250fcf/6bf5e84877267aea.webp",
+        "id": "f098c965-9366-44da-a7c3-f071585f06af",
+        "alt": "Blue Beaded Adire Jacket — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "069-2.webp",
+        "storage": "kaldoni/9708250fcf/de6d470ad3c4f230.webp",
+        "id": "bb48aa1f-104b-47c0-aeff-1de0ab2973c2",
+        "alt": "Blue Beaded Adire Jacket — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 70,
+    "sourceKey": "Jacket/adire-jacket-bright-blue-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-bright-blue-beaded-front.jpg.png",
+      "Jacket/adire-jacket-bright-blue-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "33d9b70f3fe2321658bb46933cf569ab37bbe9af58aaa3cfecdba132daee3707",
+      "257a154a16eb2a0d5fa11507a7718853215915a41fafca3f5808699d6c04560b"
+    ],
+    "prepared": [
+      "070-1.webp",
+      "070-2.webp"
+    ],
+    "id": "0280a0b3-fc59-49d4-a0d1-a9a97aa69be6",
+    "legacy_id": "kaldoni:Jacket/adire-jacket-bright-blue-beaded",
+    "sku": "AT-KAL-47792CD9D3",
+    "name": "Bright Blue Beaded Adire Jacket",
+    "slug": "bright-blue-beaded-adire-jacket",
+    "description": "A bright blue jacket with geometric beading and contrasting vertical details. The collarless front gives this statement piece a clean, structured look.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-jackets",
+    "price": 65000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Beaded jacket",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "070-1.webp",
+        "storage": "kaldoni/47792cd9d3/33d9b70f3fe23216.webp",
+        "id": "93caae3f-5ee0-4f90-a9d9-71029ee50f35",
+        "alt": "Bright Blue Beaded Adire Jacket — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "070-2.webp",
+        "storage": "kaldoni/47792cd9d3/257a154a16eb2a0d.webp",
+        "id": "58fb6cb0-e0e5-4fb8-a939-7fc71106d786",
+        "alt": "Bright Blue Beaded Adire Jacket — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 71,
+    "sourceKey": "Jacket/adire-jacket-maroon-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-maroon-beaded-front.jpg.png",
+      "Jacket/adire-jacket-maroon-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "70b094f05bb93a1f9c481433ee38644d33a98b7171f378c88e5baaa98e27011a",
+      "97255bcc858ceca82b75fb6b6ad1fd21aa40271f5d1d6e378a53c667680d8e3f"
+    ],
+    "prepared": [
+      "071-1.webp",
+      "071-2.webp"
+    ],
+    "id": "b0c98aca-d2e0-47fc-aac0-0adcc1f0cd31",
+    "legacy_id": "kaldoni:Jacket/adire-jacket-maroon-beaded",
+    "sku": "AT-KAL-975BA39214",
+    "name": "Maroon Beaded Adire Jacket",
+    "slug": "maroon-beaded-adire-jacket",
+    "description": "A maroon jacket with delicate geometric lines and small contrasting beaded accents. Pair the clean, collarless silhouette with dark trousers for a coordinated finish.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-jackets",
+    "price": 65000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Beaded jacket",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "071-1.webp",
+        "storage": "kaldoni/975ba39214/70b094f05bb93a1f.webp",
+        "id": "ed0b7200-6ff1-468a-a9e5-49140c012f6b",
+        "alt": "Maroon Beaded Adire Jacket — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "071-2.webp",
+        "storage": "kaldoni/975ba39214/97255bcc858ceca8.webp",
+        "id": "f2eb5b51-6ef4-4643-ad27-e52e41b8b46a",
+        "alt": "Maroon Beaded Adire Jacket — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 72,
+    "sourceKey": "Jacket/adire-jacket-maroon-embroidered",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-maroon-embroidered-front.jpg.png",
+      "Jacket/adire-jacket-maroon-embroidered-side.jpg.png"
+    ],
+    "hashes": [
+      "3abf0aed4f2df4db02eab938f8d6c1c953cf2d7e640be0e04670066154615950",
+      "1b74e7556c1c9619f5f983615a5db9c7ca37b8b43e38931a1105158307407e2a"
+    ],
+    "prepared": [
+      "072-1.webp",
+      "072-2.webp"
+    ],
+    "id": "ebed7bd8-1b69-43cd-ab27-0c4c65cb0cd3",
+    "legacy_id": "kaldoni:Jacket/adire-jacket-maroon-embroidered",
+    "sku": "AT-KAL-E779EFE4D9",
+    "name": "Maroon Embroidered Adire Jacket",
+    "slug": "maroon-embroidered-adire-jacket",
+    "description": "Large multicolour embroidered shapes stand out across this maroon jacket. Its simple collarless shape provides a strong canvas for the expressive surface details.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-jackets",
+    "price": 65000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Adire jacket",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "072-1.webp",
+        "storage": "kaldoni/e779efe4d9/3abf0aed4f2df4db.webp",
+        "id": "ba11016a-1503-4398-a80d-38a7305c4696",
+        "alt": "Maroon Embroidered Adire Jacket — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "072-2.webp",
+        "storage": "kaldoni/e779efe4d9/1b74e7556c1c9619.webp",
+        "id": "c5b2be84-476b-43d5-a426-81f28c35a6bc",
+        "alt": "Maroon Embroidered Adire Jacket — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 73,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-abstract",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-abstract.jpg.png"
+    ],
+    "hashes": [
+      "8a52da8cdddcf3e0d4f0023f85e10ef393fbb0b36787c3f1dae433275a0fd2cf"
+    ],
+    "prepared": [
+      "073-1.webp"
+    ],
+    "id": "d5424f59-18f8-46e3-ac6d-184f27a769c7",
+    "legacy_id": "kaldoni:Jumpsuit/adire-teems-jumpsuit-abstract",
+    "sku": "AT-KAL-8F149D320C",
+    "name": "Abstract Print Jumpsuit",
+    "slug": "abstract-print-jumpsuit",
+    "description": "A short-sleeve jumpsuit with an energetic abstract print and contrasting vertical panels. The wide legs create a long, striking silhouette.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-jumpsuits",
+    "price": 50000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "073-1.webp",
+        "storage": "kaldoni/8f149d320c/8a52da8cdddcf3e0.webp",
+        "id": "6622b8d5-3931-45e8-a3f5-f50295ae62e3",
+        "alt": "Abstract Print Jumpsuit — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 74,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-green-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-green-women.jpg.png"
+    ],
+    "hashes": [
+      "cabaf59060d49a62ec057287afd1bf81a6b8f8b90314b531871b303cd4f1ab17"
+    ],
+    "prepared": [
+      "074-1.webp"
+    ],
+    "id": "a05c1a31-bd2a-42cb-aad5-e0dfa5052f12",
+    "legacy_id": "kaldoni:Jumpsuit/adire-teems-jumpsuit-green-women",
+    "sku": "AT-KAL-47306AB311",
+    "name": "Women's Green Print Jumpsuit",
+    "slug": "womens-green-print-jumpsuit",
+    "description": "Green, white and dark patterned sections combine in this wide-leg jumpsuit. A simple neckline and short sleeves keep the colourful print in focus.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-jumpsuits",
+    "price": 50000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "074-1.webp",
+        "storage": "kaldoni/47306ab311/cabaf59060d49a62.webp",
+        "id": "1788e300-86fc-4939-a449-2bb82dc8217f",
+        "alt": "Women's Green Print Jumpsuit — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 75,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women.jpg.png",
+      "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women-side.jpg.png"
+    ],
+    "hashes": [
+      "113b2534b953a4e9d08f3270329b3ffa5f5ac1d287ec8f15e8952de458d246d1",
+      "754a7c7632029e67c20fee7f02f3ffd33db94b638302d8569cc591d8a2c37fbd"
+    ],
+    "prepared": [
+      "075-1.webp",
+      "075-2.webp"
+    ],
+    "id": "2982b958-6c3d-4844-a6fc-860d6060a4a9",
+    "legacy_id": "kaldoni:Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women",
+    "sku": "AT-KAL-C8C309280E",
+    "name": "Pink Kaftan Jumpsuit",
+    "slug": "pink-kaftan-jumpsuit",
+    "description": "A pink kaftan-style jumpsuit with oversized pale motifs and a flowing silhouette. Broad sleeves and generous draping give the piece an expressive, relaxed presence.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-jumpsuits",
+    "price": 50000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "075-1.webp",
+        "storage": "kaldoni/c8c309280e/113b2534b953a4e9.webp",
+        "id": "09e9789a-7eab-4d70-a88d-532d54b974da",
+        "alt": "Pink Kaftan Jumpsuit — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "075-2.webp",
+        "storage": "kaldoni/c8c309280e/754a7c7632029e67.webp",
+        "id": "47b89efa-048c-42fb-a52c-88db2557e526",
+        "alt": "Pink Kaftan Jumpsuit — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 76,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-multicolour-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-multicolour-women.jpg.png"
+    ],
+    "hashes": [
+      "993b116525ef1635a7bc3f17cd2a1e211d1fce30a02b653efc9ae361f11f872c"
+    ],
+    "prepared": [
+      "076-1.webp"
+    ],
+    "id": "923506d5-4f33-4bde-af48-b81fe801f2a8",
+    "legacy_id": "kaldoni:Jumpsuit/adire-teems-jumpsuit-multicolour-women",
+    "sku": "AT-KAL-308B5AFA98",
+    "name": "Women's Multicolour Jumpsuit",
+    "slug": "womens-multicolour-jumpsuit",
+    "description": "A wide-leg jumpsuit with mixed blue-green motifs and contrasting patterned panels. The short sleeves and simple neckline balance the bold print.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-jumpsuits",
+    "price": 50000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "076-1.webp",
+        "storage": "kaldoni/308b5afa98/993b116525ef1635.webp",
+        "id": "2f0389d9-5608-4728-af6b-d6d866dca0ea",
+        "alt": "Women's Multicolour Jumpsuit — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 77,
+    "sourceKey": "Kimono/adire kimono/adire-basket-kimono-black-lattice.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-basket-kimono-black-lattice.women.png"
+    ],
+    "hashes": [
+      "9373c42f5183d377cc03cd59663a0d569738558987c96e8e6292a3ab842a6b56"
+    ],
+    "prepared": [
+      "077-1.webp"
+    ],
+    "id": "3c9da29e-c33f-46ca-a0cd-255846f37f7d",
+    "legacy_id": "kaldoni:Kimono/adire kimono/adire-basket-kimono-black-lattice.women",
+    "sku": "AT-KAL-BED5524E69",
+    "name": "Black Lattice Adire Basket Kimono",
+    "slug": "black-lattice-adire-basket-kimono",
+    "description": "A black-and-white lattice-patterned kimono with bright accents along the trim. Layer the open-front silhouette over a simple top and trousers.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "077-1.webp",
+        "storage": "kaldoni/bed5524e69/9373c42f5183d377.webp",
+        "id": "5a972741-a5e4-4480-a1fb-eb259d052e28",
+        "alt": "Black Lattice Adire Basket Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 78,
+    "sourceKey": "Kimono/adire kimono/adire-teems-adire-kimono-blue.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-teems-adire-kimono-blue.women.png"
+    ],
+    "hashes": [
+      "a076e38081e594dded3c602873d995b1c52e1c02931241aa6ef2790e9efad63e"
+    ],
+    "prepared": [
+      "078-1.webp"
+    ],
+    "id": "4250aca1-7a2d-472a-ab4c-46f6c3f61b61",
+    "legacy_id": "kaldoni:Kimono/adire kimono/adire-teems-adire-kimono-blue.women",
+    "sku": "AT-KAL-4C29BCE8E0",
+    "name": "Blue Adire Kimono",
+    "slug": "blue-adire-kimono",
+    "description": "A blue Adire kimono with contrasting stripes and graphic white motifs. Wide sleeves and an open front make it a striking layering piece.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "078-1.webp",
+        "storage": "kaldoni/4c29bce8e0/a076e38081e594dd.webp",
+        "id": "f707fdc2-bbf6-4df0-a227-394e02483f4e",
+        "alt": "Blue Adire Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 79,
+    "sourceKey": "Kimono/adire kimono/adire-teems-adire-kimono-multicolour.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-teems-adire-kimono-multicolour.women.png"
+    ],
+    "hashes": [
+      "ec11c2a25d3b4eeba8dca89c08d2c40aa63ad9a5b3384312c54e6d7ba076fa03"
+    ],
+    "prepared": [
+      "079-1.webp"
+    ],
+    "id": "2860c78d-da4b-4928-aaf1-fcddd7cd2f80",
+    "legacy_id": "kaldoni:Kimono/adire kimono/adire-teems-adire-kimono-multicolour.women",
+    "sku": "AT-KAL-26D28DD324",
+    "name": "Multicolour Adire Kimono",
+    "slug": "multicolour-adire-kimono",
+    "description": "A patchwork-style arrangement of bold colours and patterns defines this Adire kimono. Its roomy sleeves and open front work well over understated separates.",
+    "fabric": "Adire",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "079-1.webp",
+        "storage": "kaldoni/26d28dd324/ec11c2a25d3b4eeb.webp",
+        "id": "bbdf36dc-0fb4-4b14-a5c9-1cc27503712d",
+        "alt": "Multicolour Adire Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 80,
+    "sourceKey": "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-brown",
+    "folder": "Kimono/akwete kimono/edited",
+    "files": [
+      "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-brown.png"
+    ],
+    "hashes": [
+      "2772d54e4673bf153a6651e86c834ec205eb2061427bac0cc0aeda77e675764d"
+    ],
+    "prepared": [
+      "080-1.webp"
+    ],
+    "id": "f2bfcb4e-132d-41cb-a903-3bcf18e969d0",
+    "legacy_id": "kaldoni:Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-brown",
+    "sku": "AT-KAL-C6FD62C06F",
+    "name": "Brown Akwete and Aso Oke Kimono",
+    "slug": "brown-akwete-and-aso-oke-kimono",
+    "description": "A brown kimono with colourful patterned panels through the front and sides. The wide sleeves and open silhouette showcase the contrasting Akwete and Aso Oke details.",
+    "fabric": "Akwete / Aso Oke",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "080-1.webp",
+        "storage": "kaldoni/c6fd62c06f/2772d54e4673bf15.webp",
+        "id": "c33c7c9a-88d9-43ee-a33d-0914ca47a429",
+        "alt": "Brown Akwete and Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 81,
+    "sourceKey": "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-purple",
+    "folder": "Kimono/akwete kimono/edited",
+    "files": [
+      "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-purple.png"
+    ],
+    "hashes": [
+      "e6ddba95fff032d1b1b40b99086c1c330a9270631e45d3ed383b2341efea4de9"
+    ],
+    "prepared": [
+      "081-1.webp"
+    ],
+    "id": "c596fb68-e920-4f58-adfa-117f65fccfda",
+    "legacy_id": "kaldoni:Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-purple",
+    "sku": "AT-KAL-638B6AA8D8",
+    "name": "Purple Akwete and Aso Oke Kimono",
+    "slug": "purple-akwete-and-aso-oke-kimono",
+    "description": "Purple accents frame monochrome patterned panels on this wide-sleeve kimono. The open front adds an easy layer of colour and texture to simple outfits.",
+    "fabric": "Akwete / Aso Oke",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "081-1.webp",
+        "storage": "kaldoni/638b6aa8d8/e6ddba95fff032d1.webp",
+        "id": "5f261bab-0f90-455a-ae28-cc46c9424601",
+        "alt": "Purple Akwete and Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 82,
+    "sourceKey": "Kimono/ankara kimono/ankara-asooke-kimono-green-pink",
+    "folder": "Kimono/ankara kimono",
+    "files": [
+      "Kimono/ankara kimono/ankara-asooke-kimono-green-pink.png"
+    ],
+    "hashes": [
+      "d2d1471373757174ffdc8e87354ec63a6ca4960e857a14ab2e1f5e57aa5fbf74"
+    ],
+    "prepared": [
+      "082-1.webp"
+    ],
+    "id": "57dfc6c7-36e4-4451-af65-928aaf44786d",
+    "legacy_id": "kaldoni:Kimono/ankara kimono/ankara-asooke-kimono-green-pink",
+    "sku": "AT-KAL-2542AA01AD",
+    "name": "Green and Pink Ankara Aso Oke Kimono",
+    "slug": "green-and-pink-ankara-aso-oke-kimono",
+    "description": "Bright green patterned panels meet bold pink borders on this open-front kimono. Its broad sleeves and contrasting trim create a cheerful statement layer.",
+    "fabric": "Ankara / Aso Oke",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "082-1.webp",
+        "storage": "kaldoni/2542aa01ad/d2d1471373757174.webp",
+        "id": "a3144321-e649-4565-a5c4-e7ade9889e86",
+        "alt": "Green and Pink Ankara Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 83,
+    "sourceKey": "Kimono/aso oke kimono/adire-teems-asooke-kimono-blue-fringe",
+    "folder": "Kimono/aso oke kimono",
+    "files": [
+      "Kimono/aso oke kimono/adire-teems-asooke-kimono-blue-fringe.png"
+    ],
+    "hashes": [
+      "71ce638dd7049baf3bcc0b1db9782dc252606edc08a6e7da9497b3d9ce0a144f"
+    ],
+    "prepared": [
+      "083-1.webp"
+    ],
+    "id": "7e6af922-0ccb-4d45-a577-bf644eb62880",
+    "legacy_id": "kaldoni:Kimono/aso oke kimono/adire-teems-asooke-kimono-blue-fringe",
+    "sku": "AT-KAL-8D0728EBB6",
+    "name": "Blue Fringe Aso Oke Kimono",
+    "slug": "blue-fringe-aso-oke-kimono",
+    "description": "A vivid blue Aso Oke kimono with textured stripes and fringe at the sleeves and hem. The long, open-front shape lets the fabric and fringe take the spotlight.",
+    "fabric": "Aso Oke",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "083-1.webp",
+        "storage": "kaldoni/8d0728ebb6/71ce638dd7049baf.webp",
+        "id": "566ed7ad-e717-45ac-aef2-63a51b217027",
+        "alt": "Blue Fringe Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 84,
+    "sourceKey": "Kimono/aso oke kimono/adire-teems-asooke-kimono-magenta",
+    "folder": "Kimono/aso oke kimono",
+    "files": [
+      "Kimono/aso oke kimono/adire-teems-asooke-kimono-magenta.png"
+    ],
+    "hashes": [
+      "7e12cfe664e708afc67f21808b2d98430f2f52acb4199a05228430c3a297a3ad"
+    ],
+    "prepared": [
+      "084-1.webp"
+    ],
+    "id": "c2c56828-9a2c-4375-a9a5-6f096fb5beb9",
+    "legacy_id": "kaldoni:Kimono/aso oke kimono/adire-teems-asooke-kimono-magenta",
+    "sku": "AT-KAL-64C3A03870",
+    "name": "Magenta Aso Oke Kimono",
+    "slug": "magenta-aso-oke-kimono",
+    "description": "Magenta striped panels form a clean, open-front kimono with wide short sleeves. Pair with a dark base for a simple outfit with a strong colour accent.",
+    "fabric": "Aso Oke",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "084-1.webp",
+        "storage": "kaldoni/64c3a03870/7e12cfe664e708af.webp",
+        "id": "c6e26415-1848-42b3-a467-89562cf132bb",
+        "alt": "Magenta Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 85,
+    "sourceKey": "Kimono/damask kimono/adire-teems-damask-multicolor-women",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/adire-teems-damask-multicolor-women.png"
+    ],
+    "hashes": [
+      "33ac6417327b33bcc5515c5adf26851a924506c9c11a1f68979c87c1f05243ec"
+    ],
+    "prepared": [
+      "085-1.webp"
+    ],
+    "id": "d5d4ca13-5a37-426d-a350-c39c23efc719",
+    "legacy_id": "kaldoni:Kimono/damask kimono/adire-teems-damask-multicolor-women",
+    "sku": "AT-KAL-98D1C6BA00",
+    "name": "Multicolour Damask Kimono",
+    "slug": "multicolour-damask-kimono",
+    "description": "A multicolour damask kimono with contrasting patchwork-style panels and a bold front border. The relaxed open shape brings texture and colour to layered outfits.",
+    "fabric": "Damask",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "085-1.webp",
+        "storage": "kaldoni/98d1c6ba00/33ac6417327b33bc.webp",
+        "id": "27ad4203-3e37-42e7-a36e-d06cf6024cc3",
+        "alt": "Multicolour Damask Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 86,
+    "sourceKey": "Kimono/damask kimono/damask-aso-oke-kimono-pink",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/damask-aso-oke-kimono-pink.png"
+    ],
+    "hashes": [
+      "ed847cc1e567f051fd6557cafc78a2c0a484d927a70bc7f09cc5b6483126fa0a"
+    ],
+    "prepared": [
+      "086-1.webp"
+    ],
+    "id": "d3c3807e-70c0-4ae8-a4e4-458b0d4dadfc",
+    "legacy_id": "kaldoni:Kimono/damask kimono/damask-aso-oke-kimono-pink",
+    "sku": "AT-KAL-E7E7AC77DF",
+    "name": "Pink Damask and Aso Oke Kimono",
+    "slug": "pink-damask-and-aso-oke-kimono",
+    "description": "Pink-and-gold patterned panels are edged with bold striped borders on this kimono. Its wide sleeves and open front create an expressive occasion-ready layer.",
+    "fabric": "Damask",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "086-1.webp",
+        "storage": "kaldoni/e7e7ac77df/ed847cc1e567f051.webp",
+        "id": "59fb2df1-e93a-47cf-a46d-c7d5543f9a2f",
+        "alt": "Pink Damask and Aso Oke Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 87,
+    "sourceKey": "Kimono/damask kimono/damask-kimono-blue",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/damask-kimono-blue.png"
+    ],
+    "hashes": [
+      "4e0ac45adb94b564316e0f8e118b244ad93d0d7e85c78ad94396be2b1d6ab79c"
+    ],
+    "prepared": [
+      "087-1.webp"
+    ],
+    "id": "5994d305-5ba7-4f9f-afaa-fe136b41cd7a",
+    "legacy_id": "kaldoni:Kimono/damask kimono/damask-kimono-blue",
+    "sku": "AT-KAL-2D21C27CC1",
+    "name": "Blue Damask Kimono",
+    "slug": "blue-damask-kimono",
+    "description": "Rich blue damask panels meet contrasting purple-and-gold striped borders. A wide-sleeve, open-front silhouette keeps the focus on the textured colour combination.",
+    "fabric": "Damask",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "087-1.webp",
+        "storage": "kaldoni/2d21c27cc1/4e0ac45adb94b564.webp",
+        "id": "5ebd9ba7-40f2-40f4-a2d1-6dfb7d9581ae",
+        "alt": "Blue Damask Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 88,
+    "sourceKey": "Kimono/linen kimono/linen-kimono-blue-women-adire-teems",
+    "folder": "Kimono/linen kimono",
+    "files": [
+      "Kimono/linen kimono/linen-kimono-blue-women-adire-teems.png"
+    ],
+    "hashes": [
+      "8254b6adb2cfa552e5a6c71f176e2319c0a4f38792dc99280dd98d48e337199d"
+    ],
+    "prepared": [
+      "088-1.webp"
+    ],
+    "id": "bcd392e2-2a13-47d2-ae56-6c2fa4219d5f",
+    "legacy_id": "kaldoni:Kimono/linen kimono/linen-kimono-blue-women-adire-teems",
+    "sku": "AT-KAL-9DE7A9F61E",
+    "name": "Blue Linen Kimono",
+    "slug": "blue-linen-kimono",
+    "description": "A tonal blue linen kimono with contrasting patterned panels and a long open front. Layer it over dark separates for a coordinated, understated look.",
+    "fabric": "Linen",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "088-1.webp",
+        "storage": "kaldoni/9de7a9f61e/8254b6adb2cfa552.webp",
+        "id": "80b7955f-6fe0-40c4-a5f6-ae616c82f0f5",
+        "alt": "Blue Linen Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 89,
+    "sourceKey": "Kimono/micado kimono/mikado-black-kimono-women",
+    "folder": "Kimono/micado kimono",
+    "files": [
+      "Kimono/micado kimono/mikado-black-kimono-women.png"
+    ],
+    "hashes": [
+      "81c383d814ac28c79ef973ccad5347cf526ef7eb73f893b789eba2c26af542c3"
+    ],
+    "prepared": [
+      "089-1.webp"
+    ],
+    "id": "8f5d4d97-1eb6-4bc4-a388-579c9f54872d",
+    "legacy_id": "kaldoni:Kimono/micado kimono/mikado-black-kimono-women",
+    "sku": "AT-KAL-4EB3CABF87",
+    "name": "Black Mikado Kimono",
+    "slug": "black-mikado-kimono",
+    "description": "A black Mikado kimono with red floral motifs and bold red front and sleeve accents. The long silhouette makes a striking layer over simple separates.",
+    "fabric": "Mikado",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "089-1.webp",
+        "storage": "kaldoni/4eb3cabf87/81c383d814ac28c7.webp",
+        "id": "22e7a529-0382-4b8f-a1e4-4a844bfb020d",
+        "alt": "Black Mikado Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 90,
+    "sourceKey": "Kimono/micado kimono/mikado-kimono-green-adire-teems",
+    "folder": "Kimono/micado kimono",
+    "files": [
+      "Kimono/micado kimono/mikado-kimono-green-adire-teems.png"
+    ],
+    "hashes": [
+      "103a5f9ac313c06148cfd4ed38d0efd7fe1b1dd0cbddc417182789e5b9e37fa8"
+    ],
+    "prepared": [
+      "090-1.webp"
+    ],
+    "id": "c09178d4-5cdb-4c60-a4fa-ba65cbbb6f21",
+    "legacy_id": "kaldoni:Kimono/micado kimono/mikado-kimono-green-adire-teems",
+    "sku": "AT-KAL-BC7CC4FBCF",
+    "name": "Green Mikado Kimono",
+    "slug": "green-mikado-kimono",
+    "description": "A green Mikado kimono with tonal patterning and an open-front shape. Its loose sleeves and long line create an elegant layer with a rich colour finish.",
+    "fabric": "Mikado",
+    "department": "women",
+    "category": "women-kimono",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Jacket",
+    "style": "Kimono",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "piece",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "090-1.webp",
+        "storage": "kaldoni/bc7cc4fbcf/103a5f9ac313c061.webp",
+        "id": "73c3a7bd-f334-40fd-a25f-33864bbbd1cc",
+        "alt": "Green Mikado Kimono — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 91,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-face-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-face-men.jpg.png"
+    ],
+    "hashes": [
+      "7cbc21a8b785fd75407a98c55b3156a2e33ce586ffd41523fe230588665718eb"
+    ],
+    "prepared": [
+      "091-1.webp"
+    ],
+    "id": "5b9817af-e6e9-45f1-abf3-ffaf2a996e30",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-beige-face-men",
+    "sku": "AT-KAL-5177BCCFFD",
+    "name": "Men's Beige Face-Print Two-Piece Set",
+    "slug": "mens-beige-face-print-two-piece-set",
+    "description": "A beige two-piece set featuring a jacket-style top with bold face-inspired panels and red accents. Coordinating trousers complete the graphic, head-to-toe look.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "091-1.webp",
+        "storage": "kaldoni/5177bccffd/7cbc21a8b785fd75.webp",
+        "id": "35de2c34-b9b1-4420-a8ae-a74b4cad480d",
+        "alt": "Men's Beige Face-Print Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 92,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-men.jpg.png"
+    ],
+    "hashes": [
+      "30a6894c9d7d95659158d7a5198f0cd6b813da9e8dd5732eaa040b96317f58a4"
+    ],
+    "prepared": [
+      "092-1.webp"
+    ],
+    "id": "3bec108c-22a1-43c9-ab43-8c2252894bc5",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-beige-men",
+    "sku": "AT-KAL-1BB703DE8B",
+    "name": "Men's Beige Two-Piece Set",
+    "slug": "mens-beige-two-piece-set",
+    "description": "A beige long-sleeve tunic and trouser set with contrasting striped detailing at the chest. The clean lines make this an easy coordinated outfit.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "092-1.webp",
+        "storage": "kaldoni/1bb703de8b/30a6894c9d7d9565.webp",
+        "id": "b777c9b0-6431-4258-a7a8-389fec715b95",
+        "alt": "Men's Beige Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 93,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-vneck.men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-vneck.men.jpg.png"
+    ],
+    "hashes": [
+      "c71e5e1355c6f9d6d90b2d7b3e13ce246391a77260e18ecc952a8f9cf2ea69d1"
+    ],
+    "prepared": [
+      "093-1.webp"
+    ],
+    "id": "1e36b8e0-5e1c-4df0-aa33-b0df404a6b37",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-beige-vneck.men",
+    "sku": "AT-KAL-9E572AC7F8",
+    "name": "Men's Beige V-Neck Two-Piece Set",
+    "slug": "mens-beige-v-neck-two-piece-set",
+    "description": "A beige two-piece set with a contrasting V-neck trim and matching trousers. The long-sleeve top keeps the silhouette simple and composed.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "093-1.webp",
+        "storage": "kaldoni/9e572ac7f8/c71e5e1355c6f9d6.webp",
+        "id": "8da11cd4-6c84-47a3-ae2c-bbf085711a69",
+        "alt": "Men's Beige V-Neck Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 94,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-green-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-green-men.jpg.png"
+    ],
+    "hashes": [
+      "a924506766bcf6fea8b16a4f614bae86a138a790d60ba070c974f2184cf0140a"
+    ],
+    "prepared": [
+      "094-1.webp"
+    ],
+    "id": "d8e785c0-d18e-420a-a23f-431b8edbc714",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-green-men",
+    "sku": "AT-KAL-3F4885F1A1",
+    "name": "Men's Green Two-Piece Set",
+    "slug": "mens-green-two-piece-set",
+    "description": "A green patterned short-sleeve shirt and trouser set with contrasting dark collar details. The coordinated print gives this outfit a confident, expressive finish.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "094-1.webp",
+        "storage": "kaldoni/3f4885f1a1/a924506766bcf6fe.webp",
+        "id": "c501ae22-e83f-47f2-af74-5b02b59363ee",
+        "alt": "Men's Green Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 95,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-green-yellow-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-green-yellow-men.jpg.png"
+    ],
+    "hashes": [
+      "214fbf0a9e13b878a2bc09a5053ac12bc5282f3d7bf847697ea0960f474a51f9"
+    ],
+    "prepared": [
+      "095-1.webp"
+    ],
+    "id": "23331d0d-08ba-4a3e-ac86-1fdc28ebc0c3",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-green-yellow-men",
+    "sku": "AT-KAL-B995C375A7",
+    "name": "Men's Green and Yellow Two-Piece Set",
+    "slug": "mens-green-and-yellow-two-piece-set",
+    "description": "Green-and-yellow patchwork-style patterning runs across a short-sleeve shirt and matching trousers. Wear the set together for a bold colour statement.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "095-1.webp",
+        "storage": "kaldoni/b995c375a7/214fbf0a9e13b878.webp",
+        "id": "3005742f-c319-4400-a68c-a1979949d724",
+        "alt": "Men's Green and Yellow Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 96,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-grey-print-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-grey-print-men.jpg.png"
+    ],
+    "hashes": [
+      "a1ac757aee65ac2c263a05b4fbae59be02343533715521718d3a5a27fb94951c"
+    ],
+    "prepared": [
+      "096-1.webp"
+    ],
+    "id": "645b862a-49db-476d-a984-b2fc4d5cf093",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-grey-print-men",
+    "sku": "AT-KAL-275CE0BF14",
+    "name": "Men's Grey Print Two-Piece Set",
+    "slug": "mens-grey-print-two-piece-set",
+    "description": "A grey long-sleeve top with patterned chest accents is paired with boldly printed trousers. The mix of plain and patterned sections gives the set a distinctive balance.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "096-1.webp",
+        "storage": "kaldoni/275ce0bf14/a1ac757aee65ac2c.webp",
+        "id": "8ecbabc5-1b9a-4598-a44d-09b82edd99d3",
+        "alt": "Men's Grey Print Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 97,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-purple-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-purple-men.jpg.png"
+    ],
+    "hashes": [
+      "49e0a7a4b523d58eff31c910ae7c314d61d0d9dad535f4cb485dcaed47670af5"
+    ],
+    "prepared": [
+      "097-1.webp"
+    ],
+    "id": "0841055b-10ec-4688-a4db-8c12b965e1b3",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-purple-men",
+    "sku": "AT-KAL-A1F9F0EDA5",
+    "name": "Men's Purple Two-Piece Set",
+    "slug": "mens-purple-two-piece-set",
+    "description": "A purple short-sleeve top and matching trousers create a clean monochrome outfit. Subtle front detailing adds interest while keeping the colour in focus.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "097-1.webp",
+        "storage": "kaldoni/a1f9f0eda5/49e0a7a4b523d58e.webp",
+        "id": "2dbabdaf-f9d0-4839-a967-a62ed1ad5366",
+        "alt": "Men's Purple Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 98,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-teal-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-teal-men.jpg.png"
+    ],
+    "hashes": [
+      "0f7bdaf1b93db32762cbf88ada85bc4b740f3f46f7e3adc1cf84c75569e9ac88"
+    ],
+    "prepared": [
+      "098-1.webp"
+    ],
+    "id": "3f4890c3-4e4b-4933-a06d-d736dc2d7419",
+    "legacy_id": "kaldoni:Male 2 piece/adire-teems-2-piece-teal-men",
+    "sku": "AT-KAL-705B0898FE",
+    "name": "Men's Teal Two-Piece Set",
+    "slug": "mens-teal-two-piece-set",
+    "description": "A teal short-sleeve shirt and trouser set with oversized pale motifs. The coordinated pattern makes a lively, confident head-to-toe look.",
+    "fabric": "Adire",
+    "department": "men",
+    "category": "men-two-piece",
+    "price": 60000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "Men’s Adire 2 piece",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "098-1.webp",
+        "storage": "kaldoni/705b0898fe/0f7bdaf1b93db327.webp",
+        "id": "e95ded79-8b86-4192-ab4c-69d1a064037a",
+        "alt": "Men's Teal Two-Piece Set — front view",
+        "sort_order": 0
+      }
+    ]
+  },
+  {
+    "index": 99,
+    "sourceKey": "Womens 2 piece/adire-teems-chiffon-2-piece-set-green",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-chiffon-2-piece-set-green.jpg.png",
+      "Womens 2 piece/adire-teems-chiffon-2-piece-set-green-side.jpg.png"
+    ],
+    "hashes": [
+      "7f260787dd54dccfcf78feae8d1c75bd724737de61a5d273ed9a70721580b63b",
+      "06902d87f69fe00b0e6c700ee42705b6366172fc387cfa71d2e6ffd316552578"
+    ],
+    "prepared": [
+      "099-1.webp",
+      "099-2.webp"
+    ],
+    "id": "b258cc1c-17df-4085-a19b-851fedb18ce5",
+    "legacy_id": "kaldoni:Womens 2 piece/adire-teems-chiffon-2-piece-set-green",
+    "sku": "AT-KAL-5A57732BD6",
+    "name": "Women's Green Chiffon Two-Piece Set",
+    "slug": "womens-green-chiffon-two-piece-set",
+    "description": "A green patterned chiffon top and wide-leg trouser set with contrasting dark and pale motifs. The flowing shapes create a coordinated outfit with plenty of movement.",
+    "fabric": "Chiffon",
+    "department": "women",
+    "category": "women-two-piece",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "099-1.webp",
+        "storage": "kaldoni/5a57732bd6/7f260787dd54dccf.webp",
+        "id": "d588ce52-e0d3-4464-a971-0fde8efb3be1",
+        "alt": "Women's Green Chiffon Two-Piece Set — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "099-2.webp",
+        "storage": "kaldoni/5a57732bd6/06902d87f69fe00b.webp",
+        "id": "2ac8a41b-4f52-47ca-aac9-1f45f3b1a2b4",
+        "alt": "Women's Green Chiffon Two-Piece Set — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 100,
+    "sourceKey": "Womens 2 piece/adire-teems-cotton-2-piece-mustard",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-cotton-2-piece-mustard.jpg.png",
+      "Womens 2 piece/adire-teems-cotton-2-piece-mustard-side.jpg.png"
+    ],
+    "hashes": [
+      "d950b1d5115cefc061db3af05c1f58976e7acd5d076417f7b44ad44c1ad83d3a",
+      "3d71cccfebb933c28d792fe7a98236a55df430da5e0dc6c1a590a3042c6dfc64"
+    ],
+    "prepared": [
+      "100-1.webp",
+      "100-2.webp"
+    ],
+    "id": "33523163-b759-493a-a738-5913fb13bf07",
+    "legacy_id": "kaldoni:Womens 2 piece/adire-teems-cotton-2-piece-mustard",
+    "sku": "AT-KAL-48D795ACE9",
+    "name": "Women's Mustard Cotton Two-Piece Set",
+    "slug": "womens-mustard-cotton-two-piece-set",
+    "description": "A mustard cotton two-piece set with bold contrasting floral and abstract panels. Its relaxed top and wide-leg trousers create an expressive coordinated look.",
+    "fabric": "Cotton",
+    "department": "women",
+    "category": "women-two-piece",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "100-1.webp",
+        "storage": "kaldoni/48d795ace9/d950b1d5115cefc0.webp",
+        "id": "3a45fe16-3e6c-4145-a70c-565521b2b1c1",
+        "alt": "Women's Mustard Cotton Two-Piece Set — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "100-2.webp",
+        "storage": "kaldoni/48d795ace9/3d71cccfebb933c2.webp",
+        "id": "93fc6064-3672-4ee8-a226-3ae8527d8133",
+        "alt": "Women's Mustard Cotton Two-Piece Set — alternate view",
+        "sort_order": 1
+      }
+    ]
+  },
+  {
+    "index": 101,
+    "sourceKey": "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set-front.jpg.png",
+      "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set-sidejpg.png"
+    ],
+    "hashes": [
+      "05b1c8421eaf758dbb06f6201ab01b8e29af67a73bb98d3f03f1aa998097c128",
+      "49b8a2aec31cc05b504f95ac368f352ae0a65a9f8a100d6d2ab5fc64f6c2e902"
+    ],
+    "prepared": [
+      "101-1.webp",
+      "101-2.webp"
+    ],
+    "id": "49069bd2-39ee-4f6f-a3ec-fa273bda5a4e",
+    "legacy_id": "kaldoni:Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set",
+    "sku": "AT-KAL-984E6B03E9",
+    "name": "Women's Maroon Soft Cotton Two-Piece Set",
+    "slug": "womens-maroon-soft-cotton-two-piece-set",
+    "description": "A maroon soft cotton top and wide-leg trouser set with an all-over small-scale print. The loose top and gathered waist create a relaxed, flowing outline.",
+    "fabric": "Cotton",
+    "department": "women",
+    "category": "women-two-piece",
+    "price": 55000,
+    "currency": "NGN",
+    "status": "published",
+    "styleGroup": "Sets",
+    "style": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "unit": "set",
+    "demoStockPerSize": 5,
+    "images": [
+      {
+        "local": "101-1.webp",
+        "storage": "kaldoni/984e6b03e9/05b1c8421eaf758d.webp",
+        "id": "43aa22d4-a217-4cd4-aca3-d5479de20243",
+        "alt": "Women's Maroon Soft Cotton Two-Piece Set — front view",
+        "sort_order": 0
+      },
+      {
+        "local": "101-2.webp",
+        "storage": "kaldoni/984e6b03e9/49b8a2aec31cc05b.webp",
+        "id": "e6ad8514-8162-4065-a1c1-3f3b8310e180",
+        "alt": "Women's Maroon Soft Cotton Two-Piece Set — alternate view",
+        "sort_order": 1
+      }
+    ]
+  }
+]

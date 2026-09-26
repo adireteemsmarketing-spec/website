@@ -1,0 +1,1446 @@
+[
+  {
+    "index": 1,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-blue",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-blue.png"
+    ],
+    "hashes": [
+      "96282d7f117eb374b0217798ebbddfb06e2fe24fcfa774ffb0532f38afb7f3ec"
+    ],
+    "prepared": [
+      "001-1.webp"
+    ]
+  },
+  {
+    "index": 2,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-cream-patch",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-cream-patch.png"
+    ],
+    "hashes": [
+      "973a86fbfea4d307e6ba45d290cf80b1945d46ffa4db63efa0d3d2c42076f2ee"
+    ],
+    "prepared": [
+      "002-1.webp"
+    ]
+  },
+  {
+    "index": 3,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-green",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-green.png"
+    ],
+    "hashes": [
+      "582b16aa6444227446fda81fa1bbff670c3be44a38d8947ef77b6652a63f654d"
+    ],
+    "prepared": [
+      "003-1.webp"
+    ]
+  },
+  {
+    "index": 4,
+    "sourceKey": "Aso oke tshirt/adire-teems-tshirt-orange-patch",
+    "folder": "Aso oke tshirt",
+    "files": [
+      "Aso oke tshirt/adire-teems-tshirt-orange-patch.png"
+    ],
+    "hashes": [
+      "494eb9762fc44b3ec20ac635cf418552e18a2e309c7a9184fd371376542977bb"
+    ],
+    "prepared": [
+      "004-1.webp"
+    ]
+  },
+  {
+    "index": 5,
+    "sourceKey": "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue",
+    "folder": "Bubu gown/Adire bubu",
+    "files": [
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue-front.png",
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-blue-side.png"
+    ],
+    "hashes": [
+      "2fb41b96d025ebd02601915c60b7a4a246df1a553ee6664f76b65c666078b4b3",
+      "58c1f7d8a7cd22a8511257055517ba1f6af4c54d15cbe55cadb0b196bb7ff4e9"
+    ],
+    "prepared": [
+      "005-1.webp",
+      "005-2.webp"
+    ]
+  },
+  {
+    "index": 6,
+    "sourceKey": "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple",
+    "folder": "Bubu gown/Adire bubu",
+    "files": [
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple.front.png",
+      "Bubu gown/Adire bubu/adire-teems-adire-bubu-purple-side.png"
+    ],
+    "hashes": [
+      "31044e021e6dfcb5748e022519976d68b198fa28af041510cba6cd6ec60950eb",
+      "37d469c48821529d2448b232edf300f9bb81816cdd2016229eabb5a54c445255"
+    ],
+    "prepared": [
+      "006-1.webp",
+      "006-2.webp"
+    ]
+  },
+  {
+    "index": 7,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-bubu-orange-zip",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-bubu-orange-zip.png"
+    ],
+    "hashes": [
+      "37862892a0480839fa352bf20725ac197274cf7da17034dec9abddd2fceaa325"
+    ],
+    "prepared": [
+      "007-1.webp"
+    ]
+  },
+  {
+    "index": 8,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue-abstract",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue-abstract.png"
+    ],
+    "hashes": [
+      "eab8e777839c647fdba997b251d31e9213ae1365580c1089cbf7144a1f3913d6"
+    ],
+    "prepared": [
+      "008-1.webp"
+    ]
+  },
+  {
+    "index": 9,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-blue.png"
+    ],
+    "hashes": [
+      "4ece202b0ddf96733ecdcd4b510fd3105ad078664840a3a7c0ed9508a547f12a"
+    ],
+    "prepared": [
+      "009-1.webp"
+    ]
+  },
+  {
+    "index": 10,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-burgundy",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-burgundy.png"
+    ],
+    "hashes": [
+      "d5e08c61a67061ce2ec8906e9e51fb5673daf1ef5a45663d3e052cbceda2539c"
+    ],
+    "prepared": [
+      "010-1.webp"
+    ]
+  },
+  {
+    "index": 11,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-grey",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-grey.png"
+    ],
+    "hashes": [
+      "7d8036897121075a2db734f522c32b217dd6ce8951bb5e5e06913851131002e6"
+    ],
+    "prepared": [
+      "011-1.webp"
+    ]
+  },
+  {
+    "index": 12,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour-pink",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour-pink.png"
+    ],
+    "hashes": [
+      "8e881c2148cf349c6c7d3f91a869dbef8fdf312a24a919e75ef8df2ecb2f733d"
+    ],
+    "prepared": [
+      "012-1.webp"
+    ]
+  },
+  {
+    "index": 13,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-multicolour.png"
+    ],
+    "hashes": [
+      "f75abb187867f8417cd1daf4c753e95c74b4327e09427de8fcf47156b075b5ec"
+    ],
+    "prepared": [
+      "013-1.webp"
+    ]
+  },
+  {
+    "index": 14,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-mustard",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-mustard.png"
+    ],
+    "hashes": [
+      "8096d1e45666011fc028f285e7b54b844d4a6407d287f27570e96e0f19fdc7be"
+    ],
+    "prepared": [
+      "014-1.webp"
+    ]
+  },
+  {
+    "index": 15,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange-leaf",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange-leaf.png"
+    ],
+    "hashes": [
+      "a92e73d6171753c328772a148f2676eef538fa83b2ca5f7dc040e87a1f48b342"
+    ],
+    "prepared": [
+      "015-1.webp"
+    ]
+  },
+  {
+    "index": 16,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-orange.png"
+    ],
+    "hashes": [
+      "66a4b0e813d1eeb40f0fc39f48e0d7194bb7da85597258d7df8b7c0541056292"
+    ],
+    "prepared": [
+      "016-1.webp"
+    ]
+  },
+  {
+    "index": 17,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-floral",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-floral.png"
+    ],
+    "hashes": [
+      "9ecb65046566c4b2d0880292b438045198d904ec3485f93fe3cd8b0af87b7276"
+    ],
+    "prepared": [
+      "017-1.webp"
+    ]
+  },
+  {
+    "index": 18,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-gold",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-purple-gold.png"
+    ],
+    "hashes": [
+      "e13abae619ec8a310b8537e938563547cf0aabb9b9a17b36457118b5b1337e8a"
+    ],
+    "prepared": [
+      "018-1.webp"
+    ]
+  },
+  {
+    "index": 19,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red-yellow",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red-yellow.png"
+    ],
+    "hashes": [
+      "d665532b521a23228d97b5d4037d22e2687cf32322ca8a71630cbdeb5f2b2027"
+    ],
+    "prepared": [
+      "019-1.webp"
+    ]
+  },
+  {
+    "index": 20,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-red.png"
+    ],
+    "hashes": [
+      "be5943f34cd68497e3fefd95bff2d55c22ced34fc4c201e1a460af789aa74a9e"
+    ],
+    "prepared": [
+      "020-1.webp"
+    ]
+  },
+  {
+    "index": 21,
+    "sourceKey": "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-yellow",
+    "folder": "Bubu gown/chiffon bubu",
+    "files": [
+      "Bubu gown/chiffon bubu/adire-teems-chiffon-bubu-yellow.png"
+    ],
+    "hashes": [
+      "02a40c067c77bc9afc50a4fb0d9371fb9b92829b2ee46545be7088000240f9e8"
+    ],
+    "prepared": [
+      "021-1.webp"
+    ]
+  },
+  {
+    "index": 22,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-green",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-green.png"
+    ],
+    "hashes": [
+      "1dd6c49d202e6d58494a7c390766fc8ece1d8c05651a63cbf9126b55dbcfabba"
+    ],
+    "prepared": [
+      "022-1.webp"
+    ]
+  },
+  {
+    "index": 23,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-multicolour",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-multicolour.png"
+    ],
+    "hashes": [
+      "82ee1b3cd8eea0829d4a4011c7a76688c31a51026d9b6b489555ebce2360c02c"
+    ],
+    "prepared": [
+      "023-1.webp"
+    ]
+  },
+  {
+    "index": 24,
+    "sourceKey": "Childrens wear/adire-teems-kids-adire-dress-navy-pink",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-adire-dress-navy-pink.jpg.png"
+    ],
+    "hashes": [
+      "a88e16268e8d91767b8eb02cc169a20ca735d63ca557a4e741bff4a4730200b4"
+    ],
+    "prepared": [
+      "024-1.webp"
+    ]
+  },
+  {
+    "index": 25,
+    "sourceKey": "Childrens wear/adire-teems-kids-dress-blue-bow",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/adire-teems-kids-dress-blue-bow.png"
+    ],
+    "hashes": [
+      "a2b77d783e2e5d4d9263f8da7b119eb8184c6493736d2f32a2abe73def807af0"
+    ],
+    "prepared": [
+      "025-1.webp"
+    ]
+  },
+  {
+    "index": 26,
+    "sourceKey": "Childrens wear/kids-adire-dress-blue-stripe",
+    "folder": "Childrens wear",
+    "files": [
+      "Childrens wear/kids-adire-dress-blue-stripe.png"
+    ],
+    "hashes": [
+      "f0d9287813c63f6e3eea2756d5cd9cf0d3018c8ce7e8b88739109c7f29e34c23"
+    ],
+    "prepared": [
+      "026-1.webp"
+    ]
+  },
+  {
+    "index": 27,
+    "sourceKey": "Fabrics/adire fabrics/1",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/1.png"
+    ],
+    "hashes": [
+      "fd225b5fc41a0d6e232ff45a57102c066a3cecde975a450be71e640a84e47861"
+    ],
+    "prepared": [
+      "027-1.webp"
+    ]
+  },
+  {
+    "index": 28,
+    "sourceKey": "Fabrics/adire fabrics/10",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/10.png"
+    ],
+    "hashes": [
+      "3b516e0320681884f7200c270cc82c4127e42b610d04306c5b46fe7054d4ccd4"
+    ],
+    "prepared": [
+      "028-1.webp"
+    ]
+  },
+  {
+    "index": 29,
+    "sourceKey": "Fabrics/adire fabrics/11",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/11.png"
+    ],
+    "hashes": [
+      "1022a11fa631dd8b68a4093681f0f5a6d43e6275d2fc944e693fc2bc22f4cfd7"
+    ],
+    "prepared": [
+      "029-1.webp"
+    ]
+  },
+  {
+    "index": 30,
+    "sourceKey": "Fabrics/adire fabrics/12",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/12.png"
+    ],
+    "hashes": [
+      "1778adf2fb7d5f30355a232df3638b072e2b6faaf92fc8ef22b966b337ab8b42"
+    ],
+    "prepared": [
+      "030-1.webp"
+    ]
+  },
+  {
+    "index": 31,
+    "sourceKey": "Fabrics/adire fabrics/13",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/13.png"
+    ],
+    "hashes": [
+      "272902ed68d8999828b774a7c4d3b36105b7fbbe8aa6ddb3d0b222b78f3db937"
+    ],
+    "prepared": [
+      "031-1.webp"
+    ]
+  },
+  {
+    "index": 32,
+    "sourceKey": "Fabrics/adire fabrics/14",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/14.png"
+    ],
+    "hashes": [
+      "efe8fa9461e7b9b800cba9d2575bcce65530a01ffa9431ee6e02b15452df54e2"
+    ],
+    "prepared": [
+      "032-1.webp"
+    ]
+  },
+  {
+    "index": 33,
+    "sourceKey": "Fabrics/adire fabrics/15",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/15.png"
+    ],
+    "hashes": [
+      "3afe77d1254315a10b34c46c89037023235511982bcf6d449040874c6e2ed8a1"
+    ],
+    "prepared": [
+      "033-1.webp"
+    ]
+  },
+  {
+    "index": 34,
+    "sourceKey": "Fabrics/adire fabrics/16",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/16.png"
+    ],
+    "hashes": [
+      "b1332e6ff4908251ca537e9c64299156d85d7748a45a530113517895973854ba"
+    ],
+    "prepared": [
+      "034-1.webp"
+    ]
+  },
+  {
+    "index": 35,
+    "sourceKey": "Fabrics/adire fabrics/17",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/17.png"
+    ],
+    "hashes": [
+      "272a37cb2e6df89901beb0f4b0a95bec4514860121a0b4859a85bc3e467435cf"
+    ],
+    "prepared": [
+      "035-1.webp"
+    ]
+  },
+  {
+    "index": 36,
+    "sourceKey": "Fabrics/adire fabrics/18",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/18.png"
+    ],
+    "hashes": [
+      "d1feb25429a30558f8df2bfd9d99d420b5721d2238ab1b9ca5a69b96ab79dd93"
+    ],
+    "prepared": [
+      "036-1.webp"
+    ]
+  },
+  {
+    "index": 37,
+    "sourceKey": "Fabrics/adire fabrics/19",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/19.png"
+    ],
+    "hashes": [
+      "d18609e35691f008152524ea9049e15b50fb42ff7b284f5811a5c534b9272fdf"
+    ],
+    "prepared": [
+      "037-1.webp"
+    ]
+  },
+  {
+    "index": 38,
+    "sourceKey": "Fabrics/adire fabrics/2",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/2.png"
+    ],
+    "hashes": [
+      "f60d7c22bb68e059dbde40c1fdb2485fa9898b4db71682f579265f693ddf81c7"
+    ],
+    "prepared": [
+      "038-1.webp"
+    ]
+  },
+  {
+    "index": 39,
+    "sourceKey": "Fabrics/adire fabrics/20",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/20.png"
+    ],
+    "hashes": [
+      "e7ec4506a868c19b49cd63fe4b10dbe684bae6beeb558a5451d011ac38271a60"
+    ],
+    "prepared": [
+      "039-1.webp"
+    ]
+  },
+  {
+    "index": 40,
+    "sourceKey": "Fabrics/adire fabrics/3",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/3.png"
+    ],
+    "hashes": [
+      "9c3d718089fa9880f779acc06bbbc65ed1066a8c3d952e4b6f0ed5e32fa0d190"
+    ],
+    "prepared": [
+      "040-1.webp"
+    ]
+  },
+  {
+    "index": 41,
+    "sourceKey": "Fabrics/adire fabrics/4",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/4.png"
+    ],
+    "hashes": [
+      "da6046e8897322433c83b6c3ae0535e76ee578b90cb39fda01d56a74f3ca46c0"
+    ],
+    "prepared": [
+      "041-1.webp"
+    ]
+  },
+  {
+    "index": 42,
+    "sourceKey": "Fabrics/adire fabrics/5",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/5.png"
+    ],
+    "hashes": [
+      "4d2518fe38a30ad087220e2b201edc3ff874ba200b6f5a5b7536dec06d723092"
+    ],
+    "prepared": [
+      "042-1.webp"
+    ]
+  },
+  {
+    "index": 43,
+    "sourceKey": "Fabrics/adire fabrics/6",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/6.png"
+    ],
+    "hashes": [
+      "5b8b04689ab2e401c7faa6858d9a8769236a6adefe4fd7c16e0283e920666fbe"
+    ],
+    "prepared": [
+      "043-1.webp"
+    ]
+  },
+  {
+    "index": 44,
+    "sourceKey": "Fabrics/adire fabrics/7",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/7.png"
+    ],
+    "hashes": [
+      "5dc2b9df321b580a285e0a3a3521c15d900963743613db7119c3bcb4490bbcfc"
+    ],
+    "prepared": [
+      "044-1.webp"
+    ]
+  },
+  {
+    "index": 45,
+    "sourceKey": "Fabrics/adire fabrics/8",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/8.png"
+    ],
+    "hashes": [
+      "007e9015d7fa3899fbc4679de48661e009567f9021e312950cdf78c4e79f6108"
+    ],
+    "prepared": [
+      "045-1.webp"
+    ]
+  },
+  {
+    "index": 46,
+    "sourceKey": "Fabrics/adire fabrics/9",
+    "folder": "Fabrics/adire fabrics",
+    "files": [
+      "Fabrics/adire fabrics/9.png"
+    ],
+    "hashes": [
+      "46dc33836d949333d1077ec9cc17547a0be77a3dd35ea8981494cc64e9ed01c0"
+    ],
+    "prepared": [
+      "046-1.webp"
+    ]
+  },
+  {
+    "index": 47,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3241",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3241.HEIC"
+    ],
+    "hashes": [
+      "748c7a40d52f9addbd1f8111d0e5a420a8e83ee4664c5a0b9df8da5a08de091e"
+    ],
+    "prepared": [
+      "047-1.webp"
+    ]
+  },
+  {
+    "index": 48,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3242",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3242.HEIC"
+    ],
+    "hashes": [
+      "d44a5f1cc191181e1f20572d0e0f33bf1b44cc351a450e2f4df198780a494da9"
+    ],
+    "prepared": [
+      "048-1.webp"
+    ]
+  },
+  {
+    "index": 49,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3243",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3243.HEIC"
+    ],
+    "hashes": [
+      "42690acab452c4e578016fbabe0bac8ebee5d5998ebc6b3ad7cd5881d4581863"
+    ],
+    "prepared": [
+      "049-1.webp"
+    ]
+  },
+  {
+    "index": 50,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3244",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3244.HEIC"
+    ],
+    "hashes": [
+      "b691aeb632bf547ade8f29cb49ae02f202265b3e183ded0d37421a42a6a49c5e"
+    ],
+    "prepared": [
+      "050-1.webp"
+    ]
+  },
+  {
+    "index": 51,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3246",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3246.HEIC"
+    ],
+    "hashes": [
+      "9ff2133cfcd44344b3a63e6729f9e4865a2ff9bd68550e9047e7d82d76ad2dc2"
+    ],
+    "prepared": [
+      "051-1.webp"
+    ]
+  },
+  {
+    "index": 52,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3247",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3247.HEIC"
+    ],
+    "hashes": [
+      "e9993f248aab21ad436890242832ca4a3d2edaac7b4b33d60bc2e82d8a9f0275"
+    ],
+    "prepared": [
+      "052-1.webp"
+    ]
+  },
+  {
+    "index": 53,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3248",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3248.HEIC"
+    ],
+    "hashes": [
+      "29fdba47a19ee238dd4e2df402bade238acd910b56778a73f71bd77581cd9913"
+    ],
+    "prepared": [
+      "053-1.webp"
+    ]
+  },
+  {
+    "index": 54,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3249",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3249.HEIC"
+    ],
+    "hashes": [
+      "5d0461cfefa4aeec273c8fcfc8bcc33778040c772ea9ac496a7c3e5c956e513f"
+    ],
+    "prepared": [
+      "054-1.webp"
+    ]
+  },
+  {
+    "index": 55,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3250",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3250.HEIC"
+    ],
+    "hashes": [
+      "c6016ec025f88ae88c140386c0f25feb509026d715856c05b257c11734376898"
+    ],
+    "prepared": [
+      "055-1.webp"
+    ]
+  },
+  {
+    "index": 56,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3251",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3251.HEIC"
+    ],
+    "hashes": [
+      "ea90751ee31da0ccffe4af17ae0baba7f5cfe47472dd4478fe5b767a9746e90a"
+    ],
+    "prepared": [
+      "056-1.webp"
+    ]
+  },
+  {
+    "index": 57,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3253",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3253.HEIC"
+    ],
+    "hashes": [
+      "e20100a6930d81ca6b9909f1d7e32060a776bf03ce9ddedaa4c32e875abbd997"
+    ],
+    "prepared": [
+      "057-1.webp"
+    ]
+  },
+  {
+    "index": 58,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3254",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3254.HEIC"
+    ],
+    "hashes": [
+      "501e208c26b1e023ceda08dfa2c683057f923e07bde13033bf7c12f46c8c644f"
+    ],
+    "prepared": [
+      "058-1.webp"
+    ]
+  },
+  {
+    "index": 59,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3255",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3255.HEIC"
+    ],
+    "hashes": [
+      "c69eff9a1d784243e18040abcf82925f6f990153c822e0767393376d02423cb0"
+    ],
+    "prepared": [
+      "059-1.webp"
+    ]
+  },
+  {
+    "index": 60,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3256",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3256.HEIC"
+    ],
+    "hashes": [
+      "cd78a1c21a04e4249bb7adb6c1c50a71515cd236817b8acdf46434a2a09a82bf"
+    ],
+    "prepared": [
+      "060-1.webp"
+    ]
+  },
+  {
+    "index": 61,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3257",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3257.HEIC"
+    ],
+    "hashes": [
+      "0dcfd1308a0f90ab018f6d81245b98c53462fe1c73df03df2c49a4e1536244c0"
+    ],
+    "prepared": [
+      "061-1.webp"
+    ]
+  },
+  {
+    "index": 62,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3258",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3258.HEIC"
+    ],
+    "hashes": [
+      "12bea510004771c08fa52d94bea0988f88ac7536c1944d19707233833dbdb078"
+    ],
+    "prepared": [
+      "062-1.webp"
+    ]
+  },
+  {
+    "index": 63,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3259",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3259.HEIC"
+    ],
+    "hashes": [
+      "0ad0d41b1aadf628b10dbb4ccbcc862d165d9435e5106a5e754fb7bf0d35bd09"
+    ],
+    "prepared": [
+      "063-1.webp"
+    ]
+  },
+  {
+    "index": 64,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3260",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3260.HEIC"
+    ],
+    "hashes": [
+      "a4052ddf7586f8348af88bb1a92cfcc7e9773b37a0bad17097838567a61e1048"
+    ],
+    "prepared": [
+      "064-1.webp"
+    ]
+  },
+  {
+    "index": 65,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3261",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3261.HEIC"
+    ],
+    "hashes": [
+      "ec6722aa655077b11f1499350015cb5787b5a01eb7845515e325c5732c0d24c5"
+    ],
+    "prepared": [
+      "065-1.webp"
+    ]
+  },
+  {
+    "index": 66,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3262",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3262.HEIC"
+    ],
+    "hashes": [
+      "d03820d171f9e4343eebb0d00523055f31f11e3899dc67b0237ce56f9ed7bdd5"
+    ],
+    "prepared": [
+      "066-1.webp"
+    ]
+  },
+  {
+    "index": 67,
+    "sourceKey": "Fabrics/ankara fabrics/IMG_3263",
+    "folder": "Fabrics/ankara fabrics",
+    "files": [
+      "Fabrics/ankara fabrics/IMG_3263.HEIC"
+    ],
+    "hashes": [
+      "6a6d420a2624800aa87d359c5b5e85700157ce47e019aec926c7dcd0718da9f6"
+    ],
+    "prepared": [
+      "067-1.webp"
+    ]
+  },
+  {
+    "index": 68,
+    "sourceKey": "Jacket/adire-jacket-black-embroidered",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-black-embroidered.jpg.png"
+    ],
+    "hashes": [
+      "a255864ccdf2f6f1e1cb5fc3a877178a45691963a876286802df581b1bb27b45"
+    ],
+    "prepared": [
+      "068-1.webp"
+    ]
+  },
+  {
+    "index": 69,
+    "sourceKey": "Jacket/adire-jacket-blue-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-blue-beaded-front.jpg.png",
+      "Jacket/adire-jacket-blue-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "6bf5e84877267aea9c8d56536d838de3f472cc330fc212635f18acadfedbd416",
+      "de6d470ad3c4f230d0cb7897f76c1823ecae51ab4db03da5178e0342203acb38"
+    ],
+    "prepared": [
+      "069-1.webp",
+      "069-2.webp"
+    ]
+  },
+  {
+    "index": 70,
+    "sourceKey": "Jacket/adire-jacket-bright-blue-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-bright-blue-beaded-front.jpg.png",
+      "Jacket/adire-jacket-bright-blue-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "33d9b70f3fe2321658bb46933cf569ab37bbe9af58aaa3cfecdba132daee3707",
+      "257a154a16eb2a0d5fa11507a7718853215915a41fafca3f5808699d6c04560b"
+    ],
+    "prepared": [
+      "070-1.webp",
+      "070-2.webp"
+    ]
+  },
+  {
+    "index": 71,
+    "sourceKey": "Jacket/adire-jacket-maroon-beaded",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-maroon-beaded-front.jpg.png",
+      "Jacket/adire-jacket-maroon-beaded-side.jpg.png"
+    ],
+    "hashes": [
+      "70b094f05bb93a1f9c481433ee38644d33a98b7171f378c88e5baaa98e27011a",
+      "97255bcc858ceca82b75fb6b6ad1fd21aa40271f5d1d6e378a53c667680d8e3f"
+    ],
+    "prepared": [
+      "071-1.webp",
+      "071-2.webp"
+    ]
+  },
+  {
+    "index": 72,
+    "sourceKey": "Jacket/adire-jacket-maroon-embroidered",
+    "folder": "Jacket",
+    "files": [
+      "Jacket/adire-jacket-maroon-embroidered-front.jpg.png",
+      "Jacket/adire-jacket-maroon-embroidered-side.jpg.png"
+    ],
+    "hashes": [
+      "3abf0aed4f2df4db02eab938f8d6c1c953cf2d7e640be0e04670066154615950",
+      "1b74e7556c1c9619f5f983615a5db9c7ca37b8b43e38931a1105158307407e2a"
+    ],
+    "prepared": [
+      "072-1.webp",
+      "072-2.webp"
+    ]
+  },
+  {
+    "index": 73,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-abstract",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-abstract.jpg.png"
+    ],
+    "hashes": [
+      "8a52da8cdddcf3e0d4f0023f85e10ef393fbb0b36787c3f1dae433275a0fd2cf"
+    ],
+    "prepared": [
+      "073-1.webp"
+    ]
+  },
+  {
+    "index": 74,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-green-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-green-women.jpg.png"
+    ],
+    "hashes": [
+      "cabaf59060d49a62ec057287afd1bf81a6b8f8b90314b531871b303cd4f1ab17"
+    ],
+    "prepared": [
+      "074-1.webp"
+    ]
+  },
+  {
+    "index": 75,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women.jpg.png",
+      "Jumpsuit/adire-teems-jumpsuit-kaftan-pink-women-side.jpg.png"
+    ],
+    "hashes": [
+      "113b2534b953a4e9d08f3270329b3ffa5f5ac1d287ec8f15e8952de458d246d1",
+      "754a7c7632029e67c20fee7f02f3ffd33db94b638302d8569cc591d8a2c37fbd"
+    ],
+    "prepared": [
+      "075-1.webp",
+      "075-2.webp"
+    ]
+  },
+  {
+    "index": 76,
+    "sourceKey": "Jumpsuit/adire-teems-jumpsuit-multicolour-women",
+    "folder": "Jumpsuit",
+    "files": [
+      "Jumpsuit/adire-teems-jumpsuit-multicolour-women.jpg.png"
+    ],
+    "hashes": [
+      "993b116525ef1635a7bc3f17cd2a1e211d1fce30a02b653efc9ae361f11f872c"
+    ],
+    "prepared": [
+      "076-1.webp"
+    ]
+  },
+  {
+    "index": 77,
+    "sourceKey": "Kimono/adire kimono/adire-basket-kimono-black-lattice.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-basket-kimono-black-lattice.women.png"
+    ],
+    "hashes": [
+      "9373c42f5183d377cc03cd59663a0d569738558987c96e8e6292a3ab842a6b56"
+    ],
+    "prepared": [
+      "077-1.webp"
+    ]
+  },
+  {
+    "index": 78,
+    "sourceKey": "Kimono/adire kimono/adire-teems-adire-kimono-blue.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-teems-adire-kimono-blue.women.png"
+    ],
+    "hashes": [
+      "a076e38081e594dded3c602873d995b1c52e1c02931241aa6ef2790e9efad63e"
+    ],
+    "prepared": [
+      "078-1.webp"
+    ]
+  },
+  {
+    "index": 79,
+    "sourceKey": "Kimono/adire kimono/adire-teems-adire-kimono-multicolour.women",
+    "folder": "Kimono/adire kimono",
+    "files": [
+      "Kimono/adire kimono/adire-teems-adire-kimono-multicolour.women.png"
+    ],
+    "hashes": [
+      "ec11c2a25d3b4eeba8dca89c08d2c40aa63ad9a5b3384312c54e6d7ba076fa03"
+    ],
+    "prepared": [
+      "079-1.webp"
+    ]
+  },
+  {
+    "index": 80,
+    "sourceKey": "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-brown",
+    "folder": "Kimono/akwete kimono/edited",
+    "files": [
+      "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-brown.png"
+    ],
+    "hashes": [
+      "2772d54e4673bf153a6651e86c834ec205eb2061427bac0cc0aeda77e675764d"
+    ],
+    "prepared": [
+      "080-1.webp"
+    ]
+  },
+  {
+    "index": 81,
+    "sourceKey": "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-purple",
+    "folder": "Kimono/akwete kimono/edited",
+    "files": [
+      "Kimono/akwete kimono/edited/adire-teems-akwete-asooke-kimono-purple.png"
+    ],
+    "hashes": [
+      "e6ddba95fff032d1b1b40b99086c1c330a9270631e45d3ed383b2341efea4de9"
+    ],
+    "prepared": [
+      "081-1.webp"
+    ]
+  },
+  {
+    "index": 82,
+    "sourceKey": "Kimono/ankara kimono/ankara-asooke-kimono-green-pink",
+    "folder": "Kimono/ankara kimono",
+    "files": [
+      "Kimono/ankara kimono/ankara-asooke-kimono-green-pink.png"
+    ],
+    "hashes": [
+      "d2d1471373757174ffdc8e87354ec63a6ca4960e857a14ab2e1f5e57aa5fbf74"
+    ],
+    "prepared": [
+      "082-1.webp"
+    ]
+  },
+  {
+    "index": 83,
+    "sourceKey": "Kimono/aso oke kimono/adire-teems-asooke-kimono-blue-fringe",
+    "folder": "Kimono/aso oke kimono",
+    "files": [
+      "Kimono/aso oke kimono/adire-teems-asooke-kimono-blue-fringe.png"
+    ],
+    "hashes": [
+      "71ce638dd7049baf3bcc0b1db9782dc252606edc08a6e7da9497b3d9ce0a144f"
+    ],
+    "prepared": [
+      "083-1.webp"
+    ]
+  },
+  {
+    "index": 84,
+    "sourceKey": "Kimono/aso oke kimono/adire-teems-asooke-kimono-magenta",
+    "folder": "Kimono/aso oke kimono",
+    "files": [
+      "Kimono/aso oke kimono/adire-teems-asooke-kimono-magenta.png"
+    ],
+    "hashes": [
+      "7e12cfe664e708afc67f21808b2d98430f2f52acb4199a05228430c3a297a3ad"
+    ],
+    "prepared": [
+      "084-1.webp"
+    ]
+  },
+  {
+    "index": 85,
+    "sourceKey": "Kimono/damask kimono/adire-teems-damask-multicolor-women",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/adire-teems-damask-multicolor-women.png"
+    ],
+    "hashes": [
+      "33ac6417327b33bcc5515c5adf26851a924506c9c11a1f68979c87c1f05243ec"
+    ],
+    "prepared": [
+      "085-1.webp"
+    ]
+  },
+  {
+    "index": 86,
+    "sourceKey": "Kimono/damask kimono/damask-aso-oke-kimono-pink",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/damask-aso-oke-kimono-pink.png"
+    ],
+    "hashes": [
+      "ed847cc1e567f051fd6557cafc78a2c0a484d927a70bc7f09cc5b6483126fa0a"
+    ],
+    "prepared": [
+      "086-1.webp"
+    ]
+  },
+  {
+    "index": 87,
+    "sourceKey": "Kimono/damask kimono/damask-kimono-blue",
+    "folder": "Kimono/damask kimono",
+    "files": [
+      "Kimono/damask kimono/damask-kimono-blue.png"
+    ],
+    "hashes": [
+      "4e0ac45adb94b564316e0f8e118b244ad93d0d7e85c78ad94396be2b1d6ab79c"
+    ],
+    "prepared": [
+      "087-1.webp"
+    ]
+  },
+  {
+    "index": 88,
+    "sourceKey": "Kimono/linen kimono/linen-kimono-blue-women-adire-teems",
+    "folder": "Kimono/linen kimono",
+    "files": [
+      "Kimono/linen kimono/linen-kimono-blue-women-adire-teems.png"
+    ],
+    "hashes": [
+      "8254b6adb2cfa552e5a6c71f176e2319c0a4f38792dc99280dd98d48e337199d"
+    ],
+    "prepared": [
+      "088-1.webp"
+    ]
+  },
+  {
+    "index": 89,
+    "sourceKey": "Kimono/micado kimono/mikado-black-kimono-women",
+    "folder": "Kimono/micado kimono",
+    "files": [
+      "Kimono/micado kimono/mikado-black-kimono-women.png"
+    ],
+    "hashes": [
+      "81c383d814ac28c79ef973ccad5347cf526ef7eb73f893b789eba2c26af542c3"
+    ],
+    "prepared": [
+      "089-1.webp"
+    ]
+  },
+  {
+    "index": 90,
+    "sourceKey": "Kimono/micado kimono/mikado-kimono-green-adire-teems",
+    "folder": "Kimono/micado kimono",
+    "files": [
+      "Kimono/micado kimono/mikado-kimono-green-adire-teems.png"
+    ],
+    "hashes": [
+      "103a5f9ac313c06148cfd4ed38d0efd7fe1b1dd0cbddc417182789e5b9e37fa8"
+    ],
+    "prepared": [
+      "090-1.webp"
+    ]
+  },
+  {
+    "index": 91,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-face-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-face-men.jpg.png"
+    ],
+    "hashes": [
+      "7cbc21a8b785fd75407a98c55b3156a2e33ce586ffd41523fe230588665718eb"
+    ],
+    "prepared": [
+      "091-1.webp"
+    ]
+  },
+  {
+    "index": 92,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-men.jpg.png"
+    ],
+    "hashes": [
+      "30a6894c9d7d95659158d7a5198f0cd6b813da9e8dd5732eaa040b96317f58a4"
+    ],
+    "prepared": [
+      "092-1.webp"
+    ]
+  },
+  {
+    "index": 93,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-beige-vneck.men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-beige-vneck.men.jpg.png"
+    ],
+    "hashes": [
+      "c71e5e1355c6f9d6d90b2d7b3e13ce246391a77260e18ecc952a8f9cf2ea69d1"
+    ],
+    "prepared": [
+      "093-1.webp"
+    ]
+  },
+  {
+    "index": 94,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-green-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-green-men.jpg.png"
+    ],
+    "hashes": [
+      "a924506766bcf6fea8b16a4f614bae86a138a790d60ba070c974f2184cf0140a"
+    ],
+    "prepared": [
+      "094-1.webp"
+    ]
+  },
+  {
+    "index": 95,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-green-yellow-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-green-yellow-men.jpg.png"
+    ],
+    "hashes": [
+      "214fbf0a9e13b878a2bc09a5053ac12bc5282f3d7bf847697ea0960f474a51f9"
+    ],
+    "prepared": [
+      "095-1.webp"
+    ]
+  },
+  {
+    "index": 96,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-grey-print-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-grey-print-men.jpg.png"
+    ],
+    "hashes": [
+      "a1ac757aee65ac2c263a05b4fbae59be02343533715521718d3a5a27fb94951c"
+    ],
+    "prepared": [
+      "096-1.webp"
+    ]
+  },
+  {
+    "index": 97,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-purple-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-purple-men.jpg.png"
+    ],
+    "hashes": [
+      "49e0a7a4b523d58eff31c910ae7c314d61d0d9dad535f4cb485dcaed47670af5"
+    ],
+    "prepared": [
+      "097-1.webp"
+    ]
+  },
+  {
+    "index": 98,
+    "sourceKey": "Male 2 piece/adire-teems-2-piece-teal-men",
+    "folder": "Male 2 piece",
+    "files": [
+      "Male 2 piece/adire-teems-2-piece-teal-men.jpg.png"
+    ],
+    "hashes": [
+      "0f7bdaf1b93db32762cbf88ada85bc4b740f3f46f7e3adc1cf84c75569e9ac88"
+    ],
+    "prepared": [
+      "098-1.webp"
+    ]
+  },
+  {
+    "index": 99,
+    "sourceKey": "Womens 2 piece/adire-teems-chiffon-2-piece-set-green",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-chiffon-2-piece-set-green.jpg.png",
+      "Womens 2 piece/adire-teems-chiffon-2-piece-set-green-side.jpg.png"
+    ],
+    "hashes": [
+      "7f260787dd54dccfcf78feae8d1c75bd724737de61a5d273ed9a70721580b63b",
+      "06902d87f69fe00b0e6c700ee42705b6366172fc387cfa71d2e6ffd316552578"
+    ],
+    "prepared": [
+      "099-1.webp",
+      "099-2.webp"
+    ]
+  },
+  {
+    "index": 100,
+    "sourceKey": "Womens 2 piece/adire-teems-cotton-2-piece-mustard",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-cotton-2-piece-mustard.jpg.png",
+      "Womens 2 piece/adire-teems-cotton-2-piece-mustard-side.jpg.png"
+    ],
+    "hashes": [
+      "d950b1d5115cefc061db3af05c1f58976e7acd5d076417f7b44ad44c1ad83d3a",
+      "3d71cccfebb933c28d792fe7a98236a55df430da5e0dc6c1a590a3042c6dfc64"
+    ],
+    "prepared": [
+      "100-1.webp",
+      "100-2.webp"
+    ]
+  },
+  {
+    "index": 101,
+    "sourceKey": "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set",
+    "folder": "Womens 2 piece",
+    "files": [
+      "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set-front.jpg.png",
+      "Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set-sidejpg.png"
+    ],
+    "hashes": [
+      "05b1c8421eaf758dbb06f6201ab01b8e29af67a73bb98d3f03f1aa998097c128",
+      "49b8a2aec31cc05b504f95ac368f352ae0a65a9f8a100d6d2ab5fc64f6c2e902"
+    ],
+    "prepared": [
+      "101-1.webp",
+      "101-2.webp"
+    ]
+  }
+]

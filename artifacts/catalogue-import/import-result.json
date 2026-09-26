@@ -1,0 +1,719 @@
+{
+  "products": [
+    {
+      "id": "0f2618e7-c256-4733-ae88-4b66503303fc",
+      "name": "Blue Aso Oke Detail T-Shirt",
+      "slug": "blue-aso-oke-detail-t-shirt",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-aso-oke-detail-t-shirt"
+    },
+    {
+      "id": "111079de-6a29-4565-acd1-8e3670372026",
+      "name": "Cream Aso Oke Patch T-Shirt",
+      "slug": "cream-aso-oke-patch-t-shirt",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/cream-aso-oke-patch-t-shirt"
+    },
+    {
+      "id": "daf2aed4-ba5d-4b9b-acd1-46da3e2c822b",
+      "name": "Green Aso Oke Detail T-Shirt",
+      "slug": "green-aso-oke-detail-t-shirt",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/green-aso-oke-detail-t-shirt"
+    },
+    {
+      "id": "8efa89b9-854c-4dd0-a08d-59caefb58466",
+      "name": "Orange Aso Oke Patch T-Shirt",
+      "slug": "orange-aso-oke-patch-t-shirt",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/orange-aso-oke-patch-t-shirt"
+    },
+    {
+      "id": "f4ea48d2-cf68-47ed-ad18-213e6521985e",
+      "name": "Blue Adire Bubu",
+      "slug": "blue-adire-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-adire-bubu"
+    },
+    {
+      "id": "061b5589-d8c7-437f-a996-fb6c59ef7111",
+      "name": "Purple Adire Bubu",
+      "slug": "purple-adire-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/purple-adire-bubu"
+    },
+    {
+      "id": "8b87876b-6bb1-4648-adb5-d0b52690100f",
+      "name": "Orange Zip-Front Bubu",
+      "slug": "orange-zip-front-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/orange-zip-front-bubu"
+    },
+    {
+      "id": "5334a489-a769-4357-a649-125727fb2d8f",
+      "name": "Blue Abstract Chiffon Bubu",
+      "slug": "blue-abstract-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-abstract-chiffon-bubu"
+    },
+    {
+      "id": "71673606-dbdf-47ee-a767-fc85d5bd4604",
+      "name": "Blue Motif Chiffon Bubu",
+      "slug": "blue-motif-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-motif-chiffon-bubu"
+    },
+    {
+      "id": "fec4b2f5-6807-4191-a721-2c87ab25aa2e",
+      "name": "Burgundy Chiffon Bubu",
+      "slug": "burgundy-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/burgundy-chiffon-bubu"
+    },
+    {
+      "id": "f555afdd-7aa4-4d1c-ab2e-8d8a44240bea",
+      "name": "Grey Chiffon Bubu",
+      "slug": "grey-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/grey-chiffon-bubu"
+    },
+    {
+      "id": "b1c22f78-a3e2-4a22-a179-b0e2b4057f89",
+      "name": "Pink Multicolour Chiffon Bubu",
+      "slug": "pink-multicolour-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/pink-multicolour-chiffon-bubu"
+    },
+    {
+      "id": "f0aa1cfe-710e-463c-aa4c-06b854748945",
+      "name": "Multicolour Chiffon Bubu",
+      "slug": "multicolour-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/multicolour-chiffon-bubu"
+    },
+    {
+      "id": "07910491-6f48-4ef0-a7a9-3aa58fbd83d8",
+      "name": "Mustard Chiffon Bubu",
+      "slug": "mustard-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mustard-chiffon-bubu"
+    },
+    {
+      "id": "d10db4cd-e383-4e9b-a726-bcdda2a18be2",
+      "name": "Orange Leaf Chiffon Bubu",
+      "slug": "orange-leaf-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/orange-leaf-chiffon-bubu"
+    },
+    {
+      "id": "2e4ea2fb-997f-4f2a-a49b-4baba008eb4d",
+      "name": "Orange Patterned Chiffon Bubu",
+      "slug": "orange-patterned-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/orange-patterned-chiffon-bubu"
+    },
+    {
+      "id": "3b26bcd7-fcb2-43a0-a854-1c04463068b1",
+      "name": "Purple Floral Chiffon Bubu",
+      "slug": "purple-floral-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/purple-floral-chiffon-bubu"
+    },
+    {
+      "id": "69842673-0612-4c0b-afef-f2b479b7cad7",
+      "name": "Purple and Gold Chiffon Bubu",
+      "slug": "purple-and-gold-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/purple-and-gold-chiffon-bubu"
+    },
+    {
+      "id": "6a68503c-e009-4578-aa3c-102a55f258a4",
+      "name": "Red and Yellow Chiffon Bubu",
+      "slug": "red-and-yellow-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/red-and-yellow-chiffon-bubu"
+    },
+    {
+      "id": "6df4461d-f53b-4064-ac5d-86463fc153ae",
+      "name": "Red Chiffon Bubu",
+      "slug": "red-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/red-chiffon-bubu"
+    },
+    {
+      "id": "8cbe5503-34c6-4715-a001-43e8d0bd32e5",
+      "name": "Yellow Chiffon Bubu",
+      "slug": "yellow-chiffon-bubu",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/yellow-chiffon-bubu"
+    },
+    {
+      "id": "1b039fc7-1653-43ad-a14b-22906ad25df2",
+      "name": "Kids' Green Adire Dress",
+      "slug": "kids-green-adire-dress",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/kids-green-adire-dress"
+    },
+    {
+      "id": "deb8b003-4a98-4844-a9d3-485edbe6453c",
+      "name": "Kids' Multicolour Adire Dress",
+      "slug": "kids-multicolour-adire-dress",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/kids-multicolour-adire-dress"
+    },
+    {
+      "id": "ecd2e2e3-1ac5-4ca9-af3e-3dfb5019838b",
+      "name": "Kids' Navy and Pink Adire Dress",
+      "slug": "kids-navy-and-pink-adire-dress",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/kids-navy-and-pink-adire-dress"
+    },
+    {
+      "id": "289f6453-000f-4fa9-ae90-4b13bfd86858",
+      "name": "Kids' Blue Bow Dress",
+      "slug": "kids-blue-bow-dress",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/kids-blue-bow-dress"
+    },
+    {
+      "id": "b8eda34a-daed-47eb-a9de-b55eecf59097",
+      "name": "Kids' Blue Stripe Adire Dress",
+      "slug": "kids-blue-stripe-adire-dress",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/kids-blue-stripe-adire-dress"
+    },
+    {
+      "id": "139b51fb-0faf-4352-a019-c085a3cd12f7",
+      "name": "Adire Fabric 01 - Indigo Diagonal",
+      "slug": "adire-fabric-01-indigo-diagonal",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-01-indigo-diagonal"
+    },
+    {
+      "id": "5303ae34-c711-41da-ac7f-0afba6a82005",
+      "name": "Adire Fabric 10 - Blue and Orange Abstract",
+      "slug": "adire-fabric-10-blue-and-orange-abstract",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-10-blue-and-orange-abstract"
+    },
+    {
+      "id": "fe371f21-9ab2-4f99-a7ed-fb1565e8eba6",
+      "name": "Adire Fabric 11 - Blue Narrow Stripe",
+      "slug": "adire-fabric-11-blue-narrow-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-11-blue-narrow-stripe"
+    },
+    {
+      "id": "5222eec1-fff4-4402-af27-31a68747ca4d",
+      "name": "Adire Fabric 12 - Purple and Blue Stripe",
+      "slug": "adire-fabric-12-purple-and-blue-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-12-purple-and-blue-stripe"
+    },
+    {
+      "id": "afe805ef-3fe0-4803-adda-4a67cc5c6fed",
+      "name": "Adire Fabric 13 - Magenta Square",
+      "slug": "adire-fabric-13-magenta-square",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-13-magenta-square"
+    },
+    {
+      "id": "70b28019-c0e2-40bb-a583-20cabb2a6609",
+      "name": "Adire Fabric 14 - Blue and Turquoise Block",
+      "slug": "adire-fabric-14-blue-and-turquoise-block",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-14-blue-and-turquoise-block"
+    },
+    {
+      "id": "8ad47bf8-211f-4304-ae63-61184563e717",
+      "name": "Adire Fabric 15 - Navy and White Block",
+      "slug": "adire-fabric-15-navy-and-white-block",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-15-navy-and-white-block"
+    },
+    {
+      "id": "97682104-bfab-48e3-a72a-2f7ee7cbc4bc",
+      "name": "Adire Fabric 16 - Indigo Broad Stripe",
+      "slug": "adire-fabric-16-indigo-broad-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-16-indigo-broad-stripe"
+    },
+    {
+      "id": "ca0b478d-8557-4e66-af58-ea555fde2a47",
+      "name": "Adire Fabric 17 - Blue Wave",
+      "slug": "adire-fabric-17-blue-wave",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-17-blue-wave"
+    },
+    {
+      "id": "5f51f16e-254c-447c-a5d1-3709a584cc1e",
+      "name": "Adire Fabric 18 - Rust and Gold Block",
+      "slug": "adire-fabric-18-rust-and-gold-block",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-18-rust-and-gold-block"
+    },
+    {
+      "id": "c13849e4-f3b9-43c7-a25d-ccdaac162cd5",
+      "name": "Adire Fabric 19 - Indigo Circle",
+      "slug": "adire-fabric-19-indigo-circle",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-19-indigo-circle"
+    },
+    {
+      "id": "5a419e95-958e-4d8a-ad1a-ac19a48d407c",
+      "name": "Adire Fabric 02 - Indigo Fan",
+      "slug": "adire-fabric-02-indigo-fan",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-02-indigo-fan"
+    },
+    {
+      "id": "ada08dec-4281-406b-acef-762a47a305bd",
+      "name": "Adire Fabric 20 - Black and White Stripe",
+      "slug": "adire-fabric-20-black-and-white-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-20-black-and-white-stripe"
+    },
+    {
+      "id": "f64a3a6d-ba02-4f65-a376-0c5408710165",
+      "name": "Adire Fabric 03 - Blue Fan",
+      "slug": "adire-fabric-03-blue-fan",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-03-blue-fan"
+    },
+    {
+      "id": "c0fa68a9-8f8e-4f17-af7d-3f8bfc2c78af",
+      "name": "Adire Fabric 04 - Indigo Ripple",
+      "slug": "adire-fabric-04-indigo-ripple",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-04-indigo-ripple"
+    },
+    {
+      "id": "29e1b33d-485b-43e0-a5c3-776b4e867b9a",
+      "name": "Adire Fabric 05 - Indigo Rings",
+      "slug": "adire-fabric-05-indigo-rings",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-05-indigo-rings"
+    },
+    {
+      "id": "e70d072a-402d-4b1f-a8e3-0ae236038c0d",
+      "name": "Adire Fabric 06 - White and Indigo Stripe",
+      "slug": "adire-fabric-06-white-and-indigo-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-06-white-and-indigo-stripe"
+    },
+    {
+      "id": "57f0e594-6eba-43f2-aa49-b5f5ae5decbc",
+      "name": "Adire Fabric 07 - Blue Diagonal Bands",
+      "slug": "adire-fabric-07-blue-diagonal-bands",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-07-blue-diagonal-bands"
+    },
+    {
+      "id": "946f3580-6528-4821-a84b-5d7083820811",
+      "name": "Adire Fabric 08 - Blue Radiating Bands",
+      "slug": "adire-fabric-08-blue-radiating-bands",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-08-blue-radiating-bands"
+    },
+    {
+      "id": "7a2398de-6dc3-461e-a3ff-2e1a59066512",
+      "name": "Adire Fabric 09 - Multicolour Crackle",
+      "slug": "adire-fabric-09-multicolour-crackle",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/adire-fabric-09-multicolour-crackle"
+    },
+    {
+      "id": "c0b1e397-261e-4cd3-abf5-b6ee2f7c40ec",
+      "name": "Ankara Fabric 3241 - Black and Cream Geometry",
+      "slug": "ankara-fabric-3241-black-and-cream-geometry",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3241-black-and-cream-geometry"
+    },
+    {
+      "id": "0dbee96e-1311-4ad1-ae62-f0b059728e7c",
+      "name": "Ankara Fabric 3242 - Blue and Gold Stars",
+      "slug": "ankara-fabric-3242-blue-and-gold-stars",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3242-blue-and-gold-stars"
+    },
+    {
+      "id": "46660043-c760-4053-a1b2-fabbd42f656c",
+      "name": "Ankara Fabric 3243 - Multicolour Waves",
+      "slug": "ankara-fabric-3243-multicolour-waves",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3243-multicolour-waves"
+    },
+    {
+      "id": "ed94584f-6fe5-4b8b-aaf2-905c6bf3b408",
+      "name": "Ankara Fabric 3244 - Bright Stripe",
+      "slug": "ankara-fabric-3244-bright-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3244-bright-stripe"
+    },
+    {
+      "id": "5d44811c-33cf-4e0e-a622-f0bd74065dd2",
+      "name": "Ankara Fabric 3246 - Dark Blue Motif",
+      "slug": "ankara-fabric-3246-dark-blue-motif",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3246-dark-blue-motif"
+    },
+    {
+      "id": "452379da-8187-4150-ab67-fae649fed720",
+      "name": "Ankara Fabric 3247 - Black and White Cross",
+      "slug": "ankara-fabric-3247-black-and-white-cross",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3247-black-and-white-cross"
+    },
+    {
+      "id": "4eb80ee8-871b-4198-a05d-124e9c387b0a",
+      "name": "Ankara Fabric 3248 - Yellow and Pink Chevron",
+      "slug": "ankara-fabric-3248-yellow-and-pink-chevron",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3248-yellow-and-pink-chevron"
+    },
+    {
+      "id": "7f2aa3db-e2bd-497f-a66f-2b9ca7d1e11d",
+      "name": "Ankara Fabric 3249 - Blue Geometric",
+      "slug": "ankara-fabric-3249-blue-geometric",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3249-blue-geometric"
+    },
+    {
+      "id": "b95e27f0-eddb-4d19-a88d-4cc9285102d6",
+      "name": "Ankara Fabric 3250 - Gold Geometric Patchwork",
+      "slug": "ankara-fabric-3250-gold-geometric-patchwork",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3250-gold-geometric-patchwork"
+    },
+    {
+      "id": "7bef1885-0224-4427-a66c-23ce391a2452",
+      "name": "Ankara Fabric 3251 - Pink Geometric Patchwork",
+      "slug": "ankara-fabric-3251-pink-geometric-patchwork",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3251-pink-geometric-patchwork"
+    },
+    {
+      "id": "24c560bd-b8c4-47df-a4b5-ab8af14493a7",
+      "name": "Ankara Fabric 3253 - Mint and Dark Green Geometry",
+      "slug": "ankara-fabric-3253-mint-and-dark-green-geometry",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3253-mint-and-dark-green-geometry"
+    },
+    {
+      "id": "adfe2703-2067-4822-a4ee-f8e13d5b3782",
+      "name": "Ankara Fabric 3254 - Blue Linear Motif",
+      "slug": "ankara-fabric-3254-blue-linear-motif",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3254-blue-linear-motif"
+    },
+    {
+      "id": "b6c353d4-9a33-4439-a440-6300361dba42",
+      "name": "Ankara Fabric 3255 - Monochrome Cross",
+      "slug": "ankara-fabric-3255-monochrome-cross",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3255-monochrome-cross"
+    },
+    {
+      "id": "0300d078-6ccb-4260-a533-3ec257749d0e",
+      "name": "Ankara Fabric 3256 - Teal and Magenta Bands",
+      "slug": "ankara-fabric-3256-teal-and-magenta-bands",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3256-teal-and-magenta-bands"
+    },
+    {
+      "id": "871e4b66-8762-4f25-a383-7b333d089d1d",
+      "name": "Ankara Fabric 3257 - Royal Blue Geometry",
+      "slug": "ankara-fabric-3257-royal-blue-geometry",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3257-royal-blue-geometry"
+    },
+    {
+      "id": "effe64e0-5a95-4108-a3a6-be3e6edd8e1d",
+      "name": "Ankara Fabric 3258 - Multicolour Motif Blocks",
+      "slug": "ankara-fabric-3258-multicolour-motif-blocks",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3258-multicolour-motif-blocks"
+    },
+    {
+      "id": "8ed6c919-523b-44e4-a41c-aa4c87dd3f8b",
+      "name": "Ankara Fabric 3259 - Mustard Motif Stripe",
+      "slug": "ankara-fabric-3259-mustard-motif-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3259-mustard-motif-stripe"
+    },
+    {
+      "id": "ea606d84-5e9e-47cd-a047-ce54e8907370",
+      "name": "Ankara Fabric 3260 - Multicolour Geometric Stripe",
+      "slug": "ankara-fabric-3260-multicolour-geometric-stripe",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3260-multicolour-geometric-stripe"
+    },
+    {
+      "id": "194f771c-6acb-4e41-a737-b0624d8a33a0",
+      "name": "Ankara Fabric 3261 - Green and Mint Repeat",
+      "slug": "ankara-fabric-3261-green-and-mint-repeat",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3261-green-and-mint-repeat"
+    },
+    {
+      "id": "698876e9-ae40-4407-a84b-257a7eda7738",
+      "name": "Ankara Fabric 3262 - Yellow and Green Blocks",
+      "slug": "ankara-fabric-3262-yellow-and-green-blocks",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3262-yellow-and-green-blocks"
+    },
+    {
+      "id": "c3517714-46af-4c22-a170-a38ce67c0269",
+      "name": "Ankara Fabric 3263 - Pink Circular Motif",
+      "slug": "ankara-fabric-3263-pink-circular-motif",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/ankara-fabric-3263-pink-circular-motif"
+    },
+    {
+      "id": "679219f3-0ac1-47e0-af4f-422efb24d3ba",
+      "name": "Black Embroidered Adire Jacket",
+      "slug": "black-embroidered-adire-jacket",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/black-embroidered-adire-jacket"
+    },
+    {
+      "id": "2f2ccab0-a72c-4bb8-a737-b2aaf8a851ba",
+      "name": "Blue Beaded Adire Jacket",
+      "slug": "blue-beaded-adire-jacket",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-beaded-adire-jacket"
+    },
+    {
+      "id": "0280a0b3-fc59-49d4-a0d1-a9a97aa69be6",
+      "name": "Bright Blue Beaded Adire Jacket",
+      "slug": "bright-blue-beaded-adire-jacket",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/bright-blue-beaded-adire-jacket"
+    },
+    {
+      "id": "b0c98aca-d2e0-47fc-aac0-0adcc1f0cd31",
+      "name": "Maroon Beaded Adire Jacket",
+      "slug": "maroon-beaded-adire-jacket",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/maroon-beaded-adire-jacket"
+    },
+    {
+      "id": "ebed7bd8-1b69-43cd-ab27-0c4c65cb0cd3",
+      "name": "Maroon Embroidered Adire Jacket",
+      "slug": "maroon-embroidered-adire-jacket",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/maroon-embroidered-adire-jacket"
+    },
+    {
+      "id": "d5424f59-18f8-46e3-ac6d-184f27a769c7",
+      "name": "Abstract Print Jumpsuit",
+      "slug": "abstract-print-jumpsuit",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/abstract-print-jumpsuit"
+    },
+    {
+      "id": "a05c1a31-bd2a-42cb-aad5-e0dfa5052f12",
+      "name": "Women's Green Print Jumpsuit",
+      "slug": "womens-green-print-jumpsuit",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/womens-green-print-jumpsuit"
+    },
+    {
+      "id": "2982b958-6c3d-4844-a6fc-860d6060a4a9",
+      "name": "Pink Kaftan Jumpsuit",
+      "slug": "pink-kaftan-jumpsuit",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/pink-kaftan-jumpsuit"
+    },
+    {
+      "id": "923506d5-4f33-4bde-af48-b81fe801f2a8",
+      "name": "Women's Multicolour Jumpsuit",
+      "slug": "womens-multicolour-jumpsuit",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/womens-multicolour-jumpsuit"
+    },
+    {
+      "id": "3c9da29e-c33f-46ca-a0cd-255846f37f7d",
+      "name": "Black Lattice Adire Basket Kimono",
+      "slug": "black-lattice-adire-basket-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/black-lattice-adire-basket-kimono"
+    },
+    {
+      "id": "4250aca1-7a2d-472a-ab4c-46f6c3f61b61",
+      "name": "Blue Adire Kimono",
+      "slug": "blue-adire-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-adire-kimono"
+    },
+    {
+      "id": "2860c78d-da4b-4928-aaf1-fcddd7cd2f80",
+      "name": "Multicolour Adire Kimono",
+      "slug": "multicolour-adire-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/multicolour-adire-kimono"
+    },
+    {
+      "id": "f2bfcb4e-132d-41cb-a903-3bcf18e969d0",
+      "name": "Brown Akwete and Aso Oke Kimono",
+      "slug": "brown-akwete-and-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/brown-akwete-and-aso-oke-kimono"
+    },
+    {
+      "id": "c596fb68-e920-4f58-adfa-117f65fccfda",
+      "name": "Purple Akwete and Aso Oke Kimono",
+      "slug": "purple-akwete-and-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/purple-akwete-and-aso-oke-kimono"
+    },
+    {
+      "id": "57dfc6c7-36e4-4451-af65-928aaf44786d",
+      "name": "Green and Pink Ankara Aso Oke Kimono",
+      "slug": "green-and-pink-ankara-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/green-and-pink-ankara-aso-oke-kimono"
+    },
+    {
+      "id": "7e6af922-0ccb-4d45-a577-bf644eb62880",
+      "name": "Blue Fringe Aso Oke Kimono",
+      "slug": "blue-fringe-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-fringe-aso-oke-kimono"
+    },
+    {
+      "id": "c2c56828-9a2c-4375-a9a5-6f096fb5beb9",
+      "name": "Magenta Aso Oke Kimono",
+      "slug": "magenta-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/magenta-aso-oke-kimono"
+    },
+    {
+      "id": "d5d4ca13-5a37-426d-a350-c39c23efc719",
+      "name": "Multicolour Damask Kimono",
+      "slug": "multicolour-damask-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/multicolour-damask-kimono"
+    },
+    {
+      "id": "d3c3807e-70c0-4ae8-a4e4-458b0d4dadfc",
+      "name": "Pink Damask and Aso Oke Kimono",
+      "slug": "pink-damask-and-aso-oke-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/pink-damask-and-aso-oke-kimono"
+    },
+    {
+      "id": "5994d305-5ba7-4f9f-afaa-fe136b41cd7a",
+      "name": "Blue Damask Kimono",
+      "slug": "blue-damask-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-damask-kimono"
+    },
+    {
+      "id": "bcd392e2-2a13-47d2-ae56-6c2fa4219d5f",
+      "name": "Blue Linen Kimono",
+      "slug": "blue-linen-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/blue-linen-kimono"
+    },
+    {
+      "id": "8f5d4d97-1eb6-4bc4-a388-579c9f54872d",
+      "name": "Black Mikado Kimono",
+      "slug": "black-mikado-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/black-mikado-kimono"
+    },
+    {
+      "id": "c09178d4-5cdb-4c60-a4fa-ba65cbbb6f21",
+      "name": "Green Mikado Kimono",
+      "slug": "green-mikado-kimono",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/green-mikado-kimono"
+    },
+    {
+      "id": "5b9817af-e6e9-45f1-abf3-ffaf2a996e30",
+      "name": "Men's Beige Face-Print Two-Piece Set",
+      "slug": "mens-beige-face-print-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-beige-face-print-two-piece-set"
+    },
+    {
+      "id": "3bec108c-22a1-43c9-ab43-8c2252894bc5",
+      "name": "Men's Beige Two-Piece Set",
+      "slug": "mens-beige-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-beige-two-piece-set"
+    },
+    {
+      "id": "1e36b8e0-5e1c-4df0-aa33-b0df404a6b37",
+      "name": "Men's Beige V-Neck Two-Piece Set",
+      "slug": "mens-beige-v-neck-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-beige-v-neck-two-piece-set"
+    },
+    {
+      "id": "d8e785c0-d18e-420a-a23f-431b8edbc714",
+      "name": "Men's Green Two-Piece Set",
+      "slug": "mens-green-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-green-two-piece-set"
+    },
+    {
+      "id": "23331d0d-08ba-4a3e-ac86-1fdc28ebc0c3",
+      "name": "Men's Green and Yellow Two-Piece Set",
+      "slug": "mens-green-and-yellow-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-green-and-yellow-two-piece-set"
+    },
+    {
+      "id": "645b862a-49db-476d-a984-b2fc4d5cf093",
+      "name": "Men's Grey Print Two-Piece Set",
+      "slug": "mens-grey-print-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-grey-print-two-piece-set"
+    },
+    {
+      "id": "0841055b-10ec-4688-a4db-8c12b965e1b3",
+      "name": "Men's Purple Two-Piece Set",
+      "slug": "mens-purple-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-purple-two-piece-set"
+    },
+    {
+      "id": "3f4890c3-4e4b-4933-a06d-d736dc2d7419",
+      "name": "Men's Teal Two-Piece Set",
+      "slug": "mens-teal-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/mens-teal-two-piece-set"
+    },
+    {
+      "id": "b258cc1c-17df-4085-a19b-851fedb18ce5",
+      "name": "Women's Green Chiffon Two-Piece Set",
+      "slug": "womens-green-chiffon-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/womens-green-chiffon-two-piece-set"
+    },
+    {
+      "id": "33523163-b759-493a-a738-5913fb13bf07",
+      "name": "Women's Mustard Cotton Two-Piece Set",
+      "slug": "womens-mustard-cotton-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/womens-mustard-cotton-two-piece-set"
+    },
+    {
+      "id": "49069bd2-39ee-4f6f-a3ec-fa273bda5a4e",
+      "name": "Women's Maroon Soft Cotton Two-Piece Set",
+      "slug": "womens-maroon-soft-cotton-two-piece-set",
+      "status": "active",
+      "localUrl": "http://localhost:3000/product/womens-maroon-soft-cotton-two-piece-set"
+    }
+  ],
+  "images": 111,
+  "variants": 281,
+  "placeholderStockPerSize": 5,
+  "currency": "NGN",
+  "location": "Online Store",
+  "existingImportedProducts": 0,
+  "completedAt": "2026-09-26T13:40:58.745Z",
+  "placeholderNotice": "Prices, sizes and stock are preview data. Replace them before accepting real orders."
+}

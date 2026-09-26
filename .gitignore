@@ -1,0 +1,31 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.codex/
+.agents/
+
+# Dependencies and generated output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.next/
+.store-data/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+supabase/tests/runtime/
+scripts/catalogue-tools/node_modules/
+
+# Preserve the original standalone frontend repository locally
+.frontend-git-backup/

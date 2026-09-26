@@ -1,0 +1,12 @@
+{
+  "name": "adire-teems-root",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "seed:test:accounts": "node scripts/seed_test_accounts.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,276 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import Link from "next/link";
+import MediaGallery from '@/components/media-gallery'
+import { brand } from '@/lib/brand'
+
+const categoryCards = [
+  { title: 'Women', href: '/shop?category=women', image: '/images/Edited picture for kaldoni/Womens 2 piece/adire-teems-womens-maroon-soft-cotton-2-piece-set-front.jpg.png' },
+  { title: 'Men', href: '/shop?category=men', image: '/images/Edited picture for kaldoni/Male 2 piece/adire-teems-2-piece-green-men.jpg.png' },
+  { title: 'Kids', href: '/shop?category=kids', image: '/images/Edited picture for kaldoni/Childrens wear/adire-teems-kids-adire-dress-multicolour.png' },
+  { title: 'Accessories', href: '/shop?category=accessories', image: '/images/Edited picture for kaldoni/Jacket/adire-jacket-maroon-beaded-front.jpg.png' },
+]
+
+const reviewcards = [
+  {
+    title: 'Mrs. Ifeoma Okonkwo',
+    text: '"Beautifully crafted garments that celebrate our heritage. A must-have for every wardrobe!"',
+  },
+  {
+    title: 'Mr. Hebert Johnson',
+    text: '"I am thoroughly impressed with the quality and attention to detail. Truly a remarkable experience!"',
+  },
+  {
+    title: 'Dr. Vido F',
+    text: '"The craftsmanship is exceptional, and the designs are timeless. I highly recommend this brand!"',
+  },
+]
+const FAQs = [
+ {
+          q: 'What is Adire fabric?',
+          a: 'Adire is a traditional West African textile, particularly from Nigeria, created using a resist-dyeing technique with indigo dye. The patterns are created by folding, binding, stitching, or stenciling the fabric before dyeing, resulting in unique, intricate patterns. Each piece is handcrafted by master artisans.',
+        },
+        {
+          q: 'What sizes do you offer for fabric?',
+          a: 'We offer fabrics in various lengths: 2 yards, 3 yards, 5 yards, and custom lengths upon request. Our menswear collection comes in standard sizes XS to XXL.',
+        },
+        {
+          q: 'How do I place an order?',
+          a: 'Simply browse our shop, select your desired items, add them to your cart, and proceed to checkout. You can create an account or check out as a guest.',
+        },
+        {
+          q: 'What payment methods do you accept?',
+          a: 'We accept all major credit cards (Visa, Mastercard, American Express), bank transfers, and digital payment platforms like PayPal and Stripe.',
+        },
+        {
+          q: 'Do you ship internationally?',
+          a: 'Yes! We ship to most countries worldwide. Shipping costs and times vary by location. Check our shipping calculator at checkout for precise details.',
+        },
+]
+
+export default function Home() {
+  return (
+    <div className="bg-[#0d0d0d] text-white">
+      <section className="relative min-h-[820px] overflow-hidden bg-black">
+        {/* Hero slideshow */}
+        <HeroSlideshow />
+
+        <div className="relative mx-auto max-w-[1280px] px-6 pb-16 pt-12 md:px-12 lg:px-16">
+          <div className="pt-20 md:pt-28 lg:pt-32">
+            <div className="max-w-[720px]">
+              <p className="mb-5 text-sm uppercase tracking-[0.2em] text-[#e4c158]">{brand.slogan}</p>
+              <h1 className="font-[var(--font-heading)] text-5xl leading-[0.95] tracking-[-0.04em] text-white md:text-7xl">
+                Promoting Culture
+                <br />
+                Preserving Heritage
+              </h1>
+
+              <p className="mt-8 max-w-[540px] text-base font-medium text-[#f3f3f4] md:text-lg">
+                {brand.mission}
+              </p>
+
+              <div className="mt-8 flex flex-wrap items-center gap-4">
+                <Link href="/shop">
+                  <button className="rounded-[4px] bg-white px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-black transition hover:bg-[#e4c158] hover:text-black">
+                    Shop Now
+                  </button>
+                </Link>
+                <Link href="/shop">
+                  <button className="rounded-[4px] border border-white bg-transparent px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-white transition hover:bg-white/10">
+                    New Arrivals
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#0d0d0d] px-6 py-8 md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[1280px]">
+          <h3 className="mb-4 text-lg font-semibold text-white"></h3>
+          <MediaGallery />
+        </div>
+      </section>
+
+      <section className="bg-[#0d0d0d] px-6 py-16 md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[1280px]">
+          <div className="mb-8 flex items-center gap-4">
+            <span className="text-[14px] font-normal uppercase tracking-[0.2em] text-white">
+              Essentials
+            </span>
+            <div className="h-px flex-1 bg-[#c4c7c7]/60" />
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+            {categoryCards.map((card) => (
+              <Link href={card.href} key={card.title} className="group">
+                <div className="overflow-hidden rounded-[12px] bg-[#0d0d0d] border border-white shadow-[0_1px_2px_rgba(0,0,0,0.05)]">
+                  <figure className="m-0 flex flex-col items-stretch">
+                    <img src={card.image} alt={card.title} className="w-full h-auto max-h-[320px] object-contain" />
+                    <figcaption className="mt-3 text-center text-[13px] font-semibold text-[#e4c158] py-2">{card.title}</figcaption>
+                  </figure>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#0d0d0d] px-6 pb-16 md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[1280px] overflow-hidden rounded-[12px] border border-[#c4c7c7]/40 bg-[#1c1b1b]">
+          <div className="grid items-center gap-8 p-6 md:grid-cols-[320px_1fr] md:p-10">
+            <div className="max-w-[340px]">
+              <h2 className="font-[var(--font-heading)] text-4xl leading-[1.1] text-white">
+                Autumn
+                <br />
+                Collection -
+                <br />
+                Up to 30% OFF
+              </h2>
+
+              <p className="mt-5 text-base leading-6 text-[#f3f3f4]">
+                Discover our latest seasonal arrivals
+                <br />
+                crafted for the modern silhouette.
+              </p>
+              <Link href="/shop">
+                <button className="mt-7 rounded-[4px] border border-white bg-transparent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-white transition hover:bg-white/10">
+                  Shop Collection
+                </button>
+              </Link>
+            </div>
+
+            <div
+              className="h-[420px] rounded-[12px] bg-cover bg-center"
+              style={{
+                backgroundImage: `url('https://pub-e9f6f8fe38ed4236ada6962783ff638d.r2.dev/actions/7d4daa98-eca9-4f81-a333-6bf6592cf1ce')`,
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#0d0d0d] px-6 py-10 md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[1280px]">
+          <div className="mb-8 flex items-center gap-4">
+            <span className="text-[14px] font-normal uppercase tracking-[0.2em] text-white">
+              Reviews
+            </span>
+            <div className="h-px flex-1 bg-[#c4c7c7]/60" />
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+            {reviewcards.map((card) => (
+              <div key={`reviews-${card.text} ${card.title}`} className="group">
+                <div className="overflow-hidden rounded-[4px] bg-[#000000] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-white pb-5 px-3 py-2">
+                  <div
+                    className="h-[30px] w-full bg-cover bg-center transition duration-300 "
+                  />
+
+                    {/* Review text */}
+                    <p className="mb-15 text-center text-sm leading-6 text-[#e4c158]">{card.text}</p>
+                    <div className="mt-[-32px] flex justify-center px-4">
+                      <div className="w-full max-w-[180px] rounded-[4px] border border-[#c4c7c7]/60 bg-[#1c1b1b] py-3 text-center text-[13px] font-normal text-white shadow-sm">
+                        {card.title}
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#0d0d0d] px-6 py-10 md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[1280px]">
+          <div className="mb-8 flex items-center gap-4">
+            <span className="text-[14px] font-normal uppercase tracking-[0.2em] text-white">
+              FAQs
+            </span>
+            <div className="h-px flex-1 bg-[#c4c7c7]/60" />
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+            {FAQs.map((card) => (
+              <div className="overflow-hidden rounded-[4px] bg-[#000000] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-white pb-5 px-3 py-2" key={`faqs-${card.q} ${card.a}`}>
+                  <div
+                    className="h-[30px] w-full bg-cover bg-center transition duration-300 "/>
+
+                    {/* FAQs */}
+                    <p className="mx-4 mb-15 text-left text-sm leading-6 text-[#ffffff]">{card.q}</p>
+                    <div className="mt-[-32px] flex justify-center px-4">
+                      <p className="mx-auto text-[13px] text-[#c4c7c7]">{card.a}</p>
+                    </div>
+                  </div>
+              
+            ))}
+          </div>
+          <Link href="/faq" className="rounded-[4px] bg-[#e4c158] text-black pb-5 px-3 py-2">
+                <button className="mt-7 rounded-[4px] bg-transparent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-black transition hover:bg-white/10">
+                  More FAQs
+                </button>
+              </Link>
+        </div>
+      </section>
+
+      <section className="bg-black px-6 py-20 text-center md:px-12 lg:px-16">
+        <div className="mx-auto max-w-[900px]">
+          <div className="mx-auto mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-[#e4c158]/20 text-3xl font-bold text-[#e4c158]">
+            “
+          </div>
+          <p className="font-[var(--font-heading)] text-2xl leading-[1.5] text-white md:text-[32px]">
+            {brand.mission}
+          </p>
+          <Link href="/about" className="mt-6 inline-block text-[11px] font-semibold uppercase tracking-[0.18em] text-[#e4c158]">
+            Discover Our Heritage
+          </Link>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+function HeroSlideshow() {
+  const slides = [
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-2-piece-beige-face-men.jpg.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-2-piece-green-yellow-men.jpg.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-chiffon-bubu-blue.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-chiffon-bubu-multicolour-pink.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-chiffon-bubu-red-yellow.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-kids-adire-dress-green.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-tshirt-blue.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/adire-teems-tshirt-green.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/damask-aso-oke-kimono-pink.png',
+    '/images/Edited picture for kaldoni/Home_slideshow/kids-adire-dress-blue-stripe.png',
+  ]
+
+  const [index, setIndex] = useState(0)
+  const [paused, setPaused] = useState(false)
+
+  useEffect(() => {
+    if (paused) return
+    const t = setInterval(() => setIndex((i) => (i + 1) % slides.length), 4000)
+    return () => clearInterval(t)
+  }, [paused])
+
+  return (
+    <div className="absolute inset-0">
+      <div className="absolute inset-0">
+        {slides.map((src, i) => (
+          <img
+            key={src}
+            src={src}
+            alt={`slide-${i}`}
+            className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${i === index ? 'opacity-100' : 'opacity-0'}`}
+            onMouseEnter={() => setPaused(true)}
+            onMouseLeave={() => setPaused(false)}
+          />
+        ))}
+      </div>
+      <div className="absolute inset-0 bg-black/35 pointer-events-none" />
+    </div>
+  )
+}
