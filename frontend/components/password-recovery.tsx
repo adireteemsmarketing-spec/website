@@ -1,4 +1,5 @@
 'use client'
+import { PasswordInput } from './password-input'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import { closeRecoverySession, createRecoveryClient, openRecoverySession } from '@/lib/supabase/recovery'
@@ -54,7 +55,7 @@ export function ResetPassword() {
   return <section className="store-shell max-w-xl"><h1 className="mb-6 font-heading text-4xl">Choose a new password</h1><div className="store-panel">
     {done ? <div role="status"><h2 className="text-xl">Password changed</h2><p className="mt-4">You can now sign in with your new password.</p><div className="mt-6 flex gap-6"><Link className="underline" href="/dashboard">Customer sign in</Link><Link className="underline" href="/admin">Admin sign in</Link></div></div>
       : state.error ? <p role="alert">{state.error}</p> : !state.ready ? <p role="status">Checking your reset link...</p>
-        : <form onSubmit={submit} className="space-y-5"><p className="break-all">Reset password for {state.email}</p><label className="block">New password<input name="password" type="password" autoComplete="new-password" minLength={8} maxLength={128} required disabled={busy} className="mt-2 w-full border border-zinc-500 bg-black p-3 text-white" /></label><p className="text-sm text-zinc-300">Use at least 8 characters.</p><label className="block">Confirm new password<input name="confirm" type="password" autoComplete="new-password" minLength={8} maxLength={128} required disabled={busy} className="mt-2 w-full border border-zinc-500 bg-black p-3 text-white" /></label><button disabled={busy} className="store-primary disabled:opacity-50">{busy ? 'Saving...' : 'Save new password'}</button>{message && <p role="alert">{message}</p>}</form>}
+        : <form onSubmit={submit} className="space-y-5"><p className="break-all">Reset password for {state.email}</p><label className="block">New password<PasswordInput visibilityLabel="new password" name="password"  autoComplete="new-password" minLength={8} maxLength={128} required disabled={busy} className="mt-2 w-full border border-zinc-500 bg-black p-3 text-white" /></label><p className="text-sm text-zinc-300">Use at least 8 characters.</p><label className="block">Confirm new password<PasswordInput visibilityLabel="confirmed password" name="confirm"  autoComplete="new-password" minLength={8} maxLength={128} required disabled={busy} className="mt-2 w-full border border-zinc-500 bg-black p-3 text-white" /></label><button disabled={busy} className="store-primary disabled:opacity-50">{busy ? 'Saving...' : 'Save new password'}</button>{message && <p role="alert">{message}</p>}</form>}
     {!done && <Link className="mt-6 block underline" href="/forgot-password">Request a new reset link</Link>}
   </div></section>
 }

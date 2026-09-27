@@ -1,4 +1,5 @@
 'use client'
+import { PasswordInput } from './password-input'
 import { styleGroups, matchesStyle } from '@/lib/styles'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
@@ -25,7 +26,7 @@ export default function AdminConsole(){
   async function upload(file:File){setBusy(true);try{const body=new FormData();body.set('image',file);const r=await fetch('/api/admin/images',{method:'POST',body});const data=await r.json();if(!r.ok)throw Error(data.error);setForm(current=>({...current,image:data.url}));setMessage('Image uploaded. Save the record to use it.')}catch(e){setMessage((e as Error).message)}finally{setBusy(false)}}
   async function logout(){const r=await fetch('/api/admin/session',{method:'DELETE'});if(r.ok){setAuthenticated(false);setStore(null)}else setMessage('Unable to sign out. Please retry.')}
   if(loading)return <div className="store-shell">Loading admin…</div>
-  if(!authenticated)return <section className="store-shell max-w-lg"><h1 className="mb-6 font-heading text-4xl">Adire Admin</h1><form onSubmit={login} className="store-panel space-y-5"><label className="block">Email<input className="mt-2 w-full border p-3" type="email" autoComplete="username" required value={email} onChange={e=>setEmail(e.target.value)}/></label><label className="block">Password<input className="mt-2 w-full border p-3" type="password" autoComplete="current-password" required value={password} onChange={e=>setPassword(e.target.value)}/></label><button disabled={busy} className="store-primary">Sign In</button><p role="status">{message}</p></form><Link className="mt-5 block underline" href="/forgot-password">Forgot password?</Link><Link className="mt-6 block underline" href="/shop">Back to shop</Link></section>
+  if(!authenticated)return <section className="store-shell max-w-lg"><h1 className="mb-6 font-heading text-4xl">Adire Admin</h1><form onSubmit={login} className="store-panel space-y-5"><label className="block">Email<input className="mt-2 w-full border p-3" type="email" autoComplete="username" required value={email} onChange={e=>setEmail(e.target.value)}/></label><label className="block">Password<PasswordInput className="mt-2 w-full border p-3" autoComplete="current-password" required value={password} onChange={e=>setPassword(e.target.value)}/></label><button disabled={busy} className="store-primary">Sign In</button><p role="status">{message}</p></form><Link className="mt-5 block underline" href="/forgot-password">Forgot password?</Link><Link className="mt-6 block underline" href="/shop">Back to shop</Link></section>
   if(!store)return <div className="store-shell">Unable to load store. Reload to retry.</div>
   const total=store.products.reduce((sum,p)=>sum+(p.stock||0),0)
   function start(kind:string){setForm(kind==='Products'?{...productForm,category:store?.categories[0]?.slug||''}:{...postForm});setEditing(true);setMessage('')}
