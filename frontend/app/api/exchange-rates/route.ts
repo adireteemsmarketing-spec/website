@@ -6,6 +6,7 @@ export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 const file = path.join(process.cwd(), '.store-data', 'exchange-rates.json')
 let pending: Promise<ExchangeRates> | undefined
+let lastKnownRates: ExchangeRates | undefined
 async function refresh(): Promise<ExchangeRates> {
   const response = await fetch('https://api.frankfurter.dev/v2/rates?base=USD&quotes=NGN,GBP,EUR', { next: { revalidate: 3600 }, signal: AbortSignal.timeout(10000) })
   if (!response.ok) throw new Error('Rates unavailable')
@@ -16,8 +17,13 @@ async function refresh(): Promise<ExchangeRates> {
     if (row) data.rates[code] = row.rate
   }
   if (!validRates(data)) throw new Error('Invalid rates')
-  await mkdir(path.dirname(file), { recursive: true })
-  await writeFile(file, JSON.stringify(data), 'utf8')
+  lastKnownRates = data
+  // Hosted runtimes may have read-only application directories. Caching must
+  // never turn a successful rate lookup into an unavailable response.
+  try {
+    await mkdir(path.dirname(file), { recursive: true })
+    await writeFile(file, JSON.stringify(data), 'utf8')
+  } catch {}
   return data
 }
 export async function GET() {
@@ -25,10 +31,11 @@ export async function GET() {
     pending ??= refresh().finally(() => { pending = undefined })
     return Response.json({ ...await pending, cached: false })
   } catch {
+    if (lastKnownRates) return Response.json({ ...lastKnownRates, cached: true })
     try {
       const data = JSON.parse(await readFile(file, 'utf8'))
       if (validRates(data)) return Response.json({ ...data, cached: true })
     } catch {}
-    return Response.json({ error: 'Exchange rates are temporarily unavailable. Prices are shown in USD.' }, { status: 503 })
+    return Response.json({ error: 'Exchange rates are temporarily unavailable. Prices are shown in their original currency.' }, { status: 503 })
   }
 }
