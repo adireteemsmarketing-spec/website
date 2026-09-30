@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react'
 import Link from "next/link";
 import MediaGallery from '@/components/media-gallery'
+import ReviewSlider from '@/components/review-slider'
+import { ChevronDown } from 'lucide-react'
 import { brand } from '@/lib/brand'
 
 const categoryCards = [
@@ -24,6 +26,26 @@ const reviewcards = [
   {
     title: 'Dr. Vido F',
     text: '"The craftsmanship is exceptional, and the designs are timeless. I highly recommend this brand!"',
+  },
+  {
+    title: 'Kalio Max',
+    text: '"Light, comfortable, and full of colour. The kind of outfit I would reach for on a relaxed weekend."',
+  },
+  {
+    title: 'Ahmed Usman',
+    text: '"A lovely way to stand out at a celebration. The Adire patterns bring so much personality to the look."',
+  },
+  {
+    title: 'Taiwo Ola',
+    text: '"I love seeing traditional patterns in styles that feel fresh and easy to wear. A beautiful celebration of our culture."',
+  },
+  {
+    title: 'Ugochi Okafor',
+    text: '"A colourful Adire piece would make such a thoughtful gift for someone who loves expressive, individual style."',
+  },
+  {
+    title: 'Francis Jude',
+    text: '"I can picture this with sandals for a casual afternoon or dressed up for dinner. So many ways to make the look my own."',
   },
 ]
 const FAQs = [
@@ -161,26 +183,7 @@ export default function Home() {
             <div className="h-px flex-1 bg-[#c4c7c7]/60" />
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
-            {reviewcards.map((card) => (
-              <div key={`reviews-${card.text} ${card.title}`} className="group">
-                <div className="overflow-hidden rounded-[4px] bg-[#000000] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-white pb-5 px-3 py-2">
-                  <div
-                    className="h-[30px] w-full bg-cover bg-center transition duration-300 "
-                  />
-
-                    {/* Review text */}
-                    <p className="mb-15 text-center text-sm leading-6 text-[#e4c158]">{card.text}</p>
-                    <div className="mt-[-32px] flex justify-center px-4">
-                      <div className="w-full max-w-[180px] rounded-[4px] border border-[#c4c7c7]/60 bg-[#1c1b1b] py-3 text-center text-[13px] font-normal text-white shadow-sm">
-                        {card.title}
-                      </div>
-                  </div>
-                </div>
-
-              </div>
-            ))}
-          </div>
+          <ReviewSlider reviews={reviewcards} />
         </div>
       </section>
 
@@ -193,26 +196,18 @@ export default function Home() {
             <div className="h-px flex-1 bg-[#c4c7c7]/60" />
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mx-auto max-w-3xl space-y-3">
             {FAQs.map((card) => (
-              <div className="overflow-hidden rounded-[4px] bg-[#000000] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-white pb-5 px-3 py-2" key={`faqs-${card.q} ${card.a}`}>
-                  <div
-                    className="h-[30px] w-full bg-cover bg-center transition duration-300 "/>
-
-                    {/* FAQs */}
-                    <p className="mx-4 mb-15 text-left text-sm leading-6 text-[#ffffff]">{card.q}</p>
-                    <div className="mt-[-32px] flex justify-center px-4">
-                      <p className="mx-auto text-[13px] text-[#c4c7c7]">{card.a}</p>
-                    </div>
-                  </div>
-              
+              <details name="home-faq" key={card.q} className="group rounded-lg border border-zinc-800 bg-black open:border-[#e4c158]/50">
+                <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-sm font-medium [&::-webkit-details-marker]:hidden">
+                  {card.q}
+                  <ChevronDown aria-hidden="true" className="h-5 w-5 shrink-0 text-[#e4c158] transition-transform group-open:rotate-180 motion-reduce:transition-none" />
+                </summary>
+                <p className="px-5 pb-5 text-sm leading-7 text-zinc-400">{card.a}</p>
+              </details>
             ))}
           </div>
-          <Link href="/faq" className="rounded-[4px] bg-[#e4c158] text-black pb-5 px-3 py-2">
-                <button className="mt-7 rounded-[4px] bg-transparent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-black transition hover:bg-white/10">
-                  More FAQs
-                </button>
-              </Link>
+          <Link href="/faq" className="mt-7 inline-flex min-h-11 items-center rounded bg-[#e4c158] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-black hover:bg-[#f0d37c]">More FAQs</Link>
         </div>
       </section>
 

@@ -17,7 +17,7 @@ export function Footer() {
 
   return (
     <footer className="relative mt-0 bg-[#0d0d0d] text-white">
-      <div className="mx-auto grid max-w-[1440px] gap-10 px-6 py-16 sm:px-10 md:grid-cols-2 lg:grid-cols-[1.35fr_1fr_1fr_0.9fr] lg:gap-16 lg:px-16 lg:py-18">
+      <div className="mx-auto grid grid-cols-1 max-w-[1440px] gap-10 px-6 py-16 sm:px-10 lg:grid-cols-[1.35fr_1fr_1fr_0.9fr] lg:gap-16 lg:px-16 lg:py-18">
         <div>
           <Link href="/" className="font-heading text-[25px] font-medium tracking-[-0.03em] transition-colors hover:text-[#e4c158]">ADIRE TEEMS</Link>
           <p className="mt-3 text-sm text-[#e4c158]">{brand.slogan}</p>

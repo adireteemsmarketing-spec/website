@@ -89,7 +89,9 @@ export function Header() {
           </div>
         </div>
 
-        <div className="mt-3 border-t border-zinc-800 pt-3"><CurrencySelector /></div>
+        {pathname === '/shop' && (
+          <div className="mt-3 border-t border-zinc-800 pt-3"><CurrencySelector /></div>
+        )}
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <nav className="md:hidden mt-4 flex flex-col gap-3 border-t border-gray-800 pt-4">
