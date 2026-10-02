@@ -9,7 +9,7 @@ test('email transport handles missing configuration, rejection and provider acce
  const store={contacts:[contact]}
  const code=ts.transpileModule(fs.readFileSync(path.join(__dirname,'../lib/contact-email.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText
  const module={exports:{}}
- new Function('require','module','exports',code)(name=>name==='./store-db'?{readStore:async()=>store,changeStore:async cb=>cb(store)}:{brand:{email:'default@example.test'}},module,module.exports)
+ new Function('require','module','exports',code)(()=>({getContactForNotification:async()=>contact,saveNotification:async(id,notification)=>{assert.equal(id,contact.id);contact.notification=notification}}),module,module.exports)
  try{
   delete process.env.RESEND_API_KEY;delete process.env.RESEND_FROM_EMAIL
   global.fetch=async()=>{throw Error('Network must not be used without configuration')}

@@ -1,13 +1,18 @@
 import { adminSession, sameOrigin } from '@/lib/admin-auth'
 import { safeTrackingUrl } from '@/lib/customer-types'
+import { orderItemMedia, type OrderMediaItem } from '@/lib/order-media'
 export const dynamic = 'force-dynamic'
 export async function GET() {
   try {
     const session = await adminSession()
     if (!session) return Response.json({ error: 'Admin access required.' }, { status: 403 })
-    const { data, error } = await session.db.from('orders').select('*,order_items(*),shipments(*),order_events(*),payments(id,provider,reference,amount,currency,status,verified_at,created_at,provider_mode)').order('created_at', { ascending: false }).limit(200)
+    const { data, error } = await session.db.from('orders').select('*,order_items(*,product_variants(products(slug,product_images(storage_path,alt_text,sort_order)))),shipments(*),order_events(*),payments(id,provider,reference,amount,currency,status,verified_at,created_at,provider_mode)').order('created_at', { ascending: false }).limit(200)
     if (error) throw error
-    return Response.json({ orders: data }, { headers: { 'Cache-Control': 'no-store' } })
+    const orders = data?.map(order => ({ ...order, order_items: order.order_items.map((item: OrderMediaItem) => {
+      const { product_variants, ...details } = item
+      return { ...details, ...orderItemMedia({ ...details, product_variants }) }
+    }) }))
+    return Response.json({ orders }, { headers: { 'Cache-Control': 'no-store' } })
   } catch { return Response.json({ error: 'Unable to load orders.' }, { status: 503 }) }
 }
 export async function PATCH(request: Request) {

@@ -2,7 +2,7 @@
 
 The Contact page posts to `/api/contact`. Valid enquiries are saved in Supabase `contact_messages` before an email is attempted. Admin → Messages lists the sender, subject, full message, timestamp and reference. Admin can search/filter, add internal notes, mark New/In progress/Resolved, refresh the inbox and open an email reply.
 
-The local test recipient is **kaliodaniel7412@gmail.com**, configured through the server-only `CONTACT_NOTIFICATION_EMAIL` variable. The site's public contact address remains `adireteems4@gmail.com`.
+The notification recipient is **adireteemsmarketing@gmail.com**, configured through the server-only `CONTACT_NOTIFICATION_EMAIL` variable. The site's public contact address remains `adireteems4@gmail.com`.
 
 ## Enable email
 
@@ -11,14 +11,14 @@ The project has no working email-provider credentials yet. Create/configure a Re
 ```dotenv
 RESEND_API_KEY=your_actual_resend_api_key
 RESEND_FROM_EMAIL=Adire Teems <notifications@your-verified-domain.com>
-CONTACT_NOTIFICATION_EMAIL=kaliodaniel7412@gmail.com
+CONTACT_NOTIFICATION_EMAIL=adireteemsmarketing@gmail.com
 ```
 
 Use your actual verified sender address; the example is not a working domain. Keep the API key private and never put it in a `NEXT_PUBLIC_` variable. Restart the server after changing these values. Return to Messages and choose **Retry Email Notification** on the saved test enquiry.
 
 Resend's default testing sender can send only to the account's allowed test recipient. To send to arbitrary recipients, verify a domain and use its sender address. A Gmail destination is fine; a Gmail address is not a domain you can verify for sending through Resend.
 
-When ready for real enquiries, change `CONTACT_NOTIFICATION_EMAIL` to the intended business inbox. Existing messages retain their original recipient to prevent accidental redirection during retries. There is no customer auto-reply; each notification's Reply-To points to the sender of the enquiry.
+Set `CONTACT_NOTIFICATION_EMAIL=adireteemsmarketing@gmail.com` in the live hosting environment and redeploy to apply it. Existing messages retain their original recipient to prevent accidental redirection during retries. There is no customer auto-reply; each notification's Reply-To points to the sender of the enquiry.
 
 ## Status meanings
 

@@ -1,7 +1,6 @@
 import type { ContactMessage } from './contact-types'
 import { getContactForNotification, saveNotification } from './store-db'
-import { brand } from './brand'
-export const notificationRecipient=()=>process.env.CONTACT_NOTIFICATION_EMAIL||brand.email
+export const notificationRecipient=()=>process.env.CONTACT_NOTIFICATION_EMAIL||'adireteemsmarketing@gmail.com'
 export const emailConfigured=()=>Boolean(process.env.RESEND_API_KEY?.startsWith('re_')&&!/your|placeholder/i.test(process.env.RESEND_API_KEY)&&process.env.RESEND_FROM_EMAIL)
 const sending=new Map<string,Promise<void>>()
 export async function notifyContact(id:string):Promise<void>{

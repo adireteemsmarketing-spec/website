@@ -5,7 +5,7 @@ export type CustomerOrder = {
   payment_provider: string | null; payment_reference: string | null;
   payments?: { id: string; provider: string; reference: string; amount: number; currency: string; status: string; verified_at: string | null; created_at: string; provider_mode: string | null }[];
   shipping_address: Record<string, string>;
-  order_items: { id: string; product_name: string; size: string; quantity: number; unit_price: number }[];
+  order_items: { id: string; product_name: string; size: string; quantity: number; unit_price: number; sku?: string; color?: string; productUrl?: string | null; images?: { url: string; alt: string }[] }[];
   shipments: { id: string; status: string; carrier: string | null; tracking_number: string | null; tracking_url: string | null; estimated_delivery?: string | null; current_location?: string | null }[];
   order_events: { id: string; status: string; customer_note: string | null; created_at: string }[];
 }

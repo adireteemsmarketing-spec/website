@@ -8,7 +8,8 @@ export const brand = {
     { label: '08103583207', href: 'tel:+2348103583207' },
     { label: '09066542750', href: 'tel:+2349066542750' },
   ],
-  vision: 'To own the largest textile company in Africa.',
+  whoWeAre: 'Adire Teems is a global African fashion and textile company distributing products that capture the African cultural heritage worldwide.',
+  vision: 'To make African fashion a global force.',
   mission: 'Creating unique and stylish clothing in a bid to promote culture and preserve heritage.',
   values: ['Professionalism', 'Discipline', 'Excellence', 'Hardwork', 'Service', 'Team spirit', 'Social responsibility'],
   story: [

@@ -10,7 +10,12 @@ function load(file) {
   new Function('require', 'module', 'exports', code)(name => load(name.replace('./', '')), module, module.exports)
   return module.exports
 }
-const { addItem, updateItem, restoreCart } = load('cart-state')
+const cart = load('cart-state')
+// Use stocked fixtures rather than the static display-only catalogue.
+const fixtureCatalog = [{ id: '1', sizes: ['S', 'M', 'L'], stock: 20 }, { id: '2', sizes: ['XL'], stock: 20 }]
+const addItem = (items, id, size, quantity, catalog = fixtureCatalog) => cart.addItem(items, id, size, quantity, catalog)
+const restoreCart = (items, catalog = fixtureCatalog) => cart.restoreCart(items, catalog)
+const { updateItem } = cart
 test('admin catalogue accepts new products and enforces shared inventory',()=>{
  const catalog=[{id:'admin-new',sizes:['One size','L'],stock:3}]
  let items=addItem([],'admin-new','One size',2,catalog)

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from "next/link";
-import MediaGallery from '@/components/media-gallery'
+import { HomePromotion } from '@/components/home-promotion'
 import ReviewSlider from '@/components/review-slider'
 import { ChevronDown } from 'lucide-react'
 import { brand } from '@/lib/brand'
@@ -109,14 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#0d0d0d] px-6 py-8 md:px-12 lg:px-16">
-        <div className="mx-auto max-w-[1280px]">
-          <h3 className="mb-4 text-lg font-semibold text-white"></h3>
-          <MediaGallery />
-        </div>
-      </section>
-
-      <section className="bg-[#0d0d0d] px-6 py-16 md:px-12 lg:px-16">
+<section className="bg-[#0d0d0d] px-6 py-16 md:px-12 lg:px-16">
         <div className="mx-auto max-w-[1280px]">
           <div className="mb-8 flex items-center gap-4">
             <span className="text-[14px] font-normal uppercase tracking-[0.2em] text-white">
@@ -140,39 +133,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#0d0d0d] px-6 pb-16 md:px-12 lg:px-16">
-        <div className="mx-auto max-w-[1280px] overflow-hidden rounded-[12px] border border-[#c4c7c7]/40 bg-[#1c1b1b]">
-          <div className="grid items-center gap-8 p-6 md:grid-cols-[320px_1fr] md:p-10">
-            <div className="max-w-[340px]">
-              <h2 className="font-[var(--font-heading)] text-4xl leading-[1.1] text-white">
-                Autumn
-                <br />
-                Collection -
-                <br />
-                Up to 30% OFF
-              </h2>
-
-              <p className="mt-5 text-base leading-6 text-[#f3f3f4]">
-                Discover our latest seasonal arrivals
-                <br />
-                crafted for the modern silhouette.
-              </p>
-              <Link href="/shop">
-                <button className="mt-7 rounded-[4px] border border-white bg-transparent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.55px] text-white transition hover:bg-white/10">
-                  Shop Collection
-                </button>
-              </Link>
-            </div>
-
-            <div
-              className="h-[420px] rounded-[12px] bg-cover bg-center"
-              style={{
-                backgroundImage: `url('https://pub-e9f6f8fe38ed4236ada6962783ff638d.r2.dev/actions/7d4daa98-eca9-4f81-a333-6bf6592cf1ce')`,
-              }}
-            />
-          </div>
-        </div>
-      </section>
+      <HomePromotion />
 
       <section className="bg-[#0d0d0d] px-6 py-10 md:px-12 lg:px-16">
         <div className="mx-auto max-w-[1280px]">

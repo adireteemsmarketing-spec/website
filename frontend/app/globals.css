@@ -149,11 +149,15 @@ button:disabled { opacity: .5; cursor: wait; }
 
 /* Keep long filter lists independent from the product grid. */
 .shop-filter-scroll {
-  overflow-y: scroll;
+  overflow-y: visible;
   overscroll-behavior-y: contain;
   scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: #b89a25 #242424;
+}
+
+@media (min-width: 1024px) {
+  .shop-filter-scroll { overflow-y: auto; }
 }
 
 .shop-filter-scroll::-webkit-scrollbar {

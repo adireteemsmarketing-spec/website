@@ -10,8 +10,9 @@ export default function AboutPage() {
           <h1 className="font-heading text-5xl leading-[0.94] tracking-[-0.05em] sm:text-7xl md:text-8xl">
             The Colours<br /><em className="font-heading text-[#e4c158]">of Africa.</em>
           </h1>
-          <p className="mx-auto mt-10 max-w-3xl text-lg leading-relaxed text-zinc-500 sm:text-xl md:text-2xl">
-            {brand.mission}
+          <h2 className="mt-10 font-heading text-2xl text-[#e4c158]">Who we are</h2>
+          <p className="mx-auto mt-5 max-w-3xl text-lg leading-relaxed text-zinc-400 sm:text-xl md:text-2xl">
+            {brand.whoWeAre}
           </p>
         </div>
       </section>

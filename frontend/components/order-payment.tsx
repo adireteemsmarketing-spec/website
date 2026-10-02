@@ -1,8 +1,10 @@
 'use client'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import type { CustomerOrder } from '@/lib/customer-types'
 
 export function OrderPayment({ order, refresh }: { order: CustomerOrder; refresh: () => Promise<void> }) {
+  const router = useRouter()
   const [busy, setBusy] = useState(false), [message, setMessage] = useState('')
   const payments = [...(order.payments || [])].sort((a, b) => b.created_at.localeCompare(a.created_at))
   const successful = payments.filter(p => p.status === 'successful'), latest = payments[0]
@@ -16,6 +18,7 @@ export function OrderPayment({ order, refresh }: { order: CustomerOrder; refresh
       const result = await response.json()
       if (!response.ok) throw Error(result.error)
       if (result.authorizationUrl) { window.location.assign(result.authorizationUrl); return }
+      if (result.paid) { router.push(`/thank-you/${order.id}`); return }
       setMessage(result.paid ? 'Payment confirmed by Paystack.' : 'Payment has not been confirmed. If you completed payment, wait briefly and check again before paying again.')
       await refresh()
     } catch (error) { setMessage(error instanceof Error ? error.message : 'Unable to check payment. Please retry.') }
