@@ -9,15 +9,37 @@ If an admin already replaced a customer in an old browser session, refresh the a
 In **Authentication → URL Configuration**, add these exact Redirect URLs:
 
 ```
-https://unsnap-plug-shifty.ngrok-free.dev/reset-password
+https://adireteems.com/reset-password
+https://www.adireteems.com/reset-password
 http://localhost:3000/reset-password
 ```
 
-Use the public HTTPS address as Site URL while testing via ngrok. Keep ngrok and the application running. When switching to the real deployed domain, add its `/reset-password` URL as well. Recovery requests use the address of the page where the user requested the email.
+Set Site URL to `https://adireteems.com` and set the production hosting environment's `NEXT_PUBLIC_APP_URL=https://adireteems.com`. Rebuild/redeploy after changing the hosting environment. Recovery requests use the address of the page where the user requested the email. If testing through ngrok, also allow that tunnel's exact `/reset-password` URL and keep the tunnel and app running.
 
 In **Authentication → Email Templates → Reset Password**, keep the reset button pointed at `{{ .ConfirmationURL }}`. This lets Supabase verify and consume the emailed recovery token before redirecting to the reset page. A ready-to-copy template is in `docs/password-reset-email.html`.
 
 In **Authentication → Email → SMTP Settings**, configure your email provider's SMTP host, port, username, password, sender email and sender name. Supabase's default email sender is restricted to authorized project-team addresses, so it does not provide general customer email delivery. The application never needs your SMTP password in the browser.
+
+## Troubleshooting localhost reset links and rejected origins
+
+In the live hosting environment, set `NEXT_PUBLIC_APP_URL` to the exact public
+website origin (scheme and hostname, including a nonstandard port if used), then
+rebuild/restart the frontend. The `.env.local` file overrides `.env` locally;
+neither file configures a remote hosting environment.
+
+In Supabase **Authentication → URL Configuration**, set **Site URL** to that same
+public origin and add its exact `/reset-password` URL to **Redirect URLs**.
+An unapproved recovery redirect can fall back to Site URL, which is often still
+`http://localhost:3000`. Check the reset email template uses
+`{{ .ConfirmationURL }}` rather than a hardcoded localhost URL or `{{ .SiteURL }}`.
+Request a fresh email after saving these settings; existing emails keep their old
+destination. Do not share the full reset link, since it contains credentials.
+
+The API accepts same-site requests using either the request URL, the actual Host
+header, or the configured public origin. It does not use arbitrary
+`X-Forwarded-Host` values to authorize requests.
+
+Reference: https://supabase.com/docs/guides/troubleshooting/why-am-i-being-redirected-to-the-wrong-url-when-using-auth-redirectto-option-_vqIeO
 
 ## Customer flow
 
