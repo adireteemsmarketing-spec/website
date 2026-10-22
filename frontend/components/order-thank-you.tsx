@@ -21,7 +21,6 @@ export function OrderThankYou({ id }: { id: string }) {
     <h1 className="font-heading text-4xl md:text-5xl">Thank you for your purchase!</h1>
     <p className="mt-5 text-lg text-zinc-300">Your payment is confirmed. Thank you for choosing Adire Teems and celebrating African heritage with us.</p>
     <p className="mt-6 break-all text-[#e4c158]">Order {order.order_number}</p>
-    {order.payments?.some(payment => payment.status === 'successful' && payment.provider_mode === 'test') && <p className="mt-4 text-amber-300">Test payment — no real money was charged.</p>}
     <div className="my-8 rounded-lg border border-zinc-700 p-6 text-left"><h2 className="font-heading text-2xl">Your items</h2>{order.order_items.map(item => <p key={item.id} className="mt-3">{item.product_name} · Size {item.size} · Qty {item.quantity}</p>)}<p className="mt-5 font-semibold">Total paid: {order.currency} {Number(order.total).toLocaleString('en-NG', { minimumFractionDigits: 2 })}</p></div>
     <p className="text-sm leading-6 text-zinc-400">Follow preparation and delivery updates in your account. Delivery charges are arranged separately with our team.</p>
     <div className="mt-8 flex flex-wrap justify-center gap-4"><Link href={`/order/${order.id}`} className="store-primary">View order &amp; track delivery</Link><Link href="/shop" className="store-secondary">Continue shopping</Link></div>

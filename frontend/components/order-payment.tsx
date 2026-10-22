@@ -29,7 +29,6 @@ export function OrderPayment({ order, refresh }: { order: CustomerOrder; refresh
     <p className="font-semibold">{successful.length ? 'Payment confirmed' : latest?.status === 'failed' ? 'Payment not completed' : 'Awaiting payment'}</p>
     <p className="mt-3">Order amount: {order.currency} {Number(order.total).toLocaleString('en-NG', { minimumFractionDigits: 2 })}</p>
     {(successful.length ? successful : latest ? [latest] : []).map(payment => <div key={payment.id} className="mt-4 text-sm">
-      {payment.provider_mode === 'test' && <p className="mb-2 text-amber-300">Test payment — no real money charged.</p>}
       <p>Provider: Paystack</p><p className="break-all">Reference: {payment.reference}</p>
       {payment.status === 'successful' && <p>Verified amount: {payment.currency} {Number(payment.amount).toLocaleString('en-NG', { minimumFractionDigits: 2 })}</p>}
       {payment.verified_at && <p>Confirmed: {payment.verified_at.slice(0, 16).replace('T', ' ')} UTC</p>}

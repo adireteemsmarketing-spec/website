@@ -2,7 +2,7 @@ export const brand = {
   name: 'Adire Teems',
   slogan: 'The Colours of Africa',
   address: 'Adire Teems Lounge, Blenco Shopping Mall, Ilasan, Lekki, Lagos',
-  email: 'adireteems4@gmail.com',
+  email: 'adireteemsmarketing@gmail.com',
   phones: [
     { label: '08166243695', href: 'tel:+2348166243695' },
     { label: '08103583207', href: 'tel:+2348103583207' },
