@@ -3,6 +3,7 @@ import { validStyle } from '@/lib/styles'
 import { adminSession, sameOrigin } from '@/lib/admin-auth'
 import { readStore, check } from '@/lib/store-db'
 import { storagePath } from '@/lib/storage'
+import { productImagePayload } from '@/lib/product-images'
 export const dynamic='force-dynamic'
 function text(value: unknown, name: string, max=500, required=true) { if(typeof value!=='string' || value.length>max || (required && !value.trim())) throw Error(`Enter a valid ${name}.`); return value.trim() }
 function image(value: unknown) {const url=text(value,'image',2000); if(!(/^\/(?!\/)/.test(url)||/^https:\/\//.test(url))) throw Error('Use a local image path or HTTPS image URL.');return storagePath(url)}
@@ -40,7 +41,10 @@ export async function POST(request: Request) {
           const sizes=[...new Set(text(data.sizes,'sizes').split(',').map(s=>s.trim()).filter(Boolean))]
           if(!sizes.length||sizes.length>30)throw Error('Enter between 1 and 30 sizes.')
           const currency=text(data.currency,'currency',3).toUpperCase();if(!/^[A-Z]{3}$/.test(currency))throw Error('Enter a three-letter currency code.')
-          const payload={id,slug,status,name:text(data.name,'name'),description:text(data.description,'description',10000),price:number(data.price,'price'),currency,sizes,image:image(data.image),fabric:text(data.fabric,'fabric'),category:text(data.category,'category'),department:text(data.department,'department'),sku:text(data.sku,'SKU'),styleGroup,style}
+          const metadata = Object.hasOwn(data, 'metaDescription') ? { metaDescription: text(data.metaDescription, 'meta description', 1000, false) } : {}
+          const name=text(data.name,'name')
+          const images=Object.hasOwn(data,'images') ? productImagePayload(data.images,name) : undefined
+          const payload={id,slug,status,name,description:text(data.description,'description',10000),price:number(data.price,'price'),currency,sizes,image:images ? images[0].path : image(data.image),fabric:text(data.fabric,'fabric'),category:text(data.category,'category'),department:text(data.department,'department'),sku:text(data.sku,'SKU'),styleGroup,style,...metadata,...(images ? {images} : {})}
           const {error}=await db.rpc('save_catalogue_product',{payload});check(error)
         } else {
           const category=text(data.category,'category'),categorySlug=category.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')
