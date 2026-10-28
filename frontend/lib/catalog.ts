@@ -1,4 +1,5 @@
 export type Product = {
+  metaDescription?: string; seoTitle?: string; canonicalUrl?: string; noindex?: boolean
   id: string; name: string; slug: string; price: number; image: string
   images?: { url: string; alt: string }[]
   currency?: string; inStock?: boolean; availableSizes?: string[]

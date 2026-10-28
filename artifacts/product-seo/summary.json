@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-10-27T00:34:56.452Z",
+  "reviewed": 102,
+  "published": 63,
+  "created": 1,
+  "preserved": 101,
+  "requiringReview": 96,
+  "publishedWithoutDescriptionBefore": 1,
+  "publishedWithoutDescriptionAfterProposal": 0,
+  "exactDuplicates": 0,
+  "substantiallySimilarPairs": 0,
+  "lengthFlags": 5,
+  "missingProductInformation": 0,
+  "publishedRequiringReview": 57,
+  "state": "Prepared only. No database updates or deployment performed."
+}

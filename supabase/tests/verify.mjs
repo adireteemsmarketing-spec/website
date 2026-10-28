@@ -26,6 +26,12 @@ try {
  console.log('PASS: hosted verification SQL executes successfully')
  await db.exec(await readFile(new URL('../04_application_integration.sql',import.meta.url),'utf8'))
  console.log('PASS: application integration migration executes')
+ await db.exec(await readFile(new URL('../07_product_meta_descriptions.sql',import.meta.url),'utf8'))
+ await db.exec(await readFile(new URL('../07_product_meta_descriptions.sql',import.meta.url),'utf8'))
+ console.log('PASS: product SEO migration executes and is repeatable')
+ await db.exec(await readFile(new URL('../08_product_image_galleries.sql',import.meta.url),'utf8'))
+ await db.exec(await readFile(new URL('../08_product_image_galleries.sql',import.meta.url),'utf8'))
+ console.log('PASS: product gallery migration executes and is repeatable')
  await db.exec(await readFile(new URL('../05_customer_journey.sql',import.meta.url),'utf8'))
  console.log('PASS: customer journey migration executes')
 } catch(error) { console.error('BOOTSTRAP FAILED:',error.message); if(error.position)console.error('Position:',error.position); await db.close(); process.exit(1) }
@@ -110,6 +116,28 @@ await as('authenticated',ids.admin,async()=>{
  await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,price:15000})})`)
  assert.equal(await count(`select count(*) n from public.product_variants where product_id='${savedId}'`),2)
  assert.equal(await count(`select count(*) n from public.product_images where product_id='${savedId}'`),1)
+ const metaDescription="Discover Ìbàdàn & Adire Teems — a customer's choice."
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,metaDescription})})`)
+ assert.equal((await row(`select meta_description from public.products where id='${savedId}'`)).meta_description,metaDescription)
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,price:15000})})`)
+ assert.equal((await row(`select meta_description from public.products where id='${savedId}'`)).meta_description,metaDescription,'Older clients must preserve manual metadata')
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,metaDescription:''})})`)
+ assert.equal((await row(`select meta_description from public.products where id='${savedId}'`)).meta_description,null,'Explicitly clearing the field enables the fallback')
+ const images=[{path:'draft-media/front.webp',alt:'Front view'},{path:'draft-media/back.webp',alt:'Back view'},{path:'draft-media/detail.webp',alt:'Fabric detail'}]
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,images,metaDescription:'Preserve this SEO description.'})})`)
+ const gallery=async()=> (await db.query(`select storage_path,alt_text,sort_order from public.product_images where product_id='${savedId}' order by sort_order`)).rows
+ assert.deepEqual(await gallery(),images.map((image,index)=>({storage_path:image.path,alt_text:image.alt,sort_order:index})))
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,images:[images[2],images[0]]})})`)
+ assert.deepEqual((await gallery()).map(image=>image.storage_path),['draft-media/detail.webp','draft-media/front.webp'],'Reorder, cover selection and removal must persist')
+ assert.equal((await row(`select meta_description from public.products where id='${savedId}'`)).meta_description,'Preserve this SEO description.')
+ await db.exec(`select public.save_catalogue_product(${sqlPayload({...payload,image:'draft-media/legacy-cover.webp'})})`)
+ assert.deepEqual((await gallery()).map(image=>image.storage_path),['draft-media/legacy-cover.webp','draft-media/front.webp'],'Older clients must preserve alternate photos')
+ for(const invalid of [[],[images[0],images[0]],[{path:'',alt:'Invalid'}],Array.from({length:21},(_,index)=>({path:`draft-media/${index}.webp`,alt:''}))]) {
+   await denied(`select public.save_catalogue_product(${sqlPayload({...payload,name:'Must roll back gallery',images:invalid})})`)
+   assert.equal((await row(`select name from public.products where id='${savedId}'`)).name,payload.name)
+   assert.equal((await gallery()).length,2,'Invalid submissions must not delete photos')
+ }
+ assert.equal(await count(`select count(*) n from public.product_variants where product_id='${savedId}'`),2,'Gallery saves must preserve sizes')
  await denied("insert into public.store_settings(key,value) values('forbidden','{}')")
 })
 const contact={id:'20000000-0000-0000-0000-000000000001',name:'Buyer',email:'buyer@example.test',subject:'Enquiry',message:'Hello',recipient:'owner@example.test'}

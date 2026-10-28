@@ -58,6 +58,7 @@ export async function readStore(admin = false): Promise<Store> {
     products: products.map(p=>{
       const sizes=variants.filter(v=>v.product_id===p.id)
       return {id:p.id,name:p.name,slug:p.slug,price:Number(p.base_price),currency:p.currency,
+        metaDescription:p.meta_description||'',seoTitle:p.seo_title||'',canonicalUrl:p.canonical_url||'',noindex:Boolean(p.noindex),
         image:mediaUrl(images.find(i=>i.product_id===p.id)?.storage_path || ''),
         images:images.filter(i=>i.product_id===p.id).map(i=>({url:mediaUrl(i.storage_path),alt:i.alt_text||p.name})),
         category:categories.find(c=>c.id===p.category_id)?.slug||'',
