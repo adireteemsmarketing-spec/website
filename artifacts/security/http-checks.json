@@ -1,0 +1,100 @@
+{
+  "browserHeadersPassed": true,
+  "results": [
+    {
+      "path": "/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/admin/store",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/admin/orders",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "path": "/api/admin/contact",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/admin/promotion",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "path": "/api/customer/orders",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/customer/cart",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/admin/session",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/admin/session",
+      "method": "POST",
+      "status": 413
+    },
+    {
+      "path": "/api/admin/session",
+      "method": "POST",
+      "status": 400
+    },
+    {
+      "path": "/api/admin/session",
+      "method": "POST",
+      "status": 415
+    },
+    {
+      "path": "/api/admin/session",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/admin/store",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/contact",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/customer/orders",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/payments/paystack/initialize",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/payments/paystack/webhook",
+      "method": "POST",
+      "status": 401
+    },
+    {
+      "path": "/api/payments/paystack/webhook",
+      "method": "POST",
+      "status": 413
+    },
+    {
+      "path": "/auth/callback?error=access_denied",
+      "method": "GET",
+      "status": 307
+    }
+  ]
+}

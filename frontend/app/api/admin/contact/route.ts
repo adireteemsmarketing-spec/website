@@ -1,3 +1,4 @@
+import { readJsonBody, requestBodyError } from '@/lib/request-body'
 import { isAdmin, sameOrigin } from '@/lib/admin-auth'
 import { readContacts, updateContact } from '@/lib/store-db'
 import { emailConfigured, notificationRecipient, notifyContact } from '@/lib/contact-email'
@@ -7,7 +8,7 @@ export async function GET(){if(!await isAdmin())return Response.json({error:'Sig
 export async function POST(request:Request){
  if(!sameOrigin(request)||!await isAdmin())return Response.json({error:'Sign in to continue.'},{status:403})
  try{
-  const body=await request.json()
+  const body=await readJsonBody(request, 12000)
   if(typeof body.id!=='string')throw Error('Invalid message.')
   if(body.action==='retry'){
    if(!(await readContacts()).some(c=>c.id===body.id))throw Error('Message not found.')
@@ -17,5 +18,5 @@ export async function POST(request:Request){
    await updateContact(body.id,body.status,body.notes)
   }
   return inbox()
- }catch(error){return Response.json({error:(error as Error).message},{status:400})}
+ }catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected;return Response.json({error:(error as Error).message},{status:400})}
 }

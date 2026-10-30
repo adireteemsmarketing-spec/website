@@ -1,15 +1,16 @@
-﻿import { adminSession, sameOrigin } from '@/lib/admin-auth'
+import { readJsonBody, requestBodyError } from '@/lib/request-body'
+import { adminSession, sameOrigin } from '@/lib/admin-auth'
 import { createClient } from '@/lib/supabase/server'
 import { createPublicClient } from '@/lib/supabase/public'
 export const dynamic = 'force-dynamic'
 export async function GET() {
   try { const session = await adminSession(); return Response.json({ authenticated: Boolean(session), role: session?.role }, { headers: { 'Cache-Control': 'no-store' } }) }
-  catch { return Response.json({ error: 'Sign-in service is unavailable.' }, { status: 503 }) }
+  catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Sign-in service is unavailable.' }, { status: 503 }) }
 }
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return Response.json({ error: 'Invalid origin' }, { status: 403 })
   try {
-    const { email, password } = await request.json()
+    const { email, password } = await readJsonBody(request, 8000)
     if (typeof email !== 'string' || typeof password !== 'string' || email.length > 254 || password.length > 1024) return Response.json({ error: 'Enter your email and password.' }, { status: 400 })
     // Check credentials and staff membership before changing any browser cookies.
     const login = createPublicClient()
@@ -24,11 +25,11 @@ export async function POST(request: Request) {
     const { error: sessionError } = await db.auth.setSession(data.session)
     if (sessionError) { await login.auth.signOut({ scope: 'local' }); throw sessionError }
     return Response.json({ authenticated: true, role: profile.role })
-  } catch { return Response.json({ error: 'Sign-in service is unavailable.' }, { status: 503 }) }
+  } catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Sign-in service is unavailable.' }, { status: 503 }) }
 }
 export async function DELETE(request: Request) {
   if (!sameOrigin(request)) return Response.json({ error: 'Invalid origin' }, { status: 403 })
   try { const db = await createClient('admin'); const { error } = await db.auth.signOut({ scope: 'local' }); if (error) throw error; return Response.json({ ok: true }) }
-  catch { return Response.json({ error: 'Unable to sign out.' }, { status: 503 }) }
+  catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Unable to sign out.' }, { status: 503 }) }
 }
 

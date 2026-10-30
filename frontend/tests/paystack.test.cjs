@@ -9,12 +9,15 @@ const crypto = require('node:crypto')
 const secret = 'sk_test_0123456789'
 const reference = 'ADR-' + 'a'.repeat(32)
 
+function requireBody() {
+ const source=fs.readFileSync(path.join(__dirname,'../lib/request-body.ts'),'utf8');const loaded={exports:{}};new Function('module','exports',ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText)(loaded,loaded.exports);return loaded.exports
+}
 function load(file, mocks, fetch) {
   const source = fs.readFileSync(path.join(__dirname, '..', file), 'utf8')
   const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText
   const module = { exports: {} }
   vm.runInNewContext(compiled, { exports: module.exports, module,
-    require: name => name === 'server-only' ? {} : mocks[name] || require(name),
+    require: name => name === 'server-only' ? {} : name === '@/lib/request-body' ? requireBody() : mocks[name] || require(name),
     process: { env: { PAYSTACK_SECRET_KEY: secret, NEXT_PUBLIC_APP_URL: 'https://shop.example.test' } },
     fetch, URL, Buffer, AbortSignal, Response, Request, console,
   }, { filename: file })

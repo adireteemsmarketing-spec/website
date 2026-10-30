@@ -1,3 +1,4 @@
+import { readJsonBody, requestBodyError } from '@/lib/request-body'
 import { createClient } from '@/lib/supabase/server'
 import { sameOrigin } from '@/lib/admin-auth'
 import { paystackConfig } from '@/lib/paystack'
@@ -13,18 +14,18 @@ export async function GET(request: Request) {
     const { data, error } = await query
     if (error) throw error
     return Response.json({ orders: data }, { headers: { 'Cache-Control': 'no-store' } })
-  } catch { return Response.json({ error: 'Unable to load orders. Please retry.' }, { status: 503 }) }
+  } catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Unable to load orders. Please retry.' }, { status: 503 }) }
 }
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return Response.json({ error: 'Invalid origin.' }, { status: 403 })
   try {
     const db = await createClient(); const { data: { user } } = await db.auth.getUser()
     if (!user) return Response.json({ error: 'Sign in before placing your order.' }, { status: 401 })
-    const { items, shipping, requestKey } = await request.json()
+    const { items, shipping, requestKey } = await readJsonBody(request, 50000)
     if (!Array.isArray(items) || !items.length || items.length > 50 || typeof requestKey !== 'string' || !/^[a-f0-9-]{36}$/i.test(requestKey) || !shipping || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(shipping.email || '')) return Response.json({ error: 'Check your bag and contact details.' }, { status: 400 })
     paystackConfig()
     const { data, error } = await db.rpc('place_paystack_order', { items, shipping, request_key: requestKey })
     if (error) return Response.json({ error: error.code === 'PGRST202' ? 'Payment setup needs the Supabase payment migration. Your bag is safe; please contact the shop.' : error.code === 'P0001' ? error.message : 'Unable to submit your order. Please retry.' }, { status: 400 })
     return Response.json({ id: data }, { status: 201 })
-  } catch { return Response.json({ error: 'Unable to submit your order. Please retry.' }, { status: 503 }) }
+  } catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Unable to submit your order. Please retry.' }, { status: 503 }) }
 }

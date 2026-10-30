@@ -1,12 +1,12 @@
 import { validPaystackSignature, verifyPaystack } from '@/lib/paystack'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { readRequestText, requestBodyError } from '@/lib/request-body'
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
 export async function POST(request: Request) {
-  const body = await request.text()
-  if (body.length > 1000000) return new Response('Payload too large', { status: 413 })
   try {
+    const body = await readRequestText(request, 1000000)
     if (!validPaystackSignature(body, request.headers.get('x-paystack-signature'))) return new Response('Invalid signature', { status: 401 })
     const event = JSON.parse(body)
     if (event.event !== 'charge.success') return Response.json({ received: true })
@@ -17,5 +17,5 @@ export async function POST(request: Request) {
     if (error) throw error
     if (data) { const result = await verifyPaystack(reference); if (!result.paid) throw Error('Verification pending') }
     return Response.json({ received: true })
-  } catch { return new Response('Payment processing pending; retry delivery', { status: 503 }) }
+  } catch (error) { return requestBodyError(error) || new Response('Payment processing pending; retry delivery', { status: 503 }) }
 }

@@ -36,9 +36,9 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.error("Failed to initialize database", error=str(e))
         raise
-    
+
     yield
-    
+
     # Shutdown
     logger.info("Shutting down Adire Teems AI Backend")
     SupabaseManager.close()
@@ -57,7 +57,7 @@ app.add_middleware(ErrorHandlingMiddleware)
 app.add_middleware(LoggingMiddleware)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if settings.debug else [
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"] if settings.debug else [
         "https://adireteems.com",
         "https://www.adireteems.com",
         "https://app.adireteems.com",

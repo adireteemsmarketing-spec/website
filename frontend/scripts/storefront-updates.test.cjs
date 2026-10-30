@@ -11,7 +11,7 @@ function load(file, dependencies = {}) {
     compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true },
   }).outputText
   const module = { exports: {} }
-  new Function('module', 'exports', 'require', code)(module, module.exports, name => name in dependencies ? dependencies[name] : require(name))
+  new Function('module', 'exports', 'require', code)(module, module.exports, name => name in dependencies ? dependencies[name] : name === '@/lib/request-body' ? load('lib/request-body.ts') : require(name))
   return module.exports
 }
 const promotion = load('lib/promotion.ts')
@@ -41,7 +41,7 @@ test('promotion write requires an admin and trusted origin, and changes only the
     } }) },
     '@/lib/promotion': promotion, '@/lib/storage': storage,
   })
-  const request = data => new Request('https://store.example/api/admin/promotion', { method: 'POST', body: JSON.stringify(data) })
+  const request = data => new Request('https://store.example/api/admin/promotion', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
   assert.equal((await route.POST(request(promoData))).status, 403)
   authenticated = true; trusted = false
   assert.equal((await route.POST(request(promoData))).status, 403)

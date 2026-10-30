@@ -1,3 +1,4 @@
+import { readJsonBody, requestBodyError } from '@/lib/request-body'
 import { adminSession, sameOrigin } from '@/lib/admin-auth'
 import { safeTrackingUrl } from '@/lib/customer-types'
 import { orderItemMedia, type OrderMediaItem } from '@/lib/order-media'
@@ -13,17 +14,17 @@ export async function GET() {
       return { ...details, ...orderItemMedia({ ...details, product_variants }) }
     }) }))
     return Response.json({ orders }, { headers: { 'Cache-Control': 'no-store' } })
-  } catch { return Response.json({ error: 'Unable to load orders.' }, { status: 503 }) }
+  } catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Unable to load orders.' }, { status: 503 }) }
 }
 export async function PATCH(request: Request) {
   if (!sameOrigin(request)) return Response.json({ error: 'Invalid origin.' }, { status: 403 })
   try {
     const session = await adminSession()
     if (!session) return Response.json({ error: 'Admin access required.' }, { status: 403 })
-    const { id, status, details } = await request.json()
+    const { id, status, details } = await readJsonBody(request, 16000)
     if (!details || typeof details !== 'object' || Object.values(details).some(v => typeof v !== 'string' || v.length > 1000) || (details.trackingUrl && !safeTrackingUrl(details.trackingUrl))) return Response.json({ error: 'Check the delivery details. Tracking links must use HTTPS.' }, { status: 400 })
     const { error } = await session.db.rpc('update_customer_delivery', { target: id, next_status: status, details })
     if (error) return Response.json({ error: error.code === 'P0001' ? error.message : 'Unable to update delivery. Check that the customer journey migration is installed.' }, { status: 400 })
     return Response.json({ ok: true })
-  } catch { return Response.json({ error: 'Unable to update delivery.' }, { status: 503 }) }
+  } catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected; return Response.json({ error: 'Unable to update delivery.' }, { status: 503 }) }
 }

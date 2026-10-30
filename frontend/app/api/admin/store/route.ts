@@ -1,4 +1,5 @@
-﻿import { randomUUID } from 'node:crypto'
+import { readJsonBody, requestBodyError } from '@/lib/request-body'
+import { randomUUID } from 'node:crypto'
 import { validStyle } from '@/lib/styles'
 import { adminSession, sameOrigin } from '@/lib/admin-auth'
 import { readStore, check } from '@/lib/store-db'
@@ -10,15 +11,14 @@ function image(value: unknown) {const url=text(value,'image',2000); if(!(/^\/(?!
 function number(value: unknown,name:string) {if(typeof value!=='number'||!Number.isFinite(value)||value<0||value>100000000)throw Error(`Enter a valid ${name}.`);return value}
 export async function GET() {
   try {if(!await adminSession())return Response.json({error:'Sign in to continue.'},{status:401});return Response.json(await readStore(true),{headers:{'Cache-Control':'no-store'}})}
-  catch {return Response.json({error:'Store data is unavailable. Check the database setup.'},{status:503})}
+  catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected;return Response.json({error:'Store data is unavailable. Check the database setup.'},{status:503})}
 }
 export async function POST(request: Request) {
   if(!sameOrigin(request))return Response.json({error:'Invalid origin.'},{status:403})
   try {
     const session=await adminSession();if(!session)return Response.json({error:'Sign in to continue.'},{status:403})
     const db=session.db
-    const raw=await request.text();if(raw.length>300000)throw Error('Request too large.')
-    const {kind,action,data}=JSON.parse(raw)
+    const {kind,action,data}=await readJsonBody(request,300000)
     if(kind==='settings') {
       if(session.role!=='super_admin')return Response.json({error:'Only Super Admin can change settings.'},{status:403})
       const lowStock=number(data.lowStock,'low stock threshold');if(!Number.isInteger(lowStock))throw Error('Threshold must be a whole number.')
@@ -56,5 +56,5 @@ export async function POST(request: Request) {
       } else throw Error('Unknown action.')
     }
     return Response.json(await readStore(true))
-  }catch(error){return Response.json({error:error instanceof Error?error.message:'Unable to save.'},{status:400})}
+  }catch (error) { const rejected = requestBodyError(error); if (rejected) return rejected;return Response.json({error:error instanceof Error?error.message:'Unable to save.'},{status:400})}
 }

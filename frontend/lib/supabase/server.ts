@@ -9,7 +9,7 @@ export const createClient = async (scope: 'customer' | 'admin' = 'customer') => 
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     (process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)!,
     {
-      ...(scope === 'admin' ? { cookieOptions: { name: adminCookieName(process.env.NEXT_PUBLIC_SUPABASE_URL!), httpOnly: true, sameSite: 'lax' as const, path: '/' } } : {}),
+      ...(scope === 'admin' ? { cookieOptions: { name: adminCookieName(process.env.NEXT_PUBLIC_SUPABASE_URL!), httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'lax' as const, path: '/' } } : {}),
       cookies: {
         getAll: () => cookieStore.getAll(),
         setAll: (cookiesToSet) => {

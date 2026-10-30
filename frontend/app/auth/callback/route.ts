@@ -1,16 +1,12 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
-import { customerReturnPath } from '@/lib/supabase/oauth'
+import { customerReturnPath, publicAuthOrigin } from '@/lib/supabase/oauth'
 
 export const dynamic = 'force-dynamic'
 
 export async function GET(request: Request) {
   const url = new URL(request.url)
-  const configured = new URL(process.env.NEXT_PUBLIC_APP_URL || url.origin)
-  // Preserve the callback's cookie host (including www) on public requests.
-  // Use the configured public URL when a proxy exposes an internal address.
-  const origin = ['localhost', '127.0.0.1', '0.0.0.0'].includes(url.hostname) && configured.hostname !== url.hostname
-    ? configured.origin : url.origin
+  const origin = publicAuthOrigin(request.url)
   const code = url.searchParams.get('code')
   if (code && !url.searchParams.has('error')) {
     try {

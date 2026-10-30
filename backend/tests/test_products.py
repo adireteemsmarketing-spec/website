@@ -3,9 +3,22 @@
 import pytest
 from fastapi.testclient import TestClient
 from main import app
+from db.connection import get_db_dependency
+from services.product_service import ProductService
 
 
 client = TestClient(app)
+
+
+@pytest.fixture(autouse=True)
+def isolated_catalogue(monkeypatch):
+    async def empty(*args, **kwargs):
+        return []
+    for name in ['get_all_products', 'search_products', 'get_featured_products', 'get_categories']:
+        monkeypatch.setattr(ProductService, name, empty)
+    app.dependency_overrides[get_db_dependency] = lambda: object()
+    yield
+    app.dependency_overrides.clear()
 
 
 @pytest.mark.asyncio
@@ -29,25 +42,25 @@ async def test_root_endpoint():
 async def test_list_products():
     """Test listing products."""
     response = client.get("/api/products")
-    assert response.status_code in [200, 500]  # 500 if no DB connection
+    assert response.status_code == 200
 
 
 @pytest.mark.asyncio
 async def test_search_products():
     """Test product search."""
     response = client.get("/api/products/search?query=wrapper")
-    assert response.status_code in [200, 500]
+    assert response.status_code == 200
 
 
 @pytest.mark.asyncio
 async def test_featured_products():
     """Test getting featured products."""
     response = client.get("/api/products/featured")
-    assert response.status_code in [200, 500]
+    assert response.status_code == 200
 
 
 @pytest.mark.asyncio
 async def test_get_categories():
     """Test getting categories."""
     response = client.get("/api/products/categories")
-    assert response.status_code in [200, 500]
+    assert response.status_code == 200
