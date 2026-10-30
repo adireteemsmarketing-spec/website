@@ -1,0 +1,183 @@
+{
+  "results": [
+    {
+      "label": "FAQ",
+      "path": "/faq",
+      "text": "Frequently Asked Questions",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "Order Tracking",
+      "path": "/order",
+      "text": "Track your order",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "Reviews",
+      "path": "/reviews",
+      "text": "Customer reviews",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "Policies",
+      "path": "/policies",
+      "text": "Shopping & privacy policies",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "About Us",
+      "path": "/about",
+      "text": "Who we are",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "Blog",
+      "path": "/blog",
+      "text": "The Heritage Journal",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/blog/adire-pop-up-lagos-mainland",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    },
+    {
+      "label": "Events",
+      "path": "/events",
+      "text": "Events & exhibitions",
+      "status": 200,
+      "headingFound": true,
+      "internalLinks": [
+        "/",
+        "/shop",
+        "/about",
+        "/blog",
+        "/faq",
+        "/contact",
+        "/dashboard",
+        "/cart",
+        "/order",
+        "/reviews",
+        "/policies",
+        "/events"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/shop",
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "status": 200
+    },
+    {
+      "path": "/dashboard",
+      "status": 200
+    },
+    {
+      "path": "/cart",
+      "status": 200
+    },
+    {
+      "path": "/blog/adire-pop-up-lagos-mainland",
+      "status": 200
+    }
+  ],
+  "legacyPrivacyRedirect": {
+    "status": 308,
+    "location": "/policies#privacy"
+  },
+  "policyAnchorsChecked": 6
+}

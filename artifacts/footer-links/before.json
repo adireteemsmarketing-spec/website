@@ -1,0 +1,30 @@
+[
+  {
+    "url": "/faq",
+    "status": 200
+  },
+  {
+    "url": "/order",
+    "status": 404
+  },
+  {
+    "url": "/reviews",
+    "status": 404
+  },
+  {
+    "url": "/privacy",
+    "status": 404
+  },
+  {
+    "url": "/about",
+    "status": 200
+  },
+  {
+    "url": "/blog",
+    "status": 200
+  },
+  {
+    "url": "/events",
+    "status": 404
+  }
+]

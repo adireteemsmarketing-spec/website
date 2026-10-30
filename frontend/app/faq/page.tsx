@@ -4,161 +4,123 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ChevronDown, Search } from 'lucide-react'
-import { brand } from '@/lib/brand'
 
 export default function FAQPage() {
   const [searchTerm, setSearchTerm] = useState('')
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
   const faqs = [
-    {
-      category: 'Products & Materials',
-      questions: [
-        {
-          q: 'What is Adire fabric?',
-          a: 'Adire is a traditional West African textile, particularly from Nigeria, created using a resist-dyeing technique with indigo dye. The patterns are created by folding, binding, stitching, or stenciling the fabric before dyeing, resulting in unique, intricate patterns. Each piece is handcrafted by master artisans.',
-        },
-        {
-          q: 'Are your products 100% authentic Adire?',
-          a: 'Yes. All our products are 100% authentic Adire textiles crafted using traditional methods by master artisans. We partner directly with established craftspeople in Nigeria to ensure authenticity and quality.',
-        },
-        {
-          q: 'What sizes do you offer for fabric?',
-          a: 'We offer fabrics in various lengths: 2 yards, 3 yards, 5 yards, and custom lengths upon request. Our menswear collection comes in standard sizes XS to XXL.',
-        },
-        {
-          q: 'Can I order custom sizes or patterns?',
-          a: `Yes! We offer custom orders for bulk purchases. Please contact our team at ${brand.email} to discuss your specific requirements.`,
-        },
-      ],
-    },
-    {
-      category: 'Ordering & Payment',
-      questions: [
-        {
-          q: 'How do I place an order?',
-          a: 'Simply browse our shop, select your desired items, add them to your cart, and proceed to checkout. You can create an account or check out as a guest.',
-        },
-        {
-          q: 'What payment methods do you accept?',
-          a: 'We accept all major credit cards (Visa, Mastercard, American Express), bank transfers, and digital payment platforms like PayPal and Stripe.',
-        },
-        {
-          q: 'Is my payment information secure?',
-          a: 'Yes, absolutely. We use industry-standard SSL encryption to protect all payment data. We never store full credit card information on our servers.',
-        },
-        {
-          q: 'Do you offer payment plans?',
-          a: 'For orders over a certain amount, we offer installment payment options through our financing partners. Contact us for details.',
-        },
-      ],
-    },
-    {
-      category: 'Shipping & Delivery',
-      questions: [
-        {
-          q: 'How long does shipping take?',
-          a: 'Domestic orders (Nigeria) typically arrive within 5-7 business days. International orders may take 2-4 weeks depending on your location and customs processing.',
-        },
-        {
-          q: 'Do you ship internationally?',
-          a: 'Yes! We ship to most countries worldwide. Shipping costs and times vary by location. Check our shipping calculator at checkout for precise details.',
-        },
-        {
-          q: 'Can I track my order?',
-          a: 'Yes. You will receive a tracking number via email as soon as your order ships. You can track your package in real-time through our tracking portal.',
-        },
-        {
-          q: 'What if my order is damaged during shipping?',
-          a: 'We package all items carefully to prevent damage. If your order arrives damaged, contact us within 48 hours with photos, and we will arrange a replacement or refund.',
-        },
-      ],
-    },
-    {
-      category: 'Returns & Exchanges',
-      questions: [
-        {
-          q: 'What is your return policy?',
-          a: 'We offer a 30-day return policy. Items must be in original condition with all tags attached. Once received and inspected, refunds are processed within 5-7 business days.',
-        },
-        {
-          q: 'How do I initiate a return?',
-          a: 'Log into your account, go to your orders, and click "Return Item." Follow the instructions and print the prepaid shipping label. Send the item back to us.',
-        },
-        {
-          q: 'Do you charge for returns?',
-          a: 'We provide prepaid return shipping labels for all eligible returns. Non-eligible returns may be subject to return shipping costs.',
-        },
-        {
-          q: 'Can I exchange an item instead of returning it?',
-          a: 'Yes! Exchanges are free if the replacement item is the same price. If exchanging for a higher-priced item, you will need to pay the difference.',
-        },
-      ],
-    },
-    {
-      category: 'Care & Maintenance',
-      questions: [
-        {
-          q: 'How do I care for my Adire fabric?',
-          a: 'Hand wash in cool water with mild soap. Avoid bleach and fabric softeners. Dry in the shade to prevent fading. Iron on low heat if needed. Adire naturally becomes softer with age.',
-        },
-        {
-          q: 'Will the indigo color fade?',
-          a: 'Natural indigo may have some fading over time and with use, which is part of the charm and authenticity of the fabric. This adds character and uniqueness to your piece.',
-        },
-        {
-          q: 'Can I machine wash Adire?',
-          a: 'We recommend hand washing to preserve the quality and longevity of your Adire fabric. Machine washing may accelerate fading.',
-        },
-        {
-          q: 'How do I store my Adire fabric?',
-          a: 'Store in a cool, dry place away from direct sunlight. Avoid plastic storage—use breathable cotton bags. Keep away from moisture to prevent mold.',
-        },
-      ],
-    },
-    {
-      category: 'Account & Orders',
-      questions: [
-        {
-          q: 'How do I create an account?',
-          a: 'Click "Sign Up" on our homepage and fill in your email and password. You can also sign up during checkout. An account lets you track orders and save favorites.',
-        },
-        {
-          q: 'Can I view my order history?',
-          a: 'Yes. Log into your account and go to "Orders" to view all your past purchases and their status.',
-        },
-        {
-          q: 'How do I reset my password?',
-          a: 'Click "Forgot Password" on the login page. Enter your email, and we will send you a password reset link.',
-        },
-        {
-          q: 'Can I change my order after placing it?',
-          a: `If your order has not shipped yet, contact us immediately at ${brand.email} and we will do our best to modify it.`,
-        },
-      ],
-    },
-    {
-      category: 'Sustainability & Ethics',
-      questions: [
-        {
-          q: 'How do you ensure fair trade practices?',
-          a: 'We partner directly with artisans and pay them above-market rates. We maintain long-term relationships to ensure their economic stability and well-being.',
-        },
-        {
-          q: 'What makes your production sustainable?',
-          a: 'We use natural indigo dyes from sustainable sources, minimize water waste, and employ eco-friendly production methods. Our packaging is recyclable and biodegradable.',
-        },
-        {
-          q: 'Do you support the local community?',
-          a: 'Yes. We invest in community development programs, support artisan training initiatives, and contribute to educational programs in the regions where we work.',
-        },
-        {
-          q: 'Can I learn more about your sustainability practices?',
-          a: `Visit our About page or contact us at ${brand.email}. We are committed to transparency and love sharing our impact story.`,
-        },
-      ],
-    },
-  ]
+  {
+    "category": "Products & Materials",
+    "questions": [
+      {
+        "q": "What does Adire Teems offer?",
+        "a": "Adire Teems offers African fashion and textiles. Browse the shop for the fabrics, clothing and designs currently listed."
+      },
+      {
+        "q": "How do I choose a size or fabric length?",
+        "a": "Check the options and details on the product page. If you need help with sizing, fit or fabric length, contact our team before ordering."
+      },
+      {
+        "q": "Where can I find fabric and design details?",
+        "a": "Each product page includes its description, photographs and available options. Materials and designs vary by product; ask us if a detail needs clarification."
+      }
+    ]
+  },
+  {
+    "category": "Ordering & Payment",
+    "questions": [
+      {
+        "q": "How do I place an order?",
+        "a": "Choose a product and available option, add it to your bag, then continue to checkout. Sign in or create a customer account to enter your delivery details and pay."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "Online checkout uses Paystack. The payment methods available for your transaction are shown on the Paystack payment page."
+      },
+      {
+        "q": "Does Adire Teems collect my card details?",
+        "a": "You enter payment details on Paystack, not on our website. Your order records the payment reference and confirmation after verification."
+      },
+      {
+        "q": "What if my payment was interrupted?",
+        "a": "Open your order and check its payment status before paying again. If you need help, contact our team with your order number and payment reference. Do not share your password or full card details."
+      }
+    ]
+  },
+  {
+    "category": "Delivery & Tracking",
+    "questions": [
+      {
+        "q": "Are delivery charges included at checkout?",
+        "a": "Payment at checkout covers your items. Delivery charges are arranged separately with our team. Confirm the cost and arrangements for your destination with us."
+      },
+      {
+        "q": "How long will delivery take?",
+        "a": "Contact our team to confirm expected timing for your order and destination. Preparation and delivery updates appear in your account as the team adds them."
+      },
+      {
+        "q": "How do I track my order?",
+        "a": "Open Order Tracking from the footer, sign in with the account used at checkout and select your order. Carrier details and tracking links appear when provided by the team."
+      },
+      {
+        "q": "Can I arrange delivery outside Nigeria?",
+        "a": "Contact our team with your destination before ordering to confirm available delivery arrangements and costs."
+      }
+    ]
+  },
+  {
+    "category": "Returns & Product Concerns",
+    "questions": [
+      {
+        "q": "How do I ask about a return or exchange?",
+        "a": "Contact our team with your order number and the reason for your request before sending anything back. The team will review your purchase and explain the available next steps and any costs or refund arrangements that apply."
+      },
+      {
+        "q": "What if I receive an incorrect or damaged item?",
+        "a": "Contact our team with your order number, a description of the issue and relevant photos so we can review it and discuss the next steps."
+      },
+      {
+        "q": "Can I change or cancel an order?",
+        "a": "Contact us as soon as possible with your order number. The team will check the current order status and explain what changes may be possible."
+      }
+    ]
+  },
+  {
+    "category": "Account & Care",
+    "questions": [
+      {
+        "q": "How do I create an account?",
+        "a": "Open your customer dashboard or continue to checkout, then choose Create an account. Follow the sign-up instructions and confirm your email if prompted."
+      },
+      {
+        "q": "How do I reset my password?",
+        "a": "Choose Forgot password on the sign-in form, enter your email address and follow the recovery link sent to that address."
+      },
+      {
+        "q": "How should I care for my purchase?",
+        "a": "Follow the care label supplied with your item. Because fabrics and finishes vary, contact our team if you need guidance for a particular piece."
+      },
+      {
+        "q": "Where can I read your shopping and privacy policies?",
+        "a": "Choose Policies in the footer for information about orders, payments, delivery, product concerns and how the website uses customer information."
+      }
+    ]
+  },
+  {
+    "category": "About Adire Teems",
+    "questions": [
+      {
+        "q": "Where can I visit Adire Teems?",
+        "a": "Visit Adire Teems Lounge, Blenco Shopping Mall, Ilasan, Lekki, Lagos. Contact our team to arrange your visit."
+      },
+      {
+        "q": "How can I ask about events or collaborations?",
+        "a": "Open Events in the footer, or contact our team about confirmed event details, exhibitions, pop-ups or collaboration enquiries."
+      }
+    ]
+  }
+]
 
   const filteredFaqs = faqs.map(category => ({
     ...category,
@@ -240,7 +202,7 @@ export default function FAQPage() {
           {filteredFaqs.length === 0 && (
             <div className="text-center py-12">
               <p className="text-gray-600 mb-4">
-                No questions found matching "{searchTerm}"
+                No questions found matching &quot;{searchTerm}&quot;
               </p>
               <Button
                 onClick={() => setSearchTerm('')}
@@ -260,7 +222,7 @@ export default function FAQPage() {
             Still Have Questions?
           </h2>
           <p className="text-yellow-600 mb-8">
-            Can't find the answer you're looking for? Our support team is ready to help.
+            Can&apos;t find the answer you&apos;re looking for? Our support team is ready to help.
           </p>
           <Link href="/contact">
             <Button className="bg-primary text-black hover:bg-primary/90 px-8 py-6 text-base font-semibold">

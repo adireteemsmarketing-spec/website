@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import { brand } from '@/lib/brand'
 
 const quickLinks = [
-  ['FAQ', '/faq'], ['Order Tracking', '/order'], ['Review', '/reviews'], ['Policy', '/privacy'],
+  ['FAQ', '/faq'], ['Order Tracking', '/order'], ['Reviews', '/reviews'], ['Policies', '/policies'],
   ['About Us', '/about'], ['Blog', '/blog'], ['Events', '/events'],
 ]
 
