@@ -2,7 +2,7 @@ import type { Product } from './catalog'
 
 export const styleGroups = [
   { name: 'Dress', styles: ['Spaghetti', 'Alter neck', 'Corporate dress'] },
-  { name: 'Bubu', styles: ['Cotton long bubu', 'Cotton short bubu', 'Chiffon short bubu', 'Damask bubu', 'Micado bubu', 'Aso Oke bubu'] },
+  { name: 'Bubu', styles: ['Cotton long bubu', 'Cotton short bubu', 'Chiffon Long bubu', 'Chiffon short bubu', 'Damask bubu', 'Micado bubu', 'Aso Oke bubu'] },
   { name: 'Pants', styles: ['Aso Oke pant', 'Ankara pant', 'Akwete pant', 'Adire pant'] },
   { name: 'Sets', styles: ["Men’s Adire 2 piece", "Men’s Aso Oke 2 piece", 'Kids 2 piece', "Women’s Adire 2 piece", "Women’s Aso Oke 2 piece"] },
   { name: 'Jacket', styles: ['Aso Oke jacket', 'Akwete jacket', 'Beaded jacket', 'Winter jacket', 'Adire jacket', 'Kimono'] },

@@ -29,7 +29,7 @@ test('reviews query approved public fields and render the real data or a clear e
   for (const outcome of [ { data: [{ id: 'review', rating: 4, title: 'My purchase', body: 'Helpful support & lovely colours.', display_name: 'Customer' }], error: null }, { data: [], error: null }, { data: null, error: { message: 'Unavailable' } } ]) {
     const calls = []
     const query = { select: value => { calls.push(['select', value]); return query }, eq: (...args) => { calls.push(['eq', ...args]); return query }, order: () => query, limit: async () => outcome }
-    const route = load('app/reviews/page.tsx', { 'next/link': Link, '@/lib/supabase/public': { createPublicClient: () => ({ from: table => { assert.equal(table, 'reviews'); return query } }) } })
+    const route = load('app/reviews/page.tsx', { '@/components/customer-reviews': { CustomerReviews: () => React.createElement('div', {}, 'Submit a review') }, 'next/link': Link, '@/lib/supabase/public': { createPublicClient: () => ({ from: table => { assert.equal(table, 'reviews'); return query } }) } })
     const html = renderToStaticMarkup(await route.default())
     assert.deepEqual(calls[1], ['eq', 'status', 'approved'])
     assert.doesNotMatch(calls[0][1], /customer_id|\*/)

@@ -3,7 +3,7 @@ import { createHmac, timingSafeEqual } from 'node:crypto'
 import { createAdminClient } from '@/lib/supabase/admin'
 
 export function paystackConfig() {
-  const secret = process.env.PAYSTACK_SECRET_KEY || ''
+  const secret = (process.env.PAYSTACK_SECRET_KEY || '').trim()
   if (!/^sk_(test|live)_[a-zA-Z0-9]+$/.test(secret)) throw Error('Paystack is not configured. Please contact the shop.')
   const origin = new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000').origin
   return { secret, origin, mode: secret.startsWith('sk_test_') ? 'test' : 'live' }
@@ -20,9 +20,18 @@ async function paystackRequest<T>(path: string, body?: object): Promise<T> {
     ...(body ? { body: JSON.stringify(body) } : {}),
     cache: 'no-store', signal: AbortSignal.timeout(20000),
   })
-  const result = await response.json()
+  const result = await response.json().catch(() => null)
   // Do not pass provider response bodies or credentials into client errors/logs.
-  if (!response.ok || result.status !== true) throw Error('Paystack could not complete this request. Please retry from your order.')
+  if (!response.ok || result?.status !== true) {
+    const message = typeof result?.message === 'string' ? result.message.toLowerCase() : ''
+    if (response.status === 401 || /invalid (?:secret )?key|invalid authorization/.test(message)) throw Error('Paystack rejected the shop’s payment key. Please contact the shop to check its live secret key.')
+    if (/activat|business.*(?:approved|enabled)|account.*(?:disabled|suspended)/.test(message)) throw Error('Paystack has not enabled payments for this shop. Please contact the shop to check its Paystack account activation.')
+    if (/currency/.test(message)) throw Error('Paystack does not accept this order’s currency for the shop’s account. Please contact the shop.')
+    if (/amount/.test(message)) throw Error('Paystack rejected the order amount. Please contact the shop to check its payment limits.')
+    if (/email/.test(message)) throw Error('Paystack rejected the billing email. Please check your order’s email address.')
+    if (response.status === 429) throw Error('Paystack is receiving too many requests. Please wait a minute and retry from your order.')
+    throw Error('Paystack could not complete this request. Please retry from your order. If it persists, contact the shop.')
+  }
   return result.data as T
 }
 

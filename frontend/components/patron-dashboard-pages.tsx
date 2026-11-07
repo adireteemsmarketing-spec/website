@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
+import { CustomerReviews } from './customer-reviews'
 import { DashboardHeader } from './dashboard-ui'
 import { OrderList, useCustomerOrders } from './customer-orders'
 import { useCustomer } from './customer-provider'
@@ -21,5 +22,5 @@ export function AddressesPage() {
   const { customer } = useCustomer(); const { orders, ready, error } = useCustomerOrders()
   return <><DashboardHeader title="Delivery addresses" />{!ready ? <p>Loading…</p> : !customer ? <CustomerSignIn /> : error ? <p role="alert">{error}</p> : <section className="mt-8 grid gap-5 md:grid-cols-2">{orders.length ? orders.map(order => <article key={order.id} className="rounded-lg border bg-white p-6"><p className="mb-3 break-all text-xs">{order.order_number}</p>{['name', 'address', 'city', 'state', 'postal', 'country'].map(k => <p key={k}>{order.shipping_address[k]}</p>)}<Link href={`/order/${order.id}`} className="mt-4 inline-block underline">View delivery</Link></article>) : <p>You can enter your delivery address at checkout.</p>}</section>}</>
 }
-export function ReviewsPage() { return <><DashboardHeader title="Product feedback" /><p className="mt-8">Need help with a piece you received?</p><Link href="/contact" className="mt-4 inline-block underline">Share feedback with customer support</Link></> }
+export function ReviewsPage() { return <><DashboardHeader title="Product feedback" /><div className="mt-8"><CustomerReviews /></div><Link href="/reviews" className="mt-4 inline-block underline">Read published reviews</Link></> }
 export function HistoryPage() { return <><DashboardHeader title="Continue shopping" /><p className="mt-8">Find your selected pieces in your shopping bag.</p><Link href="/dashboard/cart" className="mt-4 inline-block underline">Open your bag</Link></> }

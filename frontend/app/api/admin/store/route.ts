@@ -1,4 +1,5 @@
 import { readJsonBody, requestBodyError } from '@/lib/request-body'
+import { validateArticle } from '@/lib/article'
 import { randomUUID } from 'node:crypto'
 import { validStyle } from '@/lib/styles'
 import { adminSession, sameOrigin } from '@/lib/admin-auth'
@@ -50,7 +51,7 @@ export async function POST(request: Request) {
           const category=text(data.category,'category'),categorySlug=category.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')
           const date=text(data.date,'date',10);if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||Number.isNaN(Date.parse(date)))throw Error('Enter a valid date.')
           if(!categorySlug)throw Error('Enter a valid category.')
-          const payload={id,slug,status,title:text(data.title,'title'),category,categorySlug,excerpt:text(data.excerpt,'excerpt',1000),content:text(data.content,'article',100000),image:image(data.image),author:text(data.author,'author'),date:date+'T00:00:00Z'}
+          const payload={id,slug,status,title:text(data.title,'title'),category,categorySlug,excerpt:text(data.excerpt,'excerpt',1000),content:validateArticle(text(data.content,'article',100000)),image:image(data.image),author:text(data.author,'author'),date:date+'T00:00:00Z'}
           const {error}=await db.rpc('save_journal_post',{payload});check(error)
         }
       } else throw Error('Unknown action.')

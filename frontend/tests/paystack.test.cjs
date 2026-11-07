@@ -41,6 +41,33 @@ const transaction = { reference, amount: 2500000, currency: 'NGN', domain: 'test
 const reply = data => new Response(JSON.stringify({ status: true, data }), { status: 200 })
 function paymentModule(db, fetch) { return load('lib/paystack.ts', { '@/lib/supabase/admin': { createAdminClient: () => db } }, fetch) }
 
+test('provider failures give safe actionable errors and never save checkout or settle', async () => {
+  for (const [status, message, expected] of [
+    [401, 'Invalid key: private-provider-details', /payment key/],
+    [400, 'Please activate your business', /account activation/],
+    [400, 'Currency not supported', /currency/],
+    [400, 'Amount exceeds limit', /payment limits/],
+    [400, 'Invalid email address', /billing email/],
+    [429, 'private-provider-details', /wait a minute/],
+    [500, 'private-provider-details', /retry from your order/],
+  ]) {
+    const db = fakeDb([null], { ...attempt, id: 'payment-1', email: 'buyer@example.test', checkout_url: null })
+    const payment = paymentModule(db, async () => new Response(JSON.stringify({ status: false, message }), { status }))
+    await assert.rejects(() => payment.initializePaystack('order-1', 'buyer-1'), error => {
+      assert.match(error.message, expected)
+      assert.doesNotMatch(error.message, /private-provider-details/)
+      return true
+    })
+    assert.equal(db.writes.length, 0)
+    assert.equal(db.calls.some(call => call.name === 'settle_paystack_payment'), false)
+  }
+})
+
+test('non-JSON provider outage returns a safe retry message', async () => {
+  const payment = paymentModule(fakeDb([attempt]), async () => new Response('<html>Unavailable</html>', { status: 502 }))
+  await assert.rejects(() => payment.verifyPaystack(reference), /retry from your order/)
+})
+
 test('raw-body webhook HMAC rejects tampered bodies and malformed signatures', () => {
   const payment = paymentModule(fakeDb(), () => { throw Error('Unexpected network') })
   const body = JSON.stringify({ event: 'charge.success', data: { reference } })

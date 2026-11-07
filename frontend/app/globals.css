@@ -173,3 +173,21 @@ button:disabled { opacity: .5; cursor: wait; }
   border: 2px solid #242424;
   border-radius: 999px;
 }
+
+/* Shared article layout for the editor preview and published journal. */
+.article-content { display: flow-root; overflow-wrap: anywhere; }
+.article-content p, .article-content ul, .article-content blockquote { margin: 0 0 1.5rem; white-space: pre-wrap; }
+.article-content h2 { font-size: 1.9rem; line-height: 1.3; margin: 1.5rem 0 1rem; font-family: var(--font-heading), serif; break-after: avoid; }
+.article-content blockquote { border-left: 3px solid #e4c158; padding-left: 1.2rem; font-size: 1.35rem; font-style: italic; }
+.article-content ul { list-style: disc; padding-left: 1.5rem; }
+.article-content .article-image { margin: 0 0 1.5rem; width: 100%; break-inside: avoid; }
+.article-image img { width: 100%; height: auto; border-radius: .25rem; }
+.article-image figcaption { font-size: .85rem; line-height: 1.5; margin-top: .5rem; opacity: .8; white-space: pre-wrap; }
+@media (min-width: 768px) {
+ .article-columns { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid #71717a; }
+ .article-content .article-image { width: var(--image-width, 50%); }
+ .article-content .article-image-left { float: left; margin-right: 1.5rem; }
+ .article-content .article-image-right { float: right; margin-left: 1.5rem; }
+ .article-content .article-image-center { clear: both; margin-left: auto; margin-right: auto; }
+ .article-content .article-image-full { clear: both; width: 100%; column-span: all; }
+}
