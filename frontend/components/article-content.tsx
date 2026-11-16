@@ -1,9 +1,24 @@
 import { Fragment } from 'react'
-import { parseArticle } from '@/lib/article'
+import { parseArticle, safeArticleUrl } from '@/lib/article'
 
 // Render a small formatting vocabulary as React nodes, never arbitrary HTML.
-function inline(text: string) {
-  return text.split(/(\*\*[^*]+\*\*|_[^_]+_)/g).map((part, index) => part.startsWith('**') && part.endsWith('**') ? <strong key={index}>{part.slice(2, -2)}</strong> : part.startsWith('_') && part.endsWith('_') ? <em key={index}>{part.slice(1, -1)}</em> : <Fragment key={index}>{part}</Fragment>)
+function inline(text: string): React.ReactNode[] {
+  const tokens = text.split(/(\[[^\]]+\]\([^\)]+\)|\*\*[^*]+\*\*|_[^_]+_)/g)
+  return tokens.map((part, index) => {
+    if (part.startsWith('[') && part.includes('](') && part.endsWith(')')) {
+      const match = /^\[([^\]]+)\]\(([^)]+)\)$/.exec(part)
+      if (match) {
+        const [, label, href] = match
+        if (safeArticleUrl(href)) {
+          return <a key={index} href={href} target="_blank" rel="noopener noreferrer" className="text-[#8d6a1d] underline underline-offset-2">{inline(label)}</a>
+        }
+      }
+      return <Fragment key={index}>{part}</Fragment>
+    }
+    if (part.startsWith('**') && part.endsWith('**')) return <strong key={index}>{part.slice(2, -2)}</strong>
+    if (part.startsWith('_') && part.endsWith('_')) return <em key={index}>{part.slice(1, -1)}</em>
+    return <Fragment key={index}>{part}</Fragment>
+  })
 }
 export function ArticleContent({ content }: { content: string }) {
   let article

@@ -1,6 +1,16 @@
 export const articlePrefix = 'ADIRE_ARTICLE_V1\n'
 export type ArticleBlock = { id: string; type: 'paragraph' | 'heading' | 'quote' | 'list' | 'image'; text: string; align: 'left' | 'center' | 'right' | 'full'; src: string; alt: string; caption: string; width: number }
 export type Article = { columns: 1 | 2; blocks: ArticleBlock[] }
+export function safeArticleUrl(value: string) {
+  if (!value || /[\u0000-\u001f]/.test(value)) return false
+  if (/^\/(?!\/)/.test(value) || /^#/.test(value)) return true
+  try {
+    const url = new URL(value)
+    return url.protocol === 'https:' && !url.username && !url.password
+  } catch {
+    return false
+  }
+}
 export function imageSource(value: string) {
   if (/^\/(?!\/)/.test(value) && !/[\\\u0000-\u0020]/.test(value)) return value
   try { const url = new URL(value); if (url.protocol === 'https:' && !url.username && !url.password) return url.href } catch {}

@@ -2,6 +2,10 @@
 
 Online shop, customer accounts and order tracking, admin catalogue tools, and Paystack checkout.
 
+## Executive summary for the CEO / owner
+
+- Shareable project summary: [EXECUTIVE_SUMMARY_README.md](EXECUTIVE_SUMMARY_README.md)
+
 ## Project layout
 
 - `frontend/`: Next.js website and application API routes.

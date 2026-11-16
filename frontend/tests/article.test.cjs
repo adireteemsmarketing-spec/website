@@ -32,11 +32,18 @@ test('article validation rejects executable images, invalid layout and duplicate
   assert.throws(() => article.validateArticle(encode([{ ...image, width: 10000 }])))
   assert.throws(() => article.validateArticle(article.articlePrefix + '{broken'))
 })
-test('article renderer displays formatting and image layout without executing article HTML', () => {
+test('article links only allow local paths or HTTPS URLs', () => {
+  assert.equal(article.safeArticleUrl('/shop'), true)
+  assert.equal(article.safeArticleUrl('https://example.com/products'), true)
+  assert.equal(article.safeArticleUrl('javascript:alert(1)'), false)
+  assert.equal(article.safeArticleUrl('//evil.example'), false)
+})
+test('article renderer displays formatting, links and image layout without executing article HTML', () => {
   const { ArticleContent } = load('components/article-content.tsx', { '@/lib/article': article })
-  const html = renderToStaticMarkup(React.createElement(ArticleContent, { content: encode([image, { ...text, text: text.text + '<script>alert(1)</script>' }]) }))
+  const html = renderToStaticMarkup(React.createElement(ArticleContent, { content: encode([image, { ...text, text: 'Read [our collection](/shop) and **bold** items: ' + text.text + '<script>alert(1)</script>' }]) }))
   assert.match(html, /article-columns/)
   assert.match(html, /article-image-right/)
+  assert.match(html, /<a href="\/shop"/)
   assert.match(html, /<strong>bold<\/strong>/)
   assert.match(html, /<em>italic<\/em>/)
   assert.match(html, /Hand dyed cloth/)
